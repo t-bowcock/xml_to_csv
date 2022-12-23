@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-import json
+import csv
 import re
-import pandas as pd
 from bs4 import BeautifulSoup
 
 item_regex = re.compile("content =(.*?)}}", flags=re.DOTALL)
@@ -17,6 +16,8 @@ item_interactions_regex = re.compile(r"==\s?Interactions\s?==\n+(.*?)\n\n", flag
 
 bullet_regex = re.compile(r"(\*+)")
 
+HEADER = ["name", "ID", "quote", "description", "quality", "unlock", "effects", "notes", "synergies", "interactions"]
+
 
 def get_soup(path: str) -> BeautifulSoup:
     with open(path, encoding="utf-8", mode="r") as f:
@@ -28,6 +29,27 @@ def dig(nested, depth):
     for _ in range(0, (depth - 1)):
         nested = nested[-1]
     return nested
+
+
+def parse_dlc_tags(string):
+    tags = re.findall(r"{{dlc\|(.+?)}}", string, re.IGNORECASE)
+    for tag in tags:
+        # a, a+, r are all tags that represent the change being added in DLC
+        # n<tag> means the change was removed in a later dlc
+        if re.match(r"a\+", tag[1]):
+            pass
+        elif re.match("a", tag[1]):
+            pass
+        else:
+            pass
+
+
+def parse_string(string: str) -> str:
+    # TODO turn dlc tags to text
+    # TODO decide how relationships are handled
+    # TODO parse any html (seen some <br> tags)
+    re.sub(r"\[\[|\]\]", "", string)
+    re.sub(r"{{[erspam]\|(.*?)}}", r"\g<1>", string, flags=re.IGNORECASE)
 
 
 def parse_list(list_string: str) -> list:
@@ -52,19 +74,11 @@ def parse_list(list_string: str) -> list:
     return output
 
 
-def parse_string(string: str) -> str:
-    # TODO remove square brackets
-    # TODO turn dlc tags to text
-    # TODO decide how relationships are handled
-    # TODO parse any html (seen some <br> tags)
-    pass
-
-
-def get_all_items(path: str):
+def get_all_items(path: str) -> list:
     soup = get_soup(path)
     item_names = get_item_names(path)
     tags = soup.find_all("title")
-    item_dict = {}
+    item_data = []
     for tag in tags:
         if tag.text in item_names:
 
@@ -92,37 +106,43 @@ def get_all_items(path: str):
             )
 
             item_effects = (
-                item_effects_regex.search(item_text)[1] if item_effects_regex.search(item_text) is not None else None
+                parse_list(item_effects_regex.search(item_text)[1])
+                if item_effects_regex.search(item_text) is not None
+                else None
             )
 
             item_notes = (
-                item_notes_regex.search(item_text)[1] if item_notes_regex.search(item_text) is not None else None
+                parse_list(item_notes_regex.search(item_text)[1])
+                if item_notes_regex.search(item_text) is not None
+                else None
             )
 
             item_synergies = (
-                item_synergies_regex.search(item_text)[1]
+                parse_list(item_synergies_regex.search(item_text)[1])
                 if item_synergies_regex.search(item_text) is not None
                 else None
             )
 
             item_interactions = (
-                item_interactions_regex.search(item_text)[1]
+                parse_list(item_interactions_regex.search(item_text)[1])
                 if item_interactions_regex.search(item_text) is not None
                 else None
             )
-            item_dict[tag.text] = {
-                "ID": item_id,
-                "quote": item_quote,
-                "description": item_description,
-                "quality": item_quality,
-                "unlock": item_unlock,
-                "effects": parse_list(item_effects) if item_effects is not None else None,
-                "notes": parse_list(item_notes) if item_notes is not None else None,
-                "synergies": parse_list(item_synergies) if item_synergies is not None else None,
-                "interactions": parse_list(item_interactions) if item_interactions is not None else None,
-            }
-    with open("items.json", encoding="utf-8", mode="w") as output:
-        json.dump(item_dict, output)
+            item_data.append(
+                [
+                    tag.text,
+                    item_id,
+                    item_quote,
+                    item_description,
+                    item_quality,
+                    item_unlock,
+                    item_effects,
+                    item_notes,
+                    item_synergies,
+                    item_interactions,
+                ]
+            )
+    return item_data
 
 
 def get_item_names(path: str):
@@ -131,6 +151,13 @@ def get_item_names(path: str):
     return [x.strip() for x in item_regex.search(collection)[1].replace("\n", "").split(",")]
 
 
+def create_csv(data: list):
+    with open("items.csv", encoding="utf-8", mode="w", newline="") as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(HEADER)
+        writer.writerows(data)
+
+
 if __name__ == "__main__":
-    # print(get_item_names("../data.xml"))
-    get_all_items("../data.xml")
+    data = get_all_items("../data.xml")
+    create_csv(data)
