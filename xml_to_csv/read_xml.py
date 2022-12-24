@@ -16,7 +16,8 @@ item_interactions_regex = re.compile(r"==\s?Interactions\s?==\n+(.*?)\n\n", flag
 
 bullet_regex = re.compile(r"(\*+)")
 
-HEADER = ["name", "ID", "quote", "description", "quality", "unlock", "effects", "notes", "synergies", "interactions"]
+ITEM_HEADERS = ["name", "ID", "quote", "description", "quality", "unlock", "effects", "notes"]
+RELATIONHSIP_HEADERS = ["item", "node", "relationship"]
 
 
 def get_soup(path: str) -> BeautifulSoup:
@@ -79,6 +80,8 @@ def get_all_items(path: str) -> list:
     item_names = get_item_names(path)
     tags = soup.find_all("title")
     item_data = []
+    synergy_data = {}
+    interaction_data = {}
     for tag in tags:
         if tag.text in item_names:
 
@@ -138,11 +141,11 @@ def get_all_items(path: str) -> list:
                     item_unlock,
                     item_effects,
                     item_notes,
-                    item_synergies,
-                    item_interactions,
                 ]
             )
-    return item_data
+            synergy_data[tag.text] = item_synergies
+            interaction_data[tag.text] = item_interactions
+    return item_data, synergy_data, interaction_data
 
 
 def get_item_names(path: str):
@@ -151,13 +154,27 @@ def get_item_names(path: str):
     return [x.strip() for x in item_regex.search(collection)[1].replace("\n", "").split(",")]
 
 
-def create_csv(data: list):
-    with open("items.csv", encoding="utf-8", mode="w", newline="") as csv_file:
+def get_relationships(data: dict):
+    output = []
+    for item, relationship_data in data.items():
+        if relationship_data is None:
+            continue
+        for relationship in relationship_data:
+            other_nodes = re.findall(r"{{i\|(.+?)}}", relationship[0], re.IGNORECASE)
+            for node in other_nodes:
+                output.append([item, node, relationship])
+    return output
+
+
+def write_to_csv(data: list, headers: list, filename: str):
+    with open(f"{filename}.csv", encoding="utf-8", mode="w", newline="") as csv_file:
         writer = csv.writer(csv_file)
-        writer.writerow(HEADER)
+        writer.writerow(headers)
         writer.writerows(data)
 
 
 if __name__ == "__main__":
-    data = get_all_items("../data.xml")
-    create_csv(data)
+    items, synergies, interactions = get_all_items("../data.xml")
+    write_to_csv(items, ITEM_HEADERS, "items")
+    write_to_csv(get_relationships(synergies), RELATIONHSIP_HEADERS, "synergies")
+    write_to_csv(get_relationships(interactions), RELATIONHSIP_HEADERS, "interactions")
