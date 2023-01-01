@@ -390,6 +390,7 @@ Gnawed Leaf,Cube of Meat,"['{{dlc|r}}{{C|Tainted Forgotten}}: The Soul is invinc
 Gnawed Leaf,Purgatory,"['{{dlc|r}}{{C|Tainted Forgotten}}: The Soul is invincible as long as the bone club is not used and The Forgotten is not thrown, even if The Soul is holding The Forgotten and moving around.  Combined with orbitals that deal contact damage like {{I|Cube of Meat}} or items that can trigger damage only by movement such as {{I|Purgatory}}, can make for a trivial method to beat any boss.']"
 Gnawed Leaf,Tooth and Nail,"['{{i|Tooth and Nail}}: Allows one second to act and/or reposition without taking damage. Useful in situations such as ranged combat when enemies bombard from a distance, or to attack and move to a safe distance where Isaac can safely regain statue form.']"
 Goat Head,Duality,"['{{i|Duality}}: Both Angel and Devil Room doors spawn after every boss, and the selected door will never disappear.']"
+Goat Head,act of contrition,"['{{I|act of contrition}}: Gives a 50/50 chance to spawn either a Devil Room or Angel Room, then permanently opens then chosen room.']"
 Taurus,Blood Rights,"['{{dlc|nr}} {{i|Blood Rights}}: While Isaac is invincible, Blood Rights can be freely used without taking damage. This trivializes many rooms, and since Taurus can activate every room, this combination can be game-changing, especially if Isaac has high base speed.', ['{{dlc|r}} Isaac will still take damage from Blood Rights during the invincibility.']]"
 Taurus,Gnawed Leaf,"[""{{I|Gnawed Leaf}}: Isaac's speed will still increase while he is invincible from Gnawed Leaf, allowing Taurus to activate with only a very small period of vulnerability when first entering a room.""]"
 Taurus,Rock Bottom,['{{I|Rock Bottom}}: Isaac keeps the maximum speed boost after reaching it once.']
@@ -423,6 +424,11 @@ Tammy's Head,Brimstone,"['{{c|Azazel}} / {{i|Brimstone}}: Isaac will fire Brimst
 Tammy's Head,Car Battery,['{{i|Car Battery}}: Shoots 20 tears in a circle around Isaac.']
 Tammy's Head,Chocolate Milk,['{{dlc|nr}}{{i|Chocolate Milk}}: The size and damage of tears shot depends on how far Chocolate Milk is charged.']
 Anti-Gravity,C Section,['{{I|C Section}}: Fetuses stand in place while the fire button is held. They will still home on enemies in this state. Fetuses attacking this way deal more damage.']
+Anti-Gravity,Lachryphagy,"['{{i|Lachryphagy}}: Tears will float in midair, making them easier to feed. Burst tears will also float in midair before moving.']"
+Anti-Gravity,Proptosis,"['{{i|Proptosis}}: The tears will not decrease in size or damage until they start moving, making this excellent against enemies that chase Isaac.']"
+Anti-Gravity,Tech.5,['{{Dlc|r}}{{I|Tech.5}}: Creates floating laser balls that will all fire simultaneously when the fire button is released.']
+Anti-Gravity,Technology Zero,"['{{i|Technology Zero}}: All of the tears fired are connected by electricity, creating a series of electric fences.']"
+Anti-Gravity,Tiny Planet,"['{{dlc|nr}}{{i|Tiny Planet}}: Tears stay in place until released, they will start to orbit around Isaac when released.', ['{{dlc|r}} Tears orbit close to Isaac when held, then snap to the edge of the orbit when released.']]"
 Fire Mind,Abyss,['{{I|Abyss}}: When Isaac uses Abyss to absorb Fire Mind it turns into a burning locust that sets enemies on fire but does not explode.']
 Fire Mind,Compound Fracture,"[""{{i|Compound Fracture}}/{{i|Cricket's Body}}/{{I|Haemolacria}}/{{i|The Parasite}}: Each fractal tear has its own chance to explode. However, if the main tear explodes, all fractal tears explode.""]"
 Fire Mind,Cricket's Body,"[""{{i|Compound Fracture}}/{{i|Cricket's Body}}/{{I|Haemolacria}}/{{i|The Parasite}}: Each fractal tear has its own chance to explode. However, if the main tear explodes, all fractal tears explode.""]"
@@ -662,6 +668,9 @@ BFFS!,Mystery Egg,"[""{{i|Mystery Egg}}: Spawns a champion variant of an enemy, 
 BFFS!,Stitches,"[""{{i|Stitches}}: On use, fires eight tears from Isaac's original location. The tears synergize with Isaac's tear effects.""]"
 Prayer Card,Car Battery,['{{i|Car Battery}}: Grants one full Heart Container upon use.']
 Converter,Guppy's Paw|nr,"[""{{i|Guppy's Paw|nr}}: Allows Isaac to have 10 Heart Containers and 1 Soul Heart. ({{dlc|r}}12 Heart containers)."", ['{{i|Potato Peeler|nr}}: Allows Isaac to generate basically infinite damage upgrades and {{i|cube of meat|}}. ({{dlc|r}}Needs the {{i|sharp plug|}} to make this loop work perfectly.)']]"
+Converter,Birthright,"['{{dlc+|r}} {{c|???}} + {{i|Birthright}}: Removes one Soul Heart and grant two, effectively becoming a 3-room charge {{i|Book of Revelations}}.{{dlc-}}']"
+Converter,Book of Revelations,"['{{dlc+|r}} {{c|???}} + {{i|Birthright}}: Removes one Soul Heart and grant two, effectively becoming a 3-room charge {{i|Book of Revelations}}.{{dlc-}}']"
+Converter,The Necronomicon,"['{{dlc+|r}} {{c|Dark Judas}} / {{c|Tainted Judas}}: Converts one Black Heart into one Black Heart, keeping Judas’ health the same as before but activates {{I|The Necronomicon}} effect regardless.{{dlc-}}']"
 Blank Card,Car Battery|a,"['{{i|Car Battery|a}}/{{i|Tarot Cloth|a+nr}}: Essentially uses the card twice. If used with the Two of Hearts/Diamonds/etc. cards it will quadruple whatever amount Isaac has.', [""'''Car Battery''' + '''Tarot Cloth''': The card is used 4 times at once."", '{{dlc|r}} Only certain cards can be amplified by Tarot Cloth and/or Car Battery.']]"
 Blank Card,Tarot Cloth|a+nr,"['{{i|Car Battery|a}}/{{i|Tarot Cloth|a+nr}}: Essentially uses the card twice. If used with the Two of Hearts/Diamonds/etc. cards it will quadruple whatever amount Isaac has.', [""'''Car Battery''' + '''Tarot Cloth''': The card is used 4 times at once."", '{{dlc|r}} Only certain cards can be amplified by Tarot Cloth and/or Car Battery.']]"
 Blank Card,Restock,"[""{{dlc+|anr}} {{p|2 of Diamonds}} + {{i|Restock}} or in [[Greed mode]]: [[Coins]] can be infinitely generated by buying {{E|Lil' Battery|display=Lil' Batteries}}. As Lil' Batteries only cost 5 coins, as long as Isaac starts with at least 11, the maximum of 99 coins can be quickly reached.{{dlc-}}"", [""{{dlc+|r}} This cannot be repeated infinitely, as '''Restock''' now increases the price of a shop slot every time something is purchased from it. Having 12 coins will very slowly allow Isaac to obtain 99 coins, however."", ['This does not apply in greed mode.', 'Having {{i|Deep Pockets}} allows this to once again be repeated infinitely, as the price will cap at 999 coins.{{dlc-}}']]]"
@@ -734,6 +743,9 @@ The Book of Belial,Magic Mushroom,"[""{{i|Blood of the Martyr}}: Causes The Book
 The Book of Belial,Car Battery|r,['{{i|Car Battery|r}}: Gives +3 damage for the current room.']
 The Gamekid,4.5 Volt,"['{{i|4.5 Volt}}: With some damage source while this item is active, it can be permanently invulnerable inside the room while you have enemies.', ['If combined with {{I|9 Volt}}, it will be easier to achieve invincibility.']]"
 The Gamekid,???'s Only Friend,"[""{{i|???'s Only Friend}}: The fly can still be controlled while invincible.""]"
+The Gamekid,Mom's Knife,"[""{{I|Mom's Knife}} does contact damage in the same direction it was being held at the time of using it, giving a massive amount of free damage by ramming into an enemy."", ['If you have the [[Yes Mother?]] Transformation, you can basically do the same thing using this item.']]"
+The Gamekid,Aries,"['On contact items ({{i|Aries}}, {{i|The Virus}}, etc.): Freely usable in basically every 4 rooms.', ['[[Orbital Familiar]]s ({{i|Cube of Meat}}, {{i|Sacrificial Dagger}}, etc.): The orbital can be used freely in basically every 4 rooms, making it a great alternative source of damage.\n== In-game Footage ==\n{{#ev:youtube|gUnSu2xQfps||inline}} {{#ev:youtube|2JgSExbmTN8||inline}}']]"
+The Gamekid,The Virus,"['On contact items ({{i|Aries}}, {{i|The Virus}}, etc.): Freely usable in basically every 4 rooms.', ['[[Orbital Familiar]]s ({{i|Cube of Meat}}, {{i|Sacrificial Dagger}}, etc.): The orbital can be used freely in basically every 4 rooms, making it a great alternative source of damage.\n== In-game Footage ==\n{{#ev:youtube|gUnSu2xQfps||inline}} {{#ev:youtube|2JgSExbmTN8||inline}}']]"
 The Jar,Humbling Bundle,"[""{{dlc|nr}} {{i|Humbling Bundle}} / {{I|Maggy's Bow}}: Spawn double the hearts put into the jar, allowing for infinite health to be spawned.""]"
 The Jar,Maggy's Bow,"[""{{dlc|nr}} {{i|Humbling Bundle}} / {{I|Maggy's Bow}}: Spawn double the hearts put into the jar, allowing for infinite health to be spawned.""]"
 Kamikaze!,Dark Arts,['{{i|Dark Arts}}: Kamikaze can be used for free while Dark Arts is active.']
@@ -741,6 +753,8 @@ Kamikaze!,Glitter Bombs,['{{i|Glitter Bombs}}: Has a chance to drop a [[pickup]]
 Kamikaze!,Gnawed Leaf,"['{{i|Gnawed Leaf}}: Activating Kamikaze will cancel out of the statue state, but Isaac will not be damaged by the resulting explosion.']"
 Kamikaze!,Host Hat,"['{{i|Host Hat}} / {{I|Pyromaniac}}: Allows unlimited uses without consequences.', ['{{I|Pyromaniac}}: Each use will heal Isaac for {{dlc|nr}} one full / {{dlc|r}} half a red heart.']]"
 Kamikaze!,Pyromaniac,"['{{i|Host Hat}} / {{I|Pyromaniac}}: Allows unlimited uses without consequences.', ['{{I|Pyromaniac}}: Each use will heal Isaac for {{dlc|nr}} one full / {{dlc|r}} half a red heart.']]"
+Kamikaze!,Mars,"['{{i|Mars}}: Isaac is invincible during the dash, allowing for unlimited uses with careful timing.']"
+Kamikaze!,Schoolbag,"[""{{i|Schoolbag}}: The cooldown before the player can use Kamikaze! again is eliminated when switching items. Depending on how fast the player can push the buttons, Kamikaze! can be used multiple times during Isaac's invincibility frames.""]"
 Mr. Boom,Remote Detonator,['{{i|Remote Detonator}} + {{i|Schoolbag}}: The Mr. Boom bomb is affected by remote detonator.']
 Mr. Boom,Schoolbag,['{{i|Remote Detonator}} + {{i|Schoolbag}}: The Mr. Boom bomb is affected by remote detonator.']
 The Necronomicon,Missing Page 2|r,"['{{T|A Missing Page|r}} / {{I|Missing Page 2|r}}: Increases the damage from 40 to 80.', [""'''A Missing Page''' + '''Missing Page 2''': The damage increase stacks for a total of 120 damage.""]]"
@@ -1027,6 +1041,7 @@ Dead Eye,Proptosis,"['{{i|Proptosis}}: Tears are larger and easier to hit with a
 Dead Eye,Tiny Planet,"[""{{i|Tiny Planet}}: Isaac's tears no longer hit walls and stay in the air for longer, allowing many damage-amplified tears to be fired before the damage boost is lost.""]"
 More Options,Crooked Penny,"['{{dlc+|r}} {{I|Crooked Penny}} / {{I|Diplopia}}: Both items are copied, allowing Isaac to take both copied items without the other disappearing. The original pedestals will function as normal, disappearing the other if one is collected.{{dlc-}}']"
 More Options,Diplopia,"['{{dlc+|r}} {{I|Crooked Penny}} / {{I|Diplopia}}: Both items are copied, allowing Isaac to take both copied items without the other disappearing. The original pedestals will function as normal, disappearing the other if one is collected.{{dlc-}}']"
+Sack Head,Head of the Keeper,['{{I|Head of the Keeper}}: Coins spawned from hitting enemies have a chance to become sacks.']
 Fruit Cake,Brimstone,['{{i|Brimstone}}: Each tick of brimstone has a random effect.']
 Fruit Cake,Dr. Fetus,"[""{{i|Dr. Fetus}}: Bombs pull their effects from bomb modifiers ({{i|Bobby-Bomb}}, {{i|Bob's Curse}}, {{i|Bomber Boy}}, {{i|Butt Bombs}}, {{i|Glitter Bombs}}, {{i|Hot Bombs}}, {{i|Mr. Mega}}, {{i|Sad Bombs}}, {{i|Scatter Bombs}}, {{i|Sticky Bombs}}) as well as tear effects.""]"
 Fruit Cake,Bobby-Bomb,"[""{{i|Dr. Fetus}}: Bombs pull their effects from bomb modifiers ({{i|Bobby-Bomb}}, {{i|Bob's Curse}}, {{i|Bomber Boy}}, {{i|Butt Bombs}}, {{i|Glitter Bombs}}, {{i|Hot Bombs}}, {{i|Mr. Mega}}, {{i|Sad Bombs}}, {{i|Scatter Bombs}}, {{i|Sticky Bombs}}) as well as tear effects.""]"
@@ -1078,6 +1093,7 @@ The Wiz,Diplopia,"['{{i|Diplopia}}/{{i|Crooked Penny}}: Picking up a second The 
 The Wiz,Crooked Penny,"['{{i|Diplopia}}/{{i|Crooked Penny}}: Picking up a second The Wiz will make Isaac fire 4 tears in a wider diagonal layout.', ['{{dlc|r}} Picking up an additional The Wiz will make Isaac fire 1 additional tear in front of him, giving the same effect as the {{transf|Conjoined}} transformation without the stat penalties. Every further copy of The Wiz will add 1 more tear per volley and make the spread wider. It should be noted that picking up the 8th copy will double the tears fired per volley and thus will reach the 16-tear limit.', '{{dlc|r}}If combined with 20/20, The Inner Eye, or Mutant Spider, it will add 2 more tears per additional copy.']]"
 The Wiz,Eye of The Occult,"['{{I|Eye of The Occult}}: Both tears shoot much closer together and can be controlled, creating for a better double shot similar to what Tractor Beam would grant.']"
 The Wiz,Technology Zero,"['{{i|Technology Zero}}: Electricity arcs between both tears instantly, providing incredible crowd control.', [""'''Technology Zero''' + [[Piercing tears|Piercing]]: Tears cannot be stopped by enemies, resulting in an unstoppable array of electricity between tears.""]]"
+The Wiz,Tractor Beam,"['{{i|Tractor Beam}}: Both tears will follow the beam, making it easier to hit enemies with them, effectively like 20/20 with Spectral tears.', ['{{dlc|r}} The Wiz is superior to 20/20 with Tractor Beam, due to having no damage penalty.', ""'''Tractor Beam''' + {{i|Mom's Knife}}: Both knives ignore the path of the beam and remain flying diagonally.""]]"
 Athame,Hemoptysis,['{{i|Hemoptysis}}: Enemies hit by the sneeze will gain a curse that increases the damage the black ring deals to 2x and +3 flat damage. Enemies who die to the black ring under the curse will damage and spread the curse to nearby enemies.']
 Athame,Ipecac,"['{{i|Ipecac}}: Massively increases damage and poisons enemies.', ['{{dlc|r}} Causes the ring to explode upon contact with walls or obstacles. The explosions can damage the player, causing the ring to appear again, damage the player, and cause a loop of damage.']]"
 Athame,Proptosis,"['{{i|Proptosis}}: The ring is much larger and deals 1.5x damage.', ['{{dlc|a+}} The ring deals normal damage.', '{{dlc|r}} The ring is now normal size.']]"
@@ -1780,6 +1796,19 @@ Playdough Cookie,Dr. Fetus,"[""{{i|Dr. Fetus}} / {{I|Epic Fetus}}: Explosions st
 Playdough Cookie,Hot Bombs,"[""{{i|Dr. Fetus}} / {{I|Epic Fetus}}: Explosions still use the effects the tears give them, while also inheriting their synergies with the items they're based on and (for {{i|Dr. Fetus}}) visually resembling them. (e.g. Dark Red becomes {{I|Hot Bombs}}, Green becomes {{I|Bob's Curse}})."", [""They don't gain damage from Red, or lose damage from Blue, however.""]]"
 Playdough Cookie,Bob's Curse,"[""{{i|Dr. Fetus}} / {{I|Epic Fetus}}: Explosions still use the effects the tears give them, while also inheriting their synergies with the items they're based on and (for {{i|Dr. Fetus}}) visually resembling them. (e.g. Dark Red becomes {{I|Hot Bombs}}, Green becomes {{I|Bob's Curse}})."", [""They don't gain damage from Red, or lose damage from Blue, however.""]]"
 Playdough Cookie,Spirit Sword,['{{i|Spirit Sword}}: Every swing gains a different color and effect based on that color. This can be used to rapidly apply different effects.']
+Eye of the Occult,Brimstone,"['{{i|Brimstone}}: Makes a purple homing beam. The brimstone laser is automatically fired at a controllable cross-hair target after pressing the fire key each room.', ['{{C|Azazel}}: Like Brimstone, except that his short beam becomes a lasso. The loop starts where the beam would normally end and extends out to the cross-hair.', ""'''Brimstone''' + {{I|Incubus}}: Will fire a straight laser towards the crosshair.""]]"
+Eye of the Occult,Eye Sore,"[""{{transf|Conjoined}}/{{i|Eye Sore}}/{{i|Loki's Horns}}/{{i|Mom's Eye}}/{{i|The Wiz}}: Extra tears fly in the same direction making it easier to hit every shot increasing damage substantially.""]"
+Eye of the Occult,Loki's Horns,"[""{{transf|Conjoined}}/{{i|Eye Sore}}/{{i|Loki's Horns}}/{{i|Mom's Eye}}/{{i|The Wiz}}: Extra tears fly in the same direction making it easier to hit every shot increasing damage substantially.""]"
+Eye of the Occult,Mom's Eye,"[""{{transf|Conjoined}}/{{i|Eye Sore}}/{{i|Loki's Horns}}/{{i|Mom's Eye}}/{{i|The Wiz}}: Extra tears fly in the same direction making it easier to hit every shot increasing damage substantially.""]"
+Eye of the Occult,The Wiz,"[""{{transf|Conjoined}}/{{i|Eye Sore}}/{{i|Loki's Horns}}/{{i|Mom's Eye}}/{{i|The Wiz}}: Extra tears fly in the same direction making it easier to hit every shot increasing damage substantially.""]"
+Eye of the Occult,Isaac's Tears,"[""{{I|Isaac's Tears}}/{{i|Tammy's Head}}/{{i|Varicose Veins}}: Generates a halo of tears that don't break their shape.""]"
+Eye of the Occult,Tammy's Head,"[""{{I|Isaac's Tears}}/{{i|Tammy's Head}}/{{i|Varicose Veins}}: Generates a halo of tears that don't break their shape.""]"
+Eye of the Occult,Varicose Veins,"[""{{I|Isaac's Tears}}/{{i|Tammy's Head}}/{{i|Varicose Veins}}: Generates a halo of tears that don't break their shape.""]"
+Eye of the Occult,The Ludovico Technique,"['{{I|The Ludovico Technique}}: While holding a direction, the Ludovico tear will constantly shoot out controllable tears in random directions. The air time of these tears scales with the range stat.']"
+Eye of the Occult,Sprinkler,"[""{{i|Sprinkler}}: Sprinkler's tears travel a very short distance in their original direction and can be controlled afterwards.""]"
+Eye of the Occult,Proptosis,"['{{i|Proptosis}} + {{i|Anti-Gravity}}: Tears travel and keep their initial size as long as the fire key is held, allowing for massive damage.']"
+Eye of the Occult,Anti-Gravity,"['{{i|Proptosis}} + {{i|Anti-Gravity}}: Tears travel and keep their initial size as long as the fire key is held, allowing for massive damage.']"
+Eye of the Occult,Trisagion,['{{I|Trisagion}}: The Trisagion beams will fire in the direction of cross-hair and after the fire button is released they stay in place until they fade away.']
 Immaculate Heart,Angelic Prism,"['{{I|Angelic Prism}}: The extra tears share the same orbit as Angelic Prism, making them very easy to split.']"
 Immaculate Heart,Chemical Peel,"[""{{I|Chemical Peel}}: Some of the orbiting tears will gain Chemical Peel's 2 flat damage bonus.""]"
 Immaculate Heart,Death's Touch,"[""{{I|Death's Touch}}: Death's Touch tear modification will also affect the orbiting tears.""]"
@@ -1867,9 +1896,6 @@ Uranus,Suplex!,['{{i|Suplex!}}: Provides another method of shattering the ice st
 Uranus,Trisagion,['{{i|Trisagion}}: Can help break statues faster due to tears hitting multiple times.']
 Neptunus,Chocolate Milk,"[""{{i|Chocolate Milk}}: Neptunus' passive charge overrides Chocolate Milk's active charge. Tear damage is determined by how charged Neptunus is.""]"
 Neptunus,Kidney Stone,"['{{i|Kidney Stone}}: Tear bursts stack, firing a very large number of tears in combination with each other.']"
-Eye Drops,Blood Clot,"[""{{i|Blood Clot}}/{{i|Chemical Peel}}/{{I|The Peeper}}: The bonuses these items give go to Isaac's left eye, making them more beneficial.""]"
-Eye Drops,Chemical Peel,"[""{{i|Blood Clot}}/{{i|Chemical Peel}}/{{I|The Peeper}}: The bonuses these items give go to Isaac's left eye, making them more beneficial.""]"
-Eye Drops,The Peeper,"[""{{i|Blood Clot}}/{{i|Chemical Peel}}/{{I|The Peeper}}: The bonuses these items give go to Isaac's left eye, making them more beneficial.""]"
 Ocular Rift,Brimstone,"['{{i|Brimstone}}: Rifts may appear where a brimstone beam hits rock, walls or enemies.']"
 Ocular Rift,The Parasite,['{{i|The Parasite}} / {{i|Compound Fracture}}: Causes many smaller rifts to also spawn.']
 Ocular Rift,Compound Fracture,['{{i|The Parasite}} / {{i|Compound Fracture}}: Causes many smaller rifts to also spawn.']
@@ -2019,9 +2045,6 @@ A Pound of Flesh,Cancer,"['{{I|The Wafer}} / {{I|Cancer}} / [[Pills#Pill Effects
 Redemption,Glowing Hour Glass,"[""{{I|Glowing Hour Glass}}: +1 damage up and soul heart given by Redemption will persist after time leap to the upper floor if Glowing Hour Glass used before Redemption finishes its animation, as well as giving another activated Redemption after time leap. This will allow to take Redemption's damage buff and soul hearts several times per floor. However, if you can use Glowing Hour Glass two times in a row, in order to get damage up and soul heart second time, you'll need to leave the boss room before going down the floor second time.""]"
 Spirit Shackles,Holy Mantle,"['{{C|The Lost}}: Effectively acts as a rechargeable extra life, granting additional defensive measures on top of his inherent {{i|Holy Mantle}} and granting a use to normally useless Soul Hearts.']"
 Spirit Shackles,Magic Skin,"['{{I|Magic Skin}}: When all hearts are converted to [[Health#Broken Hearts|Broken Hearts]], Isaac will be revived with half a soul heart, allowing many more uses with low health.']"
-Cracked Orb,Dog Tooth,['{{i|Dog Tooth}} / {{t|Shiny Rock}} / {{i|Yo Listen!}}: Makes it extremely easy to destroy tinted rocks and enter Crawl Spaces.']
-Cracked Orb,Yo Listen!,['{{i|Dog Tooth}} / {{t|Shiny Rock}} / {{i|Yo Listen!}}: Makes it extremely easy to destroy tinted rocks and enter Crawl Spaces.']
-Cracked Orb,Dull Razor,['{{i|Dull Razor}}: Allows to benefit from the item without taking actual damage.']
 Empty Heart,Guppy's Paw,"[""{{I|Guppy's Paw}}: The heart containers granted by Empty Heart can be used by Guppy's Paw while staying at or below 1 red heart, granting massively increased survivability.""]"
 Empty Heart,Potato Peeler,"['{{I|Potato Peeler}}: The heart containers granted by Empty Heart can be used by Potato Peeler while staying at or below 1 red heart, granting increased damage and a {{I|Cube of Meat}} per floor.']"
 Empty Heart,Cube of Meat,"['{{I|Potato Peeler}}: The heart containers granted by Empty Heart can be used by Potato Peeler while staying at or below 1 red heart, granting increased damage and a {{I|Cube of Meat}} per floor.']"
@@ -2221,3 +2244,190 @@ Spindown Dice,Glitched Crown,['{{i|Glitched Crown}} / {{c|Isaac}} with {{i|Birth
 Spindown Dice,Birthright,['{{i|Glitched Crown}} / {{c|Isaac}} with {{i|Birthright}} / {{c|Tainted Isaac}}: Rerolling a cycling item will reduce the ID number of the displayed item by 1 and randomize all other options. This may allow Isaac to acquire items with large ID numbers by jumping to a higher ID.']
 Gello,Uranus,"['{{i|Uranus}}: When the baby is launched, any enemies it kills in its trajectory will freeze and any frozen enemies the baby is launched into slide similarly to when kicked by Isaac.']"
 Clear Rune,Car Battery,['{{i|Car Battery}}: Essentially uses the rune or soul stone twice.']
+Mysterious Candy,Dirty Mind,"['{{I|Dirty Mind}}: Allows a steady supply of Dips, with time. Useful for later chapters.']"
+Wiggle Worm,Tractor Beam,['{{i|Tractor Beam}}: The altered pattern tears travel in is confined to the beam allowing Isaac to use its benefits without losing accuracy.']
+Butt Penny,Dirty Mind,['{{i|Dirty Mind}}: Grants a chance to spawn a Dip each time a coin is picked up.']
+Butt Penny,IV Bag,"['{{I|IV Bag}} / {{I|Piggy Bank}} / {{T|Swallowed Penny}}: Pennies dropped can be used either defensively to deflect projectiles, {{dlc|r}} or offensively to poison.']"
+Butt Penny,Piggy Bank,"['{{I|IV Bag}} / {{I|Piggy Bank}} / {{T|Swallowed Penny}}: Pennies dropped can be used either defensively to deflect projectiles, {{dlc|r}} or offensively to poison.']"
+A Missing Page,Blood Rights,"[""{{dlc+|r}} {{I|Blood Rights}} / {{I|Dry Baby}} / {{i|The Negative}} / {{p|XIII - Death}}: Since these items essentially activate {{i|The Necronomicon}}'s effect, the damage boost is applied to these items as well.{{dlc-}}""]"
+A Missing Page,Dry Baby,"[""{{dlc+|r}} {{I|Blood Rights}} / {{I|Dry Baby}} / {{i|The Negative}} / {{p|XIII - Death}}: Since these items essentially activate {{i|The Necronomicon}}'s effect, the damage boost is applied to these items as well.{{dlc-}}""]"
+A Missing Page,The Negative,"[""{{dlc+|r}} {{I|Blood Rights}} / {{I|Dry Baby}} / {{i|The Negative}} / {{p|XIII - Death}}: Since these items essentially activate {{i|The Necronomicon}}'s effect, the damage boost is applied to these items as well.{{dlc-}}""]"
+A Missing Page,The Necronomicon,"[""{{dlc+|r}} {{I|Blood Rights}} / {{I|Dry Baby}} / {{i|The Negative}} / {{p|XIII - Death}}: Since these items essentially activate {{i|The Necronomicon}}'s effect, the damage boost is applied to these items as well.{{dlc-}}""]"
+A Missing Page,Missing Page 2,"['{{dlc|r}} {{i|Missing Page 2}}: The damage increase stacks, resulting in The Necronomicon and similar items dealing 120 damage.']"
+AAA Battery,Schoolbag,"['{{i|Schoolbag}}: The trinket activates based on the primary item slot, but it grants an extra point of charge to the second item as well.']"
+AAA Battery,9 Volt,"['{{i|9 Volt}}: If active item requires three or more charges, trinket gives an extra charge, effectively utilizing itself with 9 Volt.']"
+Cain's Eye,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: 100% chance to get the effect.""]"
+Cain's Eye,Glowing Hour Glass|r,"[""{{I|Glowing Hour Glass|r}}: Traveling back to the previous floor and going back down may trigger the Cain's Eye if it didn't triggered before.""]"
+Maggy's Faith,Glowing Hour Glass,"['{{I|Glowing Hour Glass}}: Eternal hearts will persist if the item is immediately used on the next floor, allowing for another eternal heart for free.']"
+Maggy's Faith,Mom's Box,"[""{{I|Mom's Box}}: Grants two eternal hearts at the start of each floor, which is equivalent to gaining a full heart container every floor.""]"
+Samson's Lock,Lusty Blood,"['{{I|Lusty Blood}}: Both the item and the trinket stack, granting 1 damage per kill. With 100% proc rate on the Lock, Isaac may gain up to 10 damage after 10 kills.']"
+Missing Poster,Marbles,"['{{dlc|a+}} [[Gulp!]] / {{i|Marbles}} / {{i|Smelter}}: Missing Poster functions correctly after being consumed, but still disappears after activating.']"
+Missing Poster,Smelter,"['{{dlc|a+}} [[Gulp!]] / {{i|Marbles}} / {{i|Smelter}}: Missing Poster functions correctly after being consumed, but still disappears after activating.']"
+Black Lipstick,Smelter,"['{{T|Black Feather}}: Black Feather grants a [[damage]] boost for Black Lipstick, provided the player has an extra trinket slot or has {{dlc|a+}}[[Gulp|gulped]] or used {{I|Smelter}} on either of the trinkets.']"
+Rainbow Worm,Tractor Beam,['{{i|Tractor Beam}}: The altered patterns tears travel in is confined to the beam allowing Isaac to benefit from the stat bonuses granted without losing accuracy.']
+Mom's Locket,Humbling Bundle,"[""{{I|Humbling Bundle}}: Humbling Bundle cannot alter half red hearts, but Mom's Locket turns them into full red hearts, which it can double.""]"
+Mom's Locket,Hypercoagulation|r,['{{i|Hypercoagulation|r}}/{{p|Soul of Magdalene|r}}/{{C|Tainted Magdalene|r}}: Created temporary half hearts are now full red hearts.']
+Poker Chip,Guppy's Eye,"[""{{I|Guppy's Eye}}: Provided the Poker Chip is not smelted, it can be used in conjunction with the eye to open all chests with extra pickups, while dropping the chip for any chests containing flies, nullifying the downside of the trinket.""]"
+Blister,8 Inch Nails,"['{{i|8 Inch Nails}} / {{i|Pisces}}: The knockback from Blister is stronger than from the items, and knockback boosts do not stack.']"
+Blister,Pisces,"['{{i|8 Inch Nails}} / {{i|Pisces}}: The knockback from Blister is stronger than from the items, and knockback boosts do not stack.']"
+Blister,Brimstone,['{{i|Brimstone}}: The beam pushes back enemies.']
+Blister,The Ludovico Technique,['{{i|The Ludovico Technique}}: The controlled tear gains knockback.']
+Blister,Mom's Knife,"[""{{i|Mom's Knife}}: The knife gains knockback.""]"
+Blister,Tech.5,"['{{i|Tech.5}} / {{i|Tech X}} / {{i|Technology}} / {{i|Technology 2}}: Pushes the enemies back along the lasers. For Tech X, the direction is counter-clockwise around the ring.']"
+Blister,Tech X,"['{{i|Tech.5}} / {{i|Tech X}} / {{i|Technology}} / {{i|Technology 2}}: Pushes the enemies back along the lasers. For Tech X, the direction is counter-clockwise around the ring.']"
+Blister,Technology,"['{{i|Tech.5}} / {{i|Tech X}} / {{i|Technology}} / {{i|Technology 2}}: Pushes the enemies back along the lasers. For Tech X, the direction is counter-clockwise around the ring.']"
+Blister,Technology 2,"['{{i|Tech.5}} / {{i|Tech X}} / {{i|Technology}} / {{i|Technology 2}}: Pushes the enemies back along the lasers. For Tech X, the direction is counter-clockwise around the ring.']"
+Blister,Trisagion,"['{{i|Trisagion}}: Adds knockback, which can deal devastating damage to enemies caught in the blast.']"
+Endless Nameless,D20,"['[[Pills|Vurp!]] + {{i|D20}}: Consuming two Vurp! pills consecutively spawns an infinite amount of Vurp! pills, which can then be transformed with the D20.']"
+Endless Nameless,PHD,"['{{dlc|r}} [[Pills|Golden Pills]]: A new golden pill may be spawned with each use, allowing for very easy exploitation. Works best with {{I|PHD}}/{{I|Virgo}}/{{I|Lucky Foot}}, to avoid potential stat downgrades.']"
+Endless Nameless,Virgo,"['{{dlc|r}} [[Pills|Golden Pills]]: A new golden pill may be spawned with each use, allowing for very easy exploitation. Works best with {{I|PHD}}/{{I|Virgo}}/{{I|Lucky Foot}}, to avoid potential stat downgrades.']"
+Endless Nameless,Lucky Foot,"['{{dlc|r}} [[Pills|Golden Pills]]: A new golden pill may be spawned with each use, allowing for very easy exploitation. Works best with {{I|PHD}}/{{I|Virgo}}/{{I|Lucky Foot}}, to avoid potential stat downgrades.']"
+NO!,Mom's Box|r,"[""{{A|Golden Trinket}} / {{i|Mom's Box|r}}: Items with 0 [[item quality|quality]] are rerolled.""]"
+Walnut,Bomber Boy,"['{{i|Bomber Boy}}: As Bomber Boy causes 9 explosions at once, laying a bomb and not moving before it explodes will always trigger the trinket.']"
+Walnut,Gnawed Leaf,"['{{i|Gnawed Leaf}}: Isaac will not be knockbacked from the explosions, but it will count for the trinket.']"
+Walnut,Holy Mantle,['{{I|Holy Mantle}}: Explosions hitting the mantle still count for the trinket.']
+Walnut,Host Hat,"['{{i|Host Hat}} / {{i|Pyromaniac}}: Not only will Isaac become immune to explosions, but the amount of required hits is reduced to 1-5.']"
+Walnut,Pyromaniac,"['{{i|Host Hat}} / {{i|Pyromaniac}}: Not only will Isaac become immune to explosions, but the amount of required hits is reduced to 1-5.']"
+Nose Goblin,Dr. Fetus,['{{i|Dr. Fetus}}: Bombs shot out can randomly become homing.']
+Nose Goblin,Godhead,"['{{i|Godhead}}: Shots retain their aura while stuck to an enemy, but the aura can only damage enemies other than the booger victim. If the enemy dies while duration remains, it will resume homing and will often stick to a second enemy.']"
+Equality!,Hypercoagulation,"['{{I|Hypercoagulation}}: As long as Equality is active, all hearts spawned will be doubled and never disappear. Hearts remain on the ground even after the effect is no longer active.']"
+Equality!,Options?,"['{{I|Options?}}: While Equality! is active, both rewards can be collected without the other despawning. Options? also makes Equality! easier to keep active.']"
+Meconium,D12,['{{i|D12}}: Obstacles that are rerolled into poop have a greater chance of being {{E|Black Poop|n}}.']
+Meconium,Everything Jar,['{{i|Everything Jar}}: Has chance for the poop created to be a {{E|Black Poop|n}}.']
+Meconium,The Poop,['{{p|A Card Against Humanity}} / {{t|Mysterious Candy}}/{{i|The Poop}}/[[Re-Lax|Re-Lax pill]]: Has chance for the poop created to be a {{E|Black Poop|n}}.']
+Cracked Crown,Mom's Box,"[""{{dlc|nr}} {{i|Mom's Box}}: The tear delay reduction rises to 36%, and the stat boost is increased to about 77%."", [""{{A|Golden Trinket}} / {{I|Mom's Box}}: Stat boost is increased to 40%.""]]"
+Ouroboros Worm,Aquarius,['{{dlc|r}}{{I|Aquarius}}: Creep has a chance to be homing.']
+Ouroboros Worm,Dr. Fetus,"[""{{i|Dr. Fetus}}: Since the bombs don't follow the spiral pattern, only the extra range, spectral bombs, and chance for a homing bomb apply.""]"
+Ouroboros Worm,Tractor Beam,"['{{i|Tractor Beam}}: The tears follow a straight path, ignoring the spiral pattern; the tears also stall at a specific point, giving a greater chance to land tears.']"
+Super Ball,Bob's Rotten Head,"[""{{i|Bob's Rotten Head}}: The head will bounce off walls at high speeds when thrown.""]"
+Dim Bulb,4.5 Volt,['{{I|4.5 Volt}}: Dim Bulb will be active for as long as the active item has less than one bar of charge.']
+Dim Bulb,Eraser,['{{I|Eraser}} / {{I|Notched Axe}}: These can be used/depleted as soon as possible to have Dim Bulb active for the rest of the floor.']
+Dim Bulb,Notched Axe,['{{I|Eraser}} / {{I|Notched Axe}}: These can be used/depleted as soon as possible to have Dim Bulb active for the rest of the floor.']
+Locust of War,Bomber Boy,['{{dlc|r}}{{I|Bomber Boy}}: Additional smaller explosions will spawn in a tight cross formation.']
+Locust of War,Brimstone Bombs,"['{{I|Brimstone Bombs}}: The locust explosions fires thinner beams, dealing 4.8 damage per tick.']"
+Locust of War,Glitter Bombs,['{{dlc|r}}{{I|Glitter Bombs}}: Locust explosions have a chance to spawn pickups or trinkets.']
+Locust of War,Hive Mind,['{{I|Hive Mind}}: The locusts’ impact damage is doubled and the explosion damage is increased to 85.']
+Locust of War,Sad Bombs,"[""{{I|Sad Bombs}}: A ring of 10 tears is shot outward upon detonation, which are affected by Isaac's tear modifiers, and deal damage equal to 15 + 0.6x, where x is Isaac's Damage.""]"
+Stem Cell,Glowing Hour Glass,"['{{i|Glowing Hour Glass}}: Returning to a previous floor will keep the health gained from Stem Cell, as well as granting another half-red heart after going down to the next floor again.']"
+Butter!,Blank Card|r,"['{{i|Blank Card|r}} / {{i|Clear Rune|r}} / {{i|Placebo|r}}: Because the active item is dropped upon usage, the recharge time for them is reset to 4, allowing to use more expensive cards/runes/pills much more frequently.']"
+Butter!,Clear Rune|r,"['{{i|Blank Card|r}} / {{i|Clear Rune|r}} / {{i|Placebo|r}}: Because the active item is dropped upon usage, the recharge time for them is reset to 4, allowing to use more expensive cards/runes/pills much more frequently.']"
+Butter!,Placebo|r,"['{{i|Blank Card|r}} / {{i|Clear Rune|r}} / {{i|Placebo|r}}: Because the active item is dropped upon usage, the recharge time for them is reset to 4, allowing to use more expensive cards/runes/pills much more frequently.']"
+Butter!,D Infinity,"['{{i|D Infinity}}: Dropping the item will set its charges to the base of 2, allowing each die to be used with only 2 charges.']"
+Butter!,Esau Jr.,"[""{{i|Esau Jr.}}: Using Esau Jr. while holding Butter! will spawn another copy of Esau Jr. Using 5 copies of the item will break Esau Jr.'s jar and create an unique familiar.""]"
+Butter!,Void,['{{i|Void}}: Items that are [[#No Effect|normally unusable]] when holding Butter! can still activate their effects if absorbed by Void.']
+Filigree Feather,Meat Cleaver,['{{i|Meat Cleaver}}: Each angel gives an item.']
+Broken Padlock,Options?,"['{{I|Options?}}: Bombing any chest spawned by Options?, including the ones not requiring keys, allows picking up the contents of the chest without the other reward disappearing, unless the empty chest is touched. This can be easily avoided by simply exiting and reentering the room.']"
+Broken Padlock,Sulfuric Acid,['{{i|Sulfuric Acid}} / {{i|Terra}}: Locked doors can be opened by shooting at them.']
+Broken Padlock,Terra,['{{i|Sulfuric Acid}} / {{i|Terra}}: Locked doors can be opened by shooting at them.']
+Apple of Sodom,Hypercoagulation,['{{i|Hypercoagulation}} / {{c|Tainted Magdalene}}: The temporary hearts dropped upon taking damage can be turned into blue spiders.']
+Apple of Sodom,Options?,['{{i|Options?}}: Converting hearts dropped by Options? will not cause the other consumable to disappear.']
+Beth's Faith,Glowing Hour Glass,"[""{{I|Glowing Hour Glass}}: Wisps given by Beth's Faith will persist through the time leap to the upper floor, as well as giving new ones after going back down to the next floor.""]"
+Beth's Faith,Mom's Box,"[""{{A|Golden Trinket}} / {{I|Mom's Box}}: Gives 8 wisps at once.""]"
+Old Capacitor,4.5 Volt,"[""{{i|4.5 Volt}}: Since the 4.5 Volt also makes it so that active items don't charge when clearing rooms, this trinket can be picked up with no downside.""]"
+Old Capacitor,Mom's Purse,"['{{t|Dim Bulb}} + {{i|Mom\'s Purse}} / {{i|Smelter}} / ""Gulp!"" pill: Since items do not automatically recharge upon being used, being able to hold both Old Capacitor and Dim Bulb together will allow the latter\'s effects to be constantly active, while the batteries allow control over when exactly to charge active items.']"
+Old Capacitor,Smelter,"['{{t|Dim Bulb}} + {{i|Mom\'s Purse}} / {{i|Smelter}} / ""Gulp!"" pill: Since items do not automatically recharge upon being used, being able to hold both Old Capacitor and Dim Bulb together will allow the latter\'s effects to be constantly active, while the batteries allow control over when exactly to charge active items.']"
+Perfection,Blanket,['{{i|Blanket}} / {{i|Dogma}} / {{p|Holy Card}} / {{i|Holy Mantle}} / {{c|The Lost}} / {{p|Soul of the Lost}} / {{E|White Fire Place}}s / {{t|Wooden Cross}}: Losing the shield does not destroy Perfection.']
+Perfection,Dogma,['{{i|Blanket}} / {{i|Dogma}} / {{p|Holy Card}} / {{i|Holy Mantle}} / {{c|The Lost}} / {{p|Soul of the Lost}} / {{E|White Fire Place}}s / {{t|Wooden Cross}}: Losing the shield does not destroy Perfection.']
+Perfection,Holy Mantle,['{{i|Blanket}} / {{i|Dogma}} / {{p|Holy Card}} / {{i|Holy Mantle}} / {{c|The Lost}} / {{p|Soul of the Lost}} / {{E|White Fire Place}}s / {{t|Wooden Cross}}: Losing the shield does not destroy Perfection.']
+Perfection,Dull Razor,['{{i|Dull Razor}}: Does not destroy Perfection.']
+Perfection,Glowing Hour Glass,"['{{i|Glowing Hour Glass}}: Makes it much easier to hold on to Perfection since, as long as it can be used in the room where you take damage before you leave, Isaac can reset to the previous room with the trinket intact.']"
+Perfection,Rock Bottom,"[""{{i|Rock Bottom}}: The +10 luck persists after switching trinkets as stats are locked to their highest values ever reached after picking Rock Bottom up. However, after losing Perfection, additional luck-ups will have no effect until the luck bonus lost is made up. (The stats are still being calculated behind-the-scenes, but until it surpasses the run's post-rock-bottom luck record, the record will be used instead).""]"
+Perfection,Sharp Plug,['{{i|Sharp Plug}}: Does not destroy Perfection.']
+Devil's Crown,More Options,"['{{i|More Options}}: All {{r|Devil Treasure Room|no link}}s will have two items, both of which can be purchased.', ['This also extends to {{T|Broken Glasses}}, {{T|Golden Horse Shoe}} and {{P|XVII - The Stars}} cards buffed by {{I|Tarot Cloth}}.']]"
+Devil's Crown,Coupon,"['{{I|Coupon}}: When used in a {{R|Devil Treasure Room|no link}}, gives the item for free, acting like a regular {{R|Treasure Room}} but with devil items, only requiring the use of Coupon.', [""This doesnt affect the {{R|Angel Room}} chance, like how using {{I|Coupon}} in a regular {{R|Devil Room}} and grabbing the free item wouldn't.""]]"
+Devil's Crown,Dream Catcher,"['{{I|Dream Catcher}}: Shows you the item that spawns without the trinket, allowing you to drop the trinket before entering if you think the treasure room item would be better than the devil deal.']"
+Devil's Crown,Glowing Hour Glass,"['{{I|Glowing Hour Glass}}: Allows you to check the item that spawns with and without the trinket, letting you pick the better item.']"
+Blue Key,Mercurius,"['{{t|Door Stop}} / {{i|Mercurius}}: The blue room can be exited without fighting the enemies, and the door will remain unlocked.']"
+Dice Bag,Book of Virtues,['{{i|Book of Virtues}}: Creates wisps as if the equivalent active item was used.']
+Dice Bag,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: Increases the chance to get a dice to 100%.""]"
+Dice Bag,Moving Box,['{{i|Moving Box}}: Can be used to hold undesirable items and pickups until Dice Bag grants a consumable that can reroll them.']
+Mother's Kiss,The Wafer,"[""{{C|???}} / {{C|Dark Judas}} / {{C|Tainted ???}} / {{C|Tainted Bethany}} / {{C|Tainted Judas}} / {{C|Tainted Forgotten}}: If Mother's Kiss is picked up while having 12 Soul/Black Hearts, Mother's Kiss will not trigger until damage is taken. However, if only half a heart of damage is taken, Mother's Kiss will immediately restore the health back to a full 12 but believe its effect failed due to not restoring a full heart's worth, allowing it to trigger again and again until a full heart of damage is taken, after which it will cease taking effect. If combined with {{I|The Wafer}}, this makes any of the aforementioned 6 characters virtually invincible as long as their health is not reduced in any way through Devil Deals, Health Down pills, etc.<ref>https://www.youtube.com/watch?v=J_L8jJee0dM</ref>""]"
+Mother's Kiss,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: Adds 2 heart containers.""]"
+Mother's Kiss,Guppy's Paw,"[""{{i|Guppy's Paw}}: The trinket will be consumed, but the soul hearts from conversion are kept.""]"
+Mother's Kiss,Potato Peeler,"['{{I|Potato Peeler}}: The trinket will be consumed, but the damage and {{I|Cube of Meat}} is kept.']"
+Mother's Kiss,Cube of Meat,"['{{I|Potato Peeler}}: The trinket will be consumed, but the damage and {{I|Cube of Meat}} is kept.']"
+Torn Card,Pyromaniac,['{{I|Pyromaniac}}: Completely negates the downside of Torn Card and will heal you if the shot misses an enemy or wall and hits you instead.']
+Torn Card,Host Hat,['{{I|Host Hat}}: Completely negates the downside of Torn Card.']
+Torn Card,Almond Milk,"[""{{I|Almond Milk}}/{{I|Soy Milk}}: Unlike the normal {{I|Ipecac}} synergy, Torn Card shots ignore the damage down multiplier, always dealing +40 damage, '''significantly''' increasing DPS.""]"
+Torn Card,Soy Milk,"[""{{I|Almond Milk}}/{{I|Soy Milk}}: Unlike the normal {{I|Ipecac}} synergy, Torn Card shots ignore the damage down multiplier, always dealing +40 damage, '''significantly''' increasing DPS.""]"
+Torn Card,Ipecac,"[""{{I|Almond Milk}}/{{I|Soy Milk}}: Unlike the normal {{I|Ipecac}} synergy, Torn Card shots ignore the damage down multiplier, always dealing +40 damage, '''significantly''' increasing DPS.""]"
+Torn Card,Chocolate Milk,"['{{I|Chocolate Milk}}: Ipecac shots will always deal the same damage, regardless of charge level. Low power shots can be spammed to make use of this.']"
+Torn Card,Death's Touch,"[""{{I|Death's Touch}}/{{I|Pupula Duplex}}: Ipecac shots get a bigger hitbox, making shots easier to hit, and from a safer distance.""]"
+Torn Card,Pupula Duplex,"[""{{I|Death's Touch}}/{{I|Pupula Duplex}}: Ipecac shots get a bigger hitbox, making shots easier to hit, and from a safer distance.""]"
+Torn Card,Eye of the Occult,"[""{{I|Eye of the Occult}}: Tear control is stronger than the reflection, although it's still present if Isaac stops shooting. Effectively negates downside.""]"
+Torn Card,Fire Mind,['{{I|Fire Mind}}: A fire is always spawned at the place of explosion.']
+Torn Card,Lead Pencil,"[""{{I|Lead Pencil}}: Lowers tear shot requirement by 1. Lead Pencil will always proc at the 14th shot, soon followed by Torn Card's at 15th.""]"
+Torn Card,Monstro's Lung,"[""{{I|Monstro's Lung}}: An Ipecac shot is fired for 4 bursts consecutively, with the 5th burst lacking one, and repeat. Makes Torn Card very consistent.""]"
+Torn Card,Proptosis,"[""{{I|Proptosis}}: Ipecac tear will always explode before reflection takes effect. It's the '''only item''' that affects Torn Card's flat 40 damage.""]"
+Torn Card,Spirit Sword,['{{I|Spirit Sword}}: Swings can be spammed rapidly to create Ipecac shots.']
+Torn Card,Tiny Planet,['{{I|Tiny Planet}}: Ipecac shots will stick to the orbit and direction Isaac is aiming.']
+Torn Pocket,Bogo Bombs,['{{i|Bogo Bombs}}: Dropped bombs will be their doubled variants.']
+Torn Pocket,Humbling Bundle,['{{i|Humbling Bundle}}: All dropped pickups have a chance to be replaced with doubled variants.']
+Torn Pocket,Scapular,['{{i|Scapular}}: Can be used to infinitely generate pickups when down to half a Heart by re-entering a room to regenerate a Soul Heart.']
+Lucky Sack,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: Spawns 2 sacks instead of one.""]"
+Dingle Berry,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: Spawns 2 dips instead of 1.""]"
+Ring Cap,Mom's Box,"[""{{Achievement|Golden Trinket}} / {{I|Mom's Box}}: Adds a third bomb.""]"
+Ring Cap,Nancy Bombs,['{{I|Nancy Bombs}}: Grants a random bomb effect to each bomb separately.']
+Ring Cap,Rocket in a Jar,['{{i|Rocket in a Jar}}: Fires two rockets simultaneously.']
+Nuh Uh!,Head of the keeper,['{{I|Head of the keeper}}: Coins generated by Head of the Keeper will be replaced with random pickups.']
+Nuh Uh!,Sanguine Bond,"[""{{I|Sanguine Bond}}: 17% of the time, generates ''~5'' random pickups, often allowing infinite use with red hearts.""]"
+Nuh Uh!,Midas' Touch,"[""{{I|Midas' Touch}} / {{I|Eye of Greed}}: Enemies affected by Midas' will drop 1-4 random pickups."", ['Because 20% of coins become harmless {{E|Fly|display=flies}}, 20% of the time you can trigger this effect again by affecting and killing spawned flies.']]"
+Nuh Uh!,Eye of Greed,"[""{{I|Midas' Touch}} / {{I|Eye of Greed}}: Enemies affected by Midas' will drop 1-4 random pickups."", ['Because 20% of coins become harmless {{E|Fly|display=flies}}, 20% of the time you can trigger this effect again by affecting and killing spawned flies.']]"
+Nuh Uh!,Wooden Nickel,"[""{{I|Wooden Nickel}}: ''~40%'' of the time you generate a random pickup."", ['{{I|4.5 Volt}}: Generate random pickups over the course of a fight.']]"
+Nuh Uh!,Blank Card,"['{{I|Blank Card}}: Allows you to utilize card effects that synergize with this trinket multiple times.', ['{{P|IX - The Hermit?}}: Pickups / Items are sold and turned into other random pickups and only recharges after 1 room, often breaking the game.', '{{P|XIV - Temperance}}: The generated machine now drops random pickups.', '{{P|Ace of Diamonds}} / {{P|Ace of Spades}}: Re-rolls pickups in the room into other random pickups or turns enemies into random pickups.', '{{P|XII - The Hanged Man?}}: Slain enemies drop random pickups.', '{{P|A Card Against Humanity}}: Coins dropped by generated poops become random pickups.', [""{{I|Midas' Touch}} / {{T|Petrified Poop}}: Greatly increases the amount of coins and thus the amount of random pickups.""]]]"
+Nuh Uh!,IV bag,"['{{I|IV bag}} / {{I|Piggy Bank}} / {{T|Swallowed Penny}}: Convert health into random pickups.', ['{{I|Gimpy}} / {{I|Old Bandage}} / {{I|Fanny pack}}: Further increase the chance of hearts appearing after use allowing the generation of even more random pickups.']]"
+Nuh Uh!,Piggy Bank,"['{{I|IV bag}} / {{I|Piggy Bank}} / {{T|Swallowed Penny}}: Convert health into random pickups.', ['{{I|Gimpy}} / {{I|Old Bandage}} / {{I|Fanny pack}}: Further increase the chance of hearts appearing after use allowing the generation of even more random pickups.']]"
+Nuh Uh!,Guppy's Tail,"[""{{I|Guppy's Tail}}: The keys needed to open gold chests will be converted to other pickups. However, the large quantities of coins generated from chests can be turned into many random pickups. Dropping Nuh Uh! at the start of the floor and then picking it back up to collect random pickups later allows for keys to collected but still gain large quantities of random pickups. Due to the large amount of pills and bombs generated, having the Bombs are Key [[pill]] effect in the pool may allow you to turn a surplus of bombs into a surplus of keys as needed.""]"
+Modeling Clay,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: Increases the chance of triggering to 100%.""]"
+Modeling Clay,Rock Bottom,"[""{{i|Rock Bottom}}: Permanently increases Isaac's stats when it transforms into an item that surpasses Isaac's current stats."", ['This allows the player to enter and exit a room any number of times in order to get as many stats as possible.']]"
+Lil Clot,BFFS!,"[""{{i|BFFS!}}: Increases the damage to 70% of Isaac's.""]"
+Lil Clot,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: Summons an additional Lil Clot.""]"
+Lil Clot,The Ludovico Technique,"[""{{i|The Ludovico Technique}}: The clot's tear floats the same way Isaac's tear does. Additional clots gained from Mom's box, Found Soul, and golden versions of the trinket will have an additional floating tear.""]"
+Lil Clot,Tractor Beam,"[""{{i|Tractor Beam}}: Lil Clot's tears travel along the beam regardless of the location of Lil Clot.""]"
+Swallowed M80,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: raises the chance to trigger an explosion to 100%.""]"
+Swallowed M80,Pyromaniac,"[""{{i|Pyromaniac}}: Heals on triggered explosion, rendering Isaac invincible if combined with its [[Golden Trinket|Golden]] version / {{i|Mom's Box}} and{{i|The Wafer}}, this works only if Isaac possesses at least 1 red heart container and/or a fillable bone heart.""]"
+Swallowed M80,Mom's Box,"[""{{i|Pyromaniac}}: Heals on triggered explosion, rendering Isaac invincible if combined with its [[Golden Trinket|Golden]] version / {{i|Mom's Box}} and{{i|The Wafer}}, this works only if Isaac possesses at least 1 red heart container and/or a fillable bone heart.""]"
+Swallowed M80,The Wafer,"[""{{i|Pyromaniac}}: Heals on triggered explosion, rendering Isaac invincible if combined with its [[Golden Trinket|Golden]] version / {{i|Mom's Box}} and{{i|The Wafer}}, this works only if Isaac possesses at least 1 red heart container and/or a fillable bone heart.""]"
+RC Remote,King Baby,['{{I|King Baby}}: Familiars are not held in place while firing but still auto-target enemies.']
+RC Remote,Incubus,"[""{{c|Lilith}}: {{i|Incubus}} can be positioned on top of Lilith, effectively removing Lilith's downside.""]"
+Found Soul,Akeldama,['{{I|Akeldama}}']
+Found Soul,Aquarius,['{{I|Aquarius}}']
+Found Soul,Aries,['{{I|Aries}}']
+Found Soul,Ball of Tar,['{{I|Ball of Tar}}']
+Found Soul,Blanket,['{{I|Blanket}}']
+Found Soul,Circle of Protection,['{{i|Circle of Protection}}']
+Found Soul,Dad's Ring,"[""{{I|Dad's Ring}}""]"
+Found Soul,Dead Eye,['{{I|Dead Eye}}']
+Found Soul,Dead Tooth,['{{I|Dead Tooth}}']
+Found Soul,Divine Intervention,['{{I|Divine Intervention}}']
+Found Soul,Holy Mantle,['{{I|Holy Mantle}}']
+Found Soul,Jupiter,['{{I|Jupiter}}']
+Found Soul,Lead Pencil,['{{I|Lead Pencil}}']
+Found Soul,Leo,['{{I|Leo}}']
+Found Soul,Linger Bean,['{{I|Linger Bean}}']
+Found Soul,Marked,['{{I|Marked}}']
+Found Soul,Mars,['{{I|Mars}}']
+Found Soul,Maw of the Void,['{{I|Maw of the Void}}']
+Found Soul,Monstrance,['{{I|Monstrance}}']
+Found Soul,Montezuma's Revenge,"[""{{I|Montezuma's Revenge}}""]"
+Found Soul,Night Light,['{{I|Night Light}}']
+Found Soul,Purgatory,['{{i|Purgatory}}']
+Found Soul,Revelation,['{{I|Revelation}}']
+Found Soul,Salvation,['{{I|Salvation}}']
+Found Soul,Saturnus,['{{I|Saturnus}}']
+Found Soul,Spear of Destiny,['{{I|Spear of Destiny}}']
+Found Soul,The Swarm,['{{I|The Swarm}}']
+Found Soul,Taurus,['{{I|Taurus}}']
+Found Soul,Thunder Thighs,['{{I|Thunder Thighs}}']
+Found Soul,Tooth and Nail,['{{I|Tooth and Nail}}']
+Found Soul,Trinity Shield,['{{I|Trinity Shield}}\n</div>']
+The Twins,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: Has an additional 50% chance to trigger the effect again, resulting in another familiar doubling. This can be the same familiar that was doubled originally.""]"
+The Twins,Sacrificial Altar,"['{{i|Sacrificial Altar}}: Both the duplicated familiar (if one is available) and Brother Bobby/Sister Maggy (if not available) can be sacrificed for an item reward. This does not remove the trinket, and fully retains its effect.']"
+Adoption Papers,Steam Sale,"['{{I|Steam Sale}}: Both of the discounts stack, selling familiars for 5 cents.']"
+Cricket Leg,Bomber Boy,['{{I|Bomber Boy}}: [[Locust of War|Red locusts]] explode in a small horizontal cross-shape pattern.']
+Cricket Leg,Brimstone Bombs,['{{I|Brimstone Bombs}}: Red locusts will shoot out four brimstone beams in a + formation after hitting an enemy.']
+Cricket Leg,Glitter Bombs,['{{I|Glitter Bombs}}: Red locust explosions have a chance to spawn pickups or trinkets.']
+Cricket Leg,Hive Mind,"[""{{I|Hive Mind}}: Increases locusts' size and doubles their damage."", ['Red locusts’ impact damage is doubled and the explosion damage is increased to 85.']]"
+Cricket Leg,Sad Bombs,"[""{{I|Sad Bombs}}: Red locusts fire a ring of ten tears outward upon detonation, which are affected by Isaac's tear modifiers, and deal damage equal to 15 + 0.6x, where x is Isaac's [[Damage]].""]"
+Broken Glasses,Damocles,['{{i|Damocles}}: An additional visible item will be generated from the blind item.']
+Sigil of Baphomet,Kamikaze!,['{{i|Kamikaze!}}: Isaac can chain-kill enemies without taking explosion damage while the shield is active.']

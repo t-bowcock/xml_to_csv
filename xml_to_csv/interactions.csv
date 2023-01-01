@@ -93,6 +93,26 @@ Brimstone,Lodestone,"['{{I|Lodestone}}: Changes the beam to gray, can still appl
 Brimstone,Marked,"['{{I|Marked}}:', ['{{Dlc|nr}} Overridden by Brimstone.', '{{Dlc|r}} Fires automatically upon reaching full charge. Fires at the direction of the crosshair.']]"
 Brimstone,Monstro's Lung,"[""{{I|Monstro's Lung}}:"", ['{{Dlc|na}} Overridden by Brimstone.', ""{{Dlc|a}} Brimstone has priority. Does not apply Monstro's Lung's tears down. Fires 3-5 additional beams in random directions around Isaac. This effect also applies to {{C|Azazel}} and {{C|Tainted Azazel}}'s Brimstone."", [""{{Dlc|nr}} Charging a new Brimstone beam removes the original from in front of Isaac, but not the additional ones added by Monstro's Lung.""]]]"
 Brimstone,Mucormycosis,['{{I|Mucormycosis}}: The beam has 25% chance to spawn spore to enemies on every other tick.']
+Brimstone,Mysterious Liquid,"['{{I|Mysterious Liquid}}:', ['{{Dlc|na}} Overridden by Brimstone.', ""{{Dlc|a}} Leaves a creep for each enemy and obstacle the beam hits, on every other tick. {{C|Azazel}}'s Brimstone leaves creeps at the end of its range.""]]"
+Brimstone,Neptunus,['{{I|Neptunus}}: Overridden by Brimstone.']
+Brimstone,Number One,"[""{{I|Number One}}: Although Number One is otherwise purely beneficial with standard Brimstone, {{C|Azazel}}'s range is severely affected.""]"
+Brimstone,The Parasite,"['{{I|The Parasite}}:', ['{{Dlc|nr}} Splitting is overridden. The stat changes are applied as normal.', '{{Dlc|r}} Spawns two perpendicular beams on the first enemy or obstacle the beam hits.']]"
+Brimstone,Playdough Cookie,"['{{I|Playdough Cookie}}: Brimstone will start cycling through colors and applies the standard chance of tear-effect on hit, with the homing effect will occur intermittently.']"
+Brimstone,Parasitoid,['{{I|Parasitoid}}: Overridden by Brimstone.']
+Brimstone,Pop!,"['{{I|Pop!}}:', ['{{Dlc|nr}} Overridden by Brimstone.', ""{{Dlc|r}} Brimstone has shorter range, a bit longer than {{C|Azazel}}'s brimstone, and it is not affected from [[Range]]. The beam fires Pop! tears at the end, which is [[Piercing]].""]]"
+Brimstone,Proptosis,"['{{I|Proptosis}}:', ['{{Dlc|na}} Does not apply distance penalty.', ""{{Dlc|a}} The beam deals 2x Isaac's Damage, which is already doubled from the items effect, at point blank range. The damage quickly drops further along the beam, at about 0.8x per tile of distance."", ""{{Dlc|r}} The beam deals 6x Isaac's Damage at point blank range. Decreases 13.3% of the damage per tile of distance, to the minimum of 0.1 point of damage at 7.5 tiles of distance.""]]"
+Brimstone,Pupula Duplex,['{{I|Pupula Duplex}}: Overridden by Brimstone.']
+Brimstone,Rotten Tomato,['{{I|Rotten Tomato}}: Firing can mark enemies.']
+Brimstone,Rubber Cement,"['{{I|Rubber Cement}}:', ['{{Dlc|na}} Overridden by Brimstone.', '{{Dlc|a}} Beams bounce off of walls once, creating a second beam that deals {{Dlc|nr}} half/{{Dlc|r}} full damage.', [""{{Dlc|ana+}} If {{C|Azazel}}'s mini Brimstone beam bounces off a wall, it effectively becomes a full-length Brimstone beam, but it will still only deal half damage."", ""{{Dlc|a+}} {{C|Azazel}}'s Brimstone no longer becomes a full length beam after bouncing, instead bouncing as a regular mini-Brimstone.""]]]"
+Brimstone,Sinus Infection,"['{{I|Sinus Infection}}:', ['{{Dlc|nr}} Overridden by Brimstone.', '{{Dlc|r}} The beam has 20% chance to stick booger tears to enemies on every other tick.']]"
+Brimstone,Spirit Sword,['{{I|Spirit Sword}}: Overrides Brimstone.']
+Brimstone,Sulfuric Acid,"['{{I|Sulfuric Acid}}:', ['{{Dlc|nr}} Overridden by Brimstone. Stat effects are still applied.', '{{Dlc|r}} The beam has a chance to destroy rocks every tick.']]"
+Brimstone,Technology,"['{{I|Technology}}:', ['{{Dlc|na}} Overridden by Brimstone, but adds damage.', ""{{Dlc|a}} The Technology laser coils around the Brimstone beam, granting a 1.5x damage multiplier (it stacks with other similar multipliers like {{I|Cricket's Head}} or {{I|Magic Mushroom}})."", [""{{Dlc|r}} Technology's damage multiplier will be overridden if Isaac has the powered up version (from picking up Brimstone twice or using {{I|Sulfur}} with Brimstone).""]]]"
+Brimstone,Technology Zero,['{{I|Technology Zero}}: Overridden by Brimstone.']
+Brimstone,Technology 2,"['{{I|Technology 2}}:', ['{{Dlc|na}} Overridden by Brimstone, but retains the reduced damage.', '{{Dlc|a}} Both fire normally; the Technology laser fires while charging Brimstone.']]"
+Brimstone,Tech.5,"['{{I|Tech.5}}:', ['{{Dlc|na}} Overridden by Brimstone unless using {{C|Azazel}}, in which case it will fire normally while charging Brimstone.', '{{Dlc|a}} Tech.5 fires normally while charging Brimstone.']]"
+Brimstone,Terra,['{{I|Terra}}: The beam has a chance to destroy rocks every tick.']
+Brimstone,Trisagion,['{{I|Trisagion}}: Overridden by Brimstone.']
 The Common Cold,Ipecac,['{{i|Ipecac}}/{{i|Scorpio}}: Overrides The Common Cold.']
 The Common Cold,Scorpio,['{{i|Ipecac}}/{{i|Scorpio}}: Overrides The Common Cold.']
 The Common Cold,Serpent's Kiss|anr,"[""{{I|Serpent's Kiss|anr}}: Both poison effects work, but poison caused by Common Cold will not cause {{e|Black Heart}} drops. There is no way to tell which poison is applied.""]"
@@ -116,6 +136,8 @@ Chemical Peel,Stapler,"['{{i|Stapler}}: Gives a 50% chance of firing a Chemical 
 Chemical Peel,Tech X,['{{i|Tech X}}: Overrides Chemical Peel.']
 Chemical Peel,Varicose Veins,['{{i|Varicose Veins}}: The last type of tear fired is used for the burst.']
 Charm of the Vampire,Maggy's Bow,"[""{{i|Maggy's Bow}}: No effect.""]"
+Charm of the Vampire,My Reflection,"['{{I|My Reflection}}: Despite vampires having no reflection, Charm of the Vampire does not remove the effect of My Reflection.']"
+Charm of the Vampire,Uranus,"[""{{I|Uranus}}: The freeze effect overrides the effect of Charm of the Vampire, since it freezes the enemy's it does not count towards the healing counter.""]"
 Cupid's Arrow,8 Inch Nails,"[""{{i|8 Inch Nails}}/{{t|Blister}}/{{i|Cricket's Head}}/{{t|Flat Worm}}: Reduces knockback effectiveness of these items.""]"
 Cupid's Arrow,Cricket's Head,"[""{{i|8 Inch Nails}}/{{t|Blister}}/{{i|Cricket's Head}}/{{t|Flat Worm}}: Reduces knockback effectiveness of these items.""]"
 Cupid's Arrow,Dr. Fetus,"['{{i|Dr. Fetus}}: Bombs travel through enemies. When combined with {{I|Ipecac}}, bombs do not explode upon hitting enemies.', [""{{Dlc|r}} Bombs also deal 2.5x Isaac's damage to enemies when passing through them.""]]"
@@ -124,6 +146,9 @@ Cupid's Arrow,Fire Mind,['{{i|Fire Mind}}: Tears will continue to pierce enemies
 Cupid's Arrow,Ipecac,"['{{i|Ipecac}}: Pierces through {{E|poop}} and {{E|Fire Place}}s, but not enemies.']"
 Daddy Longlegs,Sacrificial Altar,['{{i|Sacrificial Altar}}: Daddy Longlegs cannot be sacrificed.']
 Dead Bird,Birthright,"['{{I|Birthright}} + {{C|Eve}}: Dead Bird will be active at all times, without necessitating damage.']"
+Dead Bird,Box of Friends,"['{{i|Box of Friends}}: Does not double Dead Bird, even if Isaac has taken damage before use.']"
+Dead Bird,Holy Mantle,['{{i|Holy Mantle}}: Dead Bird will not be activated if the damage is taken while Holy Mantle is active.']
+Dead Bird,Sacrificial Altar,['{{I|Sacrificial Altar}}: The familiar can only be sacrificed when it is active.']
 Dr. Fetus,Anti-Gravity,['{{i|Anti-Gravity}}: Overridden by Dr. Fetus. Tear delay decrease is still applied.']
 Dr. Fetus,Mucormycosis,['{{t|Brain Worm}}/{{I|Mucormycosis}}/{{I|Neptunus}}/{{i|Ocular Rift}}: Overridden by Dr. Fetus.']
 Dr. Fetus,Neptunus,['{{t|Brain Worm}}/{{I|Mucormycosis}}/{{I|Neptunus}}/{{i|Ocular Rift}}: Overridden by Dr. Fetus.']
@@ -438,6 +463,14 @@ Mom's Knife,Eye of the Occult,['{{i|Eye of the Occult}}']
 Mom's Knife,Marked|anr,['{{i|Marked|anr}}']
 Mom's Knife,My Reflection,['{{i|My Reflection}}']
 Mom's Knife,Sulfuric Acid|a+nr,['{{i|Sulfuric Acid|a+nr}} \nOther interactions:']
+Mom's Knife,Chocolate Milk,"[""{{dlc+|nr}}{{i|Chocolate Milk}}: Doesn't increase damage, but reduces Isaac's tear delay by 20%.{{dlc-}}""]"
+Mom's Knife,Epic Fetus,['{{dlc+|na}} {{i|Epic Fetus}}: Overridden by Epic Fetus.{{dlc-}}']
+Mom's Knife,Guillotine,"['{{i|Guillotine}}: The knife is fired from the body, not from the head.']"
+Mom's Knife,Haemolacria|a+nr,"[""{{i|Haemolacria|a+nr}}: Both apply normally; the tears down negatively affects Mom's Knife's charge time.""]"
+Mom's Knife,Little Horn,['{{i|Little Horn}}: Works but very rarely.']
+Mom's Knife,Saturnus,['{{i|Saturnus}}: No effect for orbiting tears.']
+Mom's Knife,Tiny Planet,"[""{{i|Tiny Planet}}: The knife goes in a spiral around Isaac; the longer the knife is charged, the bigger the spiral. {{dlc|nr}} Not recommended, as this makes Mom's Knife almost impossible to aim."", ['{{dlc|r}} Launched knife will orbit Isaac incredibly fast with a much larger hitbox, dealing consistent damage and covering every side of Isaac.', ""Items that fire knives out in a straight line, like {{i|Brimstone}} or {{i|Monstro's Lung}}, will cause the knives to circle around Isaac once, then shoot out in the intended direction in a straight line.""]]"
+Mom's Knife,Tractor Beam,"[""{{I|Tractor Beam}}: The knife will snap to whichever direction Isaac is firing in after it's thrown. However, it can no longer be fired diagonally.""]"
 Sacred Heart,Sacred Heart,"['{{i|Sacred Heart}}: Picking up multiple copies of the item will only result in acquiring additional heart containers, while decreasing fire rate and shot speed.']"
 Mom's Perfume,Abaddon,['{{i|Abaddon}}: The chance to inflict fear does not stack.']
 Tiny Planet,Bob's Rotten Head,"[""{{i|Bob's Rotten Head}}: The thrown bomb orbits around Isaac, making it hard to predict where it will land.""]"
@@ -797,6 +830,21 @@ Ouija Board,Epic Fetus,['{{i|Epic Fetus}}: No effect.']
 Ouija Board,Mom's Knife,"[""{{i|Mom's Knife}}: The knife becomes transparent but otherwise, Ouija Board has no effect.""]"
 Ouija Board,Technology 2,"['{{i|Technology 2}}: Allows the laser to go through objects, allowing piercing and spectral ""tears"".']"
 The Parasite,Aquarius,"['{{i|Aquarius}}: No effect.', [""{{dlc|r}} Creep trail turns dark orange but doesn't affect the creep itself.""]]"
+The Parasite,Brimstone,"['{{dlc|nr}} {{i|Brimstone}}: Overrides The Parasite.', ['{{Dlc|r}} 2 beams that deal full damage will be fired perpendicular to the main beam at the closest point of intersection with an enemy or obstacle, or at the end of the laser when playing as {{C|Azazel}}.']]"
+The Parasite,Diplopia,['{{i|Diplopia}}: No effect.']
+The Parasite,Dr. Fetus,"['{{dlc|na}} {{i|Dr. Fetus}}: Bombs turn orange and with no other effect.', ['{{dlc|a}} Bombs split into two bombs that deal 40 damage each upon detonation.', [""'''Dr. Fetus''' + {{i|Rocket in a Jar}}: Rockets split into two bombs (not rockets) upon detonation.""]]]"
+The Parasite,Epic Fetus,['{{i|Epic Fetus}}: Overrides The Parasite.']
+The Parasite,Eye of the Occult,"['{{i|Eye of the Occult}}: Split tears can be controlled similarly to normal tears, which results in a large amount of floating tears.']"
+The Parasite,Ipecac,"['{{i|Ipecac}}: The Ipecac tear will spawn two smaller explosive tears when it collides with a solid object, but not with an enemy. These tears can spawn tears on their own as well, potentially leading to huge chain reactions. Having {{i|Host Hat}} or {{i|Pyromaniac}} is strongly recommended.']"
+The Parasite,Host Hat,"['{{i|Ipecac}}: The Ipecac tear will spawn two smaller explosive tears when it collides with a solid object, but not with an enemy. These tears can spawn tears on their own as well, potentially leading to huge chain reactions. Having {{i|Host Hat}} or {{i|Pyromaniac}} is strongly recommended.']"
+The Parasite,Pyromaniac,"['{{i|Ipecac}}: The Ipecac tear will spawn two smaller explosive tears when it collides with a solid object, but not with an enemy. These tears can spawn tears on their own as well, potentially leading to huge chain reactions. Having {{i|Host Hat}} or {{i|Pyromaniac}} is strongly recommended.']"
+The Parasite,Kidney Stone,['{{i|Kidney Stone}}: Drastically decreases range making it less likely for tears to split. The stone will not split.']
+The Parasite,Mom's Knife,"[""{{dlc|nr}} {{i|Mom's Knife}}: Knife turns orange with no other effect."", ['{{Dlc|r}} Knife splits into two smaller, perpendicular knives that deal full damage on hitting an enemy.']]"
+The Parasite,Rubber Cement,['{{i|Rubber Cement}}: Tears only split when hitting enemies and no longer off the wall or most obstacles.']
+The Parasite,Soy Milk,"['{{i|Soy Milk}}: Without any damage increases, Soy Milk tears deal under 1.0 damage and cannot split until the situation is rectified with other items.']"
+The Parasite,Spirit Sword,['{{i|Spirit Sword}}: No effect on swings and spins. Projectiles bursts into 2 small tears.']
+The Parasite,Technology,"['{{dlc|nr}} {{i|Technology}}: Overrides The Parasite.', ['{{dlc|r}} Laser splits into two perpendicular beams that deal full damage upon hitting an obstacle or enemy.']]"
+The Parasite,Tech X,['{{i|Tech X}}: Overrides The Parasite. Laser rings become orange.']
 Punching Bag,Box of Friends,"['{{i|Box of Friends}}: Adds another Punching Bag. This may cause enemies to become unpredictable, so use with caution.', ['If the Punching Bag has died, it can be forced to respawn with a double upon using the Box of Friends.']]"
 Rotten Baby,BFFS!,"['{{i|BFFS!}}: Rotten Baby becomes larger, but this is only a cosmetic change.']"
 Rotten Baby,Hive Mind,['{{I|Hive Mind}}: Fly damage is doubled.']
@@ -1459,6 +1507,12 @@ Glass Cannon,The Wafer,"[""{{dlc|r}} {{i|The Wafer}}: Doesn't reduce the damage 
 Glass Cannon,Stye,['{{i|Stye}}: Copies the eye used most recently.']
 Censer,BFFS!,['{{i|BFFS!}}: The aura does not slow things from further away despite increased visual size.']
 Lusty Blood,Uranus,"['{{I|Uranus}}: Only enemies killed by icicles from statues, bombs, familiars and other sources will increment Lusty Blood counter, thus rendering Lusty Blood quite difficult to use.']"
+Fate's Reward,20/20,"[""{{i|20/20}} / {{i|The Inner Eye}} / {{i|Mutant Spider}}: Fate's Reward only fires single tears. The items do not affect the fire rate of Fate's Reward.""]"
+Fate's Reward,The Inner Eye,"[""{{i|20/20}} / {{i|The Inner Eye}} / {{i|Mutant Spider}}: Fate's Reward only fires single tears. The items do not affect the fire rate of Fate's Reward.""]"
+Fate's Reward,Mutant Spider,"[""{{i|20/20}} / {{i|The Inner Eye}} / {{i|Mutant Spider}}: Fate's Reward only fires single tears. The items do not affect the fire rate of Fate's Reward.""]"
+Fate's Reward,Chocolate Milk,"[""{{i|Chocolate Milk}}: Familiar's tears will turn a brown color but can not be charged.""]"
+Fate's Reward,Marked,"[""{{Dlc|nr}} {{i|Marked}}: Fate's Reward will only fire while the crosshair is being moved, and can only fire in cardinal directions."", [""{{dlc|r}} Fate's Reward will aim and fire at the crosshair, wherever it's pointed.""]]"
+Fate's Reward,Soy Milk,"['{{i|Soy Milk}}: Does not affect fire rate, but does affect damage.']"
 Kidney Stone,20/20,['{{i|20/20}}/{{i|The Inner Eye}}/{{i|Mutant Spider}}: Only fires one stone.']
 Kidney Stone,The Inner Eye,['{{i|20/20}}/{{i|The Inner Eye}}/{{i|Mutant Spider}}: Only fires one stone.']
 Kidney Stone,Mutant Spider,['{{i|20/20}}/{{i|The Inner Eye}}/{{i|Mutant Spider}}: Only fires one stone.']
@@ -1815,6 +1869,14 @@ Mama Mega!,Car Battery|n,['{{i|Car Battery|n}}: No effect.']
 Mama Mega!,Void|nr,"[""{{i|Void|nr}}: Can't be consumed by Void."", ['{{dlc|r}} If consumed by Void, the Mama Mega! effect will be activated once only, the next time Void is activated.']]"
 Wait What?,Car Battery,['{{i|Car Battery}}: No effect.']
 Crooked Penny,Car Battery,"['{{dlc|nr}} {{i|Car Battery}}: Activates the item twice, quadrupling all items/drops in the room at a 25% chance. However, if the first activation fails, and the second activation succeeds, a copy of the item will be created as the original disappears, and the new copy will have no cost if it were in a {{R|Shop}} or {{R|Devil Room}}. This has a 25% chance as well, leaving the overall failure chance at 50% (a success followed by a fail will have the same effect as two fails).', ['{{Dlc|r}} Activates the item twice, quadrupling all items/drops in the room at a 25% chance but having a combined 75% chance to fail. A failure followed by a success generates 2 pennies.']]"
+Dull Razor,Blanket,"['{{dlc|nr}} {{i|Blanket}} / {{i|Holy Mantle}} / {{t|Wooden Cross}}: Absorbs the ""hit"", wasting both items.']"
+Dull Razor,Holy Mantle,"['{{dlc|nr}} {{i|Blanket}} / {{i|Holy Mantle}} / {{t|Wooden Cross}}: Absorbs the ""hit"", wasting both items.']"
+Dull Razor,Car Battery,"['{{dlc|nr}} {{i|Car Battery}}: Dull Razor activates twice, but ""damage"" is only dealt once, not triggering synergies a second time.']"
+Dull Razor,Cone Head,"['{{i|Cone Head}}: Can block the ""hit"" Dull Razor inflicts, causing no effect.']"
+Dull Razor,Crown of Light,['{{i|Crown of Light}}: Disables the effect for the current room.']
+Dull Razor,Habit,"[""{{dlc|r}} {{i|Habit}}: Doesn't charge Dull Razor itself."", [""'''Habit''' + {{i|Schoolbag}}: The secondary item will be charged."", [""'''Habit''' + '''Schoolbag''' + {{i|9 Volt}}: If Dull Razor is copied into the second active item through an effect such as {{i|Diplopia}} or {{i|Crooked Penny}}, the two Dull Razors can be switched between infinitely.""]]]"
+Dull Razor,Isaac's Heart,"[""{{i|Isaac's Heart}}: Completely nullifies the effect of Dull Razor.""]"
+Dull Razor,Purity,"['{{i|Purity}}: Cancels the current effect of Purity, allowing a different aura to be gained instead.']"
 Metronome,Blanket,"['{{i|Blanket}} / {{P|Holy Card}} / {{i|Holy Mantle}} / {{t|Wooden Cross}}: if Metronome is used while the shield is active, any stat changes or familiars/orbitals generated from Metronome will persist between rooms until Metronome is used again or replaced with another active item. Items that modify your stats and have other additional effects will keep the stats but the effect will be gone after leaving the room. For example, the tears down applied from {{i|The Inner Eye}} will persist between rooms, but Isaac will not shoot three tears at once.', ['Some tear effects from items will remain active between rooms. These include:', [""{{i|Continuum}}, {{i|Epic Fetus}}, {{i|Eve's Mascara}}, {{i|Godhead}}, {{i|Ipecac}}, {{i|Jacob's Ladder}}, {{i|The Ludovico Technique}}, {{i|A Lump of Coal}}, {{i|Monstro's Lung}}, {{i|My Reflection}}, {{i|Ouija Board}}, {{i|Pop!}}, {{i|Rubber Cement}}, {{i|Sacred Heart}}, {{i|Spoon Bender}}, {{i|Strange Attractor}}, {{i|Technology Zero}}""], 'Some items behave unusually after leaving the room while the Holy Mantle shield was active:', [""Items that grant flight: Isaac's appearance is reset back to normal, but he is still able to fly."", ""{{i|1up!}}: the mushroom familiar continues to follow Isaac, but doesn't grant an extra life."", ""{{i|Cupid's Arrow}}: the tear appearance is reset back to normal, but the tears still travel through enemies."", '{{i|Fire Mind}}: the tear appearance is reset back to normal, but tears can still explode when they hit an enemy.', '{{i|Mysterious Liquid}}: the tear appearance is reset back to normal, but tears will still leave green creep on the ground.', '{{i|Spear of Destiny}}: does not persist between rooms.']]]"
 Metronome,Holy Mantle,"['{{i|Blanket}} / {{P|Holy Card}} / {{i|Holy Mantle}} / {{t|Wooden Cross}}: if Metronome is used while the shield is active, any stat changes or familiars/orbitals generated from Metronome will persist between rooms until Metronome is used again or replaced with another active item. Items that modify your stats and have other additional effects will keep the stats but the effect will be gone after leaving the room. For example, the tears down applied from {{i|The Inner Eye}} will persist between rooms, but Isaac will not shoot three tears at once.', ['Some tear effects from items will remain active between rooms. These include:', [""{{i|Continuum}}, {{i|Epic Fetus}}, {{i|Eve's Mascara}}, {{i|Godhead}}, {{i|Ipecac}}, {{i|Jacob's Ladder}}, {{i|The Ludovico Technique}}, {{i|A Lump of Coal}}, {{i|Monstro's Lung}}, {{i|My Reflection}}, {{i|Ouija Board}}, {{i|Pop!}}, {{i|Rubber Cement}}, {{i|Sacred Heart}}, {{i|Spoon Bender}}, {{i|Strange Attractor}}, {{i|Technology Zero}}""], 'Some items behave unusually after leaving the room while the Holy Mantle shield was active:', [""Items that grant flight: Isaac's appearance is reset back to normal, but he is still able to fly."", ""{{i|1up!}}: the mushroom familiar continues to follow Isaac, but doesn't grant an extra life."", ""{{i|Cupid's Arrow}}: the tear appearance is reset back to normal, but the tears still travel through enemies."", '{{i|Fire Mind}}: the tear appearance is reset back to normal, but tears can still explode when they hit an enemy.', '{{i|Mysterious Liquid}}: the tear appearance is reset back to normal, but tears will still leave green creep on the ground.', '{{i|Spear of Destiny}}: does not persist between rooms.']]]"
 Metronome,The Inner Eye,"['{{i|Blanket}} / {{P|Holy Card}} / {{i|Holy Mantle}} / {{t|Wooden Cross}}: if Metronome is used while the shield is active, any stat changes or familiars/orbitals generated from Metronome will persist between rooms until Metronome is used again or replaced with another active item. Items that modify your stats and have other additional effects will keep the stats but the effect will be gone after leaving the room. For example, the tears down applied from {{i|The Inner Eye}} will persist between rooms, but Isaac will not shoot three tears at once.', ['Some tear effects from items will remain active between rooms. These include:', [""{{i|Continuum}}, {{i|Epic Fetus}}, {{i|Eve's Mascara}}, {{i|Godhead}}, {{i|Ipecac}}, {{i|Jacob's Ladder}}, {{i|The Ludovico Technique}}, {{i|A Lump of Coal}}, {{i|Monstro's Lung}}, {{i|My Reflection}}, {{i|Ouija Board}}, {{i|Pop!}}, {{i|Rubber Cement}}, {{i|Sacred Heart}}, {{i|Spoon Bender}}, {{i|Strange Attractor}}, {{i|Technology Zero}}""], 'Some items behave unusually after leaving the room while the Holy Mantle shield was active:', [""Items that grant flight: Isaac's appearance is reset back to normal, but he is still able to fly."", ""{{i|1up!}}: the mushroom familiar continues to follow Isaac, but doesn't grant an extra life."", ""{{i|Cupid's Arrow}}: the tear appearance is reset back to normal, but the tears still travel through enemies."", '{{i|Fire Mind}}: the tear appearance is reset back to normal, but tears can still explode when they hit an enemy.', '{{i|Mysterious Liquid}}: the tear appearance is reset back to normal, but tears will still leave green creep on the ground.', '{{i|Spear of Destiny}}: does not persist between rooms.']]]"
@@ -2196,10 +2258,6 @@ Member Card,Eden's Soul,"[""{{i|Eden's Soul}}/{{i|Magic Skin}}/{{i|Mystery Gift}
 Member Card,Magic Skin,"[""{{i|Eden's Soul}}/{{i|Magic Skin}}/{{i|Mystery Gift}}: Only shop pool items are created if used in the underground shop.""]"
 Member Card,Mystery Gift,"[""{{i|Eden's Soul}}/{{i|Magic Skin}}/{{i|Mystery Gift}}: Only shop pool items are created if used in the underground shop.""]"
 Member Card,Restock,['{{i|Restock}}: Items bought in the underground shop will also be restocked.']
-Battery Pack,Alabaster Box,['{{I|Alabaster Box}} / {{I|Eraser}} / {{I|Notched Axe}}: No effect.']
-Battery Pack,Eraser,['{{I|Alabaster Box}} / {{I|Eraser}} / {{I|Notched Axe}}: No effect.']
-Battery Pack,Notched Axe,['{{I|Alabaster Box}} / {{I|Eraser}} / {{I|Notched Axe}}: No effect.']
-Battery Pack,Mega Blast,['{{I|Mega Blast}}: Will only give 3 ticks of charge.']
 Ocular Rift,Epic Fetus,['{{i|Epic Fetus}}: Overridden by Epic Fetus.']
 Ocular Rift,Mom's Knife,"[""{{I|Mom's Knife}}: Overridden by Mom's Knife.""]"
 Bird Cage,Bird Cage,"[""{{i|Bird Cage}}: Multiple copies of the item provide no benefit and won't make more than one familiar appear.""]"
@@ -2234,8 +2292,6 @@ Bird's Eye,Proptosis,"[""{{I|Proptosis}}: No effect. Fires don't shrink or lose 
 Bird's Eye,Sprinkler,"[""{{I|Sprinkler}}: No effect. Sprinkler doesn't shoot fires.""]"
 Birthright,Sacrificial Altar,"[""{{i|Sacrificial Altar}} + {{c|Tainted Eve}}: Clots won't drop half red hearts after getting sacrificed.""]"
 Red Stew,Red Stew,['{{i|Red Stew}}: Picking up another stew will reset the bonus to its full amount.']
-Knife Piece 1,Spindown Dice,['{{I|Spindown Dice}}: Rerolls into {{I|Mega Mush}}.']
-Knife Piece 1,Mega Mush,['{{I|Spindown Dice}}: Rerolls into {{I|Mega Mush}}.']
 Bot Fly,Spindown Dice,['{{i|Spindown Dice}}: Turns into {{i|Death Certificate}} when rerolled by Spindown Dice.']
 Bot Fly,Death Certificate,['{{i|Spindown Dice}}: Turns into {{i|Death Certificate}} when rerolled by Spindown Dice.']
 Purgatory,Dark arts,['{{I|Dark arts}}: Walking over cracks will not summon ghosts while under the effect of Dark Arts.']
@@ -2270,8 +2326,6 @@ Brimstone Bombs,Anarchist Cookbook,"['{{i|Anarchist Cookbook}}: The lasers fired
 4.5 Volt,The Candle,"['Does not charge items which gain charge over time by default. (e.g. {{i|Sharp Straw}}, {{I|The Candle}}, {{i|Butter Bean}} etc.)', ['Items converted to charge-over-time by {{i|9 Volt}} are not affected and may gain charge in both ways.']]"
 4.5 Volt,Butter Bean,"['Does not charge items which gain charge over time by default. (e.g. {{i|Sharp Straw}}, {{I|The Candle}}, {{i|Butter Bean}} etc.)', ['Items converted to charge-over-time by {{i|9 Volt}} are not affected and may gain charge in both ways.']]"
 4.5 Volt,Alabaster Box,['{{i|Alabaster Box}}: No effect. It still must be charged with Soul Hearts.']
-Fruity Plum,BFFS!,['{{I|BFFS!}} / {{I|Hive Mind}}: Doubles its contact damage and tear damage. The effect does not stack.']
-Fruity Plum,Hive Mind,['{{I|BFFS!}} / {{I|Hive Mind}}: Doubles its contact damage and tear damage. The effect does not stack.']
 Star of Bethlehem,Adrenaline,"[""{{i|Adrenaline}}: Isaac's damage before Adrenaline's flat damage increase is increased by 1.2x, then damage after is increased 1.5x.""]"
 Star of Bethlehem,Bloody Lust,"[""{{i|Bloody Lust}}: Isaac's damage before Bloody Lust's flat damage increase is increased by 1.2x, then damage after is increased 1.5x.""]"
 Star of Bethlehem,Hallowed Ground,['{{i|Hallowed Ground}}: The damage multiplier from the aura does not stack with white poop.']
@@ -2564,3 +2618,273 @@ Stye,Technology 2,['{{I|Brimstone}} / {{I|Technology 2}}: Has a 50% chance to ga
 Stye,Stapler,['{{I|Stapler}} / {{C|Cain}} + {{I|Chemical Peel}} / {{I|Blood Clot}}: Each fired tear will have the effects of either Stye or Chemical Peel/Blood Clot.']
 Stye,Chemical Peel,['{{I|Stapler}} / {{C|Cain}} + {{I|Chemical Peel}} / {{I|Blood Clot}}: Each fired tear will have the effects of either Stye or Chemical Peel/Blood Clot.']
 Stye,Blood Clot,['{{I|Stapler}} / {{C|Cain}} + {{I|Chemical Peel}} / {{I|Blood Clot}}: Each fired tear will have the effects of either Stye or Chemical Peel/Blood Clot.']
+Mysterious Candy,Hallowed Ground,"[""{{I|Hallowed Ground}} / {{I|Midas' Touch}}: Poops spawned by the Candy will never be white or golden poops, respectively.""]"
+Mysterious Candy,Midas' Touch,"[""{{I|Hallowed Ground}} / {{I|Midas' Touch}}: Poops spawned by the Candy will never be white or golden poops, respectively.""]"
+Hook Worm,Brimstone,"['{{i|Brimstone}}: Effect applies to the Brimstone beam, effectively increasing the width of the beam. {{dlc|nr}} It also adds an extra tick to the beam.']"
+Hook Worm,Revelation,"['{{I|Revelation}} / {{I|Tech.5}} / {{I|Technology}} / {{I|Technology 2}}: All the beams are affected, effectively increasing width and hitbox.']"
+Hook Worm,Tech.5,"['{{I|Revelation}} / {{I|Tech.5}} / {{I|Technology}} / {{I|Technology 2}}: All the beams are affected, effectively increasing width and hitbox.']"
+Hook Worm,Technology,"['{{I|Revelation}} / {{I|Tech.5}} / {{I|Technology}} / {{I|Technology 2}}: All the beams are affected, effectively increasing width and hitbox.']"
+Hook Worm,Technology 2,"['{{I|Revelation}} / {{I|Tech.5}} / {{I|Technology}} / {{I|Technology 2}}: All the beams are affected, effectively increasing width and hitbox.']"
+Hook Worm,Tiny Planet,['{{i|Tiny Planet}} / {{i|Tech X}}: No effect.']
+Hook Worm,Tech X,['{{i|Tiny Planet}} / {{i|Tech X}}: No effect.']
+Hook Worm,Tractor Beam,"[""{{i|Tractor Beam}}: The beam overrides the worm's tear movement effect, but keeps the +10 range.""]"
+AAA Battery,The Battery,['{{i|The Battery}}: No effect on the second level charge.']
+Monkey Paw,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: The trinket will drop 2 black hearts instead of 1 (having both Mom's Box and the golden version won't further increase the effect).""]"
+Monkey Paw,Scapular,"[""{{i|Scapular}}: If Scapular's effect is triggered, the {{E|soul heart}} awarded will not cancel the effect of Monkey Paw.""]"
+???'s Soul,Box of Friends,['{{i|Box of Friends}}: No effect; does not duplicate.']
+???'s Soul,Sacrificial Altar,"['{{i|Sacrificial Altar}}: Sacrifices the familiar, destroying the trinket and generating an item normally.']"
+Counterfeit Penny,Mom's Box,"[""{{i|Mom's Box}}: No effect.""]"
+Cursed Skull,Scapular,"['{{I|Scapular}}: Provided Scapular can always trigger, grants effective immortality, as the soul heart is always given before the teleport takes place.', ['+{{I|The Wafer}}: Grants true immortality, plus one hit on the soul heart, allowing the player to get hit once before teleporting.']]"
+Judas' Tongue,A Pound of Flesh,"[""{{I|A Pound of Flesh}} / {{T|Keeper's Bargain}}: The tongue provides no discounts for any item costing money.""]"
+Lucky Toe,Lucky Foot,"['{{i|Lucky Foot}}: The extra luck-independent chance of room clearing drops from Lucky Foot applies only in a diminished form, unless at zero or negative luck. This bonus from Lucky Toe is still retained.']"
+Pinky Eye,The Common Cold,"['{{i|The Common Cold}}: Activation rates are individually applied to each tear, effectively allowing for higher amounts of poison tears. However at 12 Luck, this trinket will not do anything for Isaac as The Common Cold is guaranteed to make every tear poisoned at that point.']"
+Ring Worm,Backstabber,"['{{I|Backstabber}}: Due to the unusual tear travel, Ring Worm may be used to hit enemies in the back, without having the need to be placed behind them.']"
+Ring Worm,Tractor Beam,"['{{i|Tractor Beam}}: The altered pattern tears travel in is confined to the beam.', [""{{dlc|r}} Isaac can benefit from Ring Worm's stat bonus and spectral tears without losing accuracy.""]]"
+Samson's Lock,Uranus,"[""{{I|Uranus}}: Only enemies killed by icicles from statues, bombs, familiars and other sources will increment Samson's Lock counter, thus rendering Samson's Lock quite difficult to use.""]"
+Missing Poster,Birthright,"[""{{i|Birthright}}: {{c|The Lost}}'s Birthright effect will apply after respawning as him, even if Birthright was obtained prior to dying.""]"
+Mom's Locket,Pay to Play,"[""{{E|Golden Key}}/{{i|Pay to Play}}/{{t|Paper Clip}}: Renders Mom's Locket less effective as the trinket requires a key is consumed by the lock in order to heal Isaac.""]"
+Blasting Cap,Scatter Bombs,['{{i|Scatter Bombs}}: Can cause more than one bomb pickup to spawn.']
+Brown Cap,Dirty Mind,['{{T|Dingle Berry}} / {{I|Dirty Mind}}: Dips do not explode.']
+Lazy Worm,Godhead,"['{{i|Godhead}} - Tears will take longer to hit enemies, increasing the damage dealt by the aura.']"
+Lazy Worm,The Ludovico Technique,['{{i|The Ludovico Technique}} - Decreased shot speed makes it harder to keep the tear on enemies.']
+Lazy Worm,My Reflection,['{{dlc|nr}} {{i|My Reflection}} / {{i|Pop!}} / {{i|Lachryphagy}} - Decreases effective range.']
+Lazy Worm,Pop!,['{{dlc|nr}} {{i|My Reflection}} / {{i|Pop!}} / {{i|Lachryphagy}} - Decreases effective range.']
+Lazy Worm,Lachryphagy,['{{dlc|nr}} {{i|My Reflection}} / {{i|Pop!}} / {{i|Lachryphagy}} - Decreases effective range.']
+Bob's Bladder,Remote Detonator,"['{{I|Remote Detonator}}: Allows for maximization of creep damage, potentially dealing more damage over time to a boss than just a singular bomb.']"
+Second Hand,Ball Of Tar,['{{Dlc|a+nr}}{{I|Ball Of Tar}}: The creep generated by Ball of Tar will disable the slowing effect.']
+Second Hand,The Bean,['{{i|The Bean}} / {{i|The Black Bean}} / {{i|Contagion}}: The [[poison]] duration from these items is not affected by Second Hand.']
+Second Hand,The Black Bean,['{{i|The Bean}} / {{i|The Black Bean}} / {{i|Contagion}}: The [[poison]] duration from these items is not affected by Second Hand.']
+Second Hand,Contagion,['{{i|The Bean}} / {{i|The Black Bean}} / {{i|Contagion}}: The [[poison]] duration from these items is not affected by Second Hand.']
+Second Hand,Hemoptysis,['{{i|Hemoptysis}}: The Brimstone buff duration is affected by Second Hand. This also applies to {{C|Tainted Azazel}}.']
+Second Hand,2Spooky,"[""{{i|2Spooky}} / {{I|Venus}}: The fear/charm effect will last for twice as long after an enemy leaves Isaac's radius.""]"
+Second Hand,Venus,"[""{{i|2Spooky}} / {{I|Venus}}: The fear/charm effect will last for twice as long after an enemy leaves Isaac's radius.""]"
+NO!,Book of Virtues,"[""{{i|Book of Virtues}}: Will not be prevented from spawning, since it's treated as a passive item. Is nigh-guaranteed to spawn in a {{R|Library}}.""]"
+NO!,TMTRAINER,['{{I|TMTRAINER}}: Active items generated by TMTRAINER will not be prevented from spawning.']
+Child Leash,best bud,['{{I|best bud}} / {{I|distant admiration}} / {{I|forever alone}} / {{I|friend zone}}: Will not orbit closer to Isaac.']
+Child Leash,distant admiration,['{{I|best bud}} / {{I|distant admiration}} / {{I|forever alone}} / {{I|friend zone}}: Will not orbit closer to Isaac.']
+Child Leash,forever alone,['{{I|best bud}} / {{I|distant admiration}} / {{I|forever alone}} / {{I|friend zone}}: Will not orbit closer to Isaac.']
+Child Leash,friend zone,['{{I|best bud}} / {{I|distant admiration}} / {{I|forever alone}} / {{I|friend zone}}: Will not orbit closer to Isaac.']
+Store Key,Pay to Play,['{{i|Pay to Play}}: Overrides Store Key. Shops still require a coin to enter.']
+Walnut,Smelter,['{{i|Smelter}}: Walnut will still only activate once after being absorbed.']
+Fish Tail,7 Seals,['{{i|7 Seals}}: No effect.']
+Fish Tail,Parasitoid,['{{I|Parasitoid}}: No effect.']
+Nose Goblin,Brimstone,"['{{Dlc|r}}{{i|Brimstone}}:  When dealing damage, there is a chance for a booger tear to attach to the affected enemy. Sometimes the brim will snap because of its homing effect.']"
+Nose Goblin,The Ludovico Technique,"[""{{Dlc|nr}} {{i|The Ludovico Technique}}: The tear has a random chance to turn green and disappear. This doesn't make the tear stick to enemies or grant any additional damage. The tear is respawned at Isaac's location."", ['{{Dlc|r}} When dealing damage, there is a chance for a booger tear to attach to the affected enemy.']]"
+Nose Goblin,Spirit Sword,"['{{i|Spirit Sword}}  When dealing damage, there is a chance for a booger tear to attach to the affected enemy. Applies to both swings and projectile swords.']"
+Nose Goblin,Technology,"['{{Dlc|nr}} {{i|Technology}} / {{i|Tech X}}: No effect.', ['{{Dlc|r}} When dealing damage, there is a chance for a booger tear to attach to the affected enemy.']]"
+Nose Goblin,Tech X,"['{{Dlc|nr}} {{i|Technology}} / {{i|Tech X}}: No effect.', ['{{Dlc|r}} When dealing damage, there is a chance for a booger tear to attach to the affected enemy.']]"
+Nose Goblin,Technology 2,"['{{Dlc|nr}} {{I|Technology 2}}: Only the tears can become boogers.', ['{{Dlc|r}} The laser can apply boogers, and has a pretty high chance in doing so.']]"
+Nose Goblin,Trisagion,"['{{Dlc|nr}} {{i|Trisagion}}: Overrides Nose Goblin.', ['{{Dlc|r}} Trisagion tears have a chance to gain homing effect and apply boogers every tick.']]"
+Fragmented Card,Luna,"['{{i|Luna}}: The effects stack, spawning three secret rooms on the floor.']"
+Fragmented Card,Mom's Box|r,"[""{{A|Golden Trinket}} / {{i|Mom's Box|r}}: No effect. Only one secret room is added.""]"
+Meconium,Hallowed Ground,"['{{i|Hallowed Ground}}: Although {{t|Meconium}} cannot replace the poop Hallowed Ground spawns with, {{E|Black Poop}} has a chance to replace {{E|White Poop}}s that would have been created by other items which have synergies with Hallowed Ground.']"
+Ouroboros Worm,Brimstone,"['{{dlc|nr}} {{i|Brimstone}}: Overrides Ouroboros Worm.', ['{{dlc|r}} The Brimstone laser is shot in a spiral pattern. Homing does take effect, but is hardly noticeable.']]"
+Ouroboros Worm,The Ludovico Technique,"['{{i|The Ludovico Technique}}: The tear spirals around in a difficult to control manner, with the added homing chance further complicating things.']"
+Ouroboros Worm,Mom's Knife,"[""{{dlc|nr}}{{i|Mom's Knife}}: Overrides Ouroboros Worm."", ['{{dlc|r}} Works as intended. The homing, however, is questionable.']]"
+Ouroboros Worm,Proptosis,['{{I|Proptosis}}: The curious pattern allows dealing full damage from a safer range.']
+Ouroboros Worm,Tech X,"['{{dlc|nr}}{{i|Tech X}}: Overrides Ouroboros Worm.', ['{{dlc|r}} Tech X now inherits the homing chance benefit, without being affected by the pattern.']]"
+Ouroboros Worm,Technology,"['{{dlc|nr}}{{i|Technology}}: Grants [[spectral tears]] without a change in pattern or a chance of homing shots.', [""{{dlc|r}} The tech laser is now affected by the pattern. The homing DOES take affect, but it's fairly hard to notice.""]]"
+Dim Bulb,9 Volt,"['{{I|9 Volt}}: Renders Dim Bulb useless, save for 1 charge items.']"
+Dim Bulb,Abyss|n,"[""{{dlc|r}} Dim Bulb produces no effect with active items in consumable slots, such as {{c|Tainted Apollyon}}'s {{i|Abyss|n}}, {{c|Tainted Bethany}}'s {{i|Lemegeton|n}} or {{C|Tainted Magdalene}}'s {{I|Yum Heart}}.""]"
+Dim Bulb,Lemegeton|n,"[""{{dlc|r}} Dim Bulb produces no effect with active items in consumable slots, such as {{c|Tainted Apollyon}}'s {{i|Abyss|n}}, {{c|Tainted Bethany}}'s {{i|Lemegeton|n}} or {{C|Tainted Magdalene}}'s {{I|Yum Heart}}.""]"
+Dim Bulb,Yum Heart,"[""{{dlc|r}} Dim Bulb produces no effect with active items in consumable slots, such as {{c|Tainted Apollyon}}'s {{i|Abyss|n}}, {{c|Tainted Bethany}}'s {{i|Lemegeton|n}} or {{C|Tainted Magdalene}}'s {{I|Yum Heart}}.""]"
+Duct Tape,Ball of Bandages,['{{i|Ball of Bandages}} / {{i|Cube of Meat}}: No effect at level 3 and 4.']
+Duct Tape,Cube of Meat,['{{i|Ball of Bandages}} / {{i|Cube of Meat}}: No effect at level 3 and 4.']
+Duct Tape,Big Chubby,"['{{i|Big Chubby}}: Will still charge forward sluggishly, but return to the same spot each time.']"
+Duct Tape,Bob's Brain,"[""{{i|Bob's Brain}}: Will still charge forward slowly, but return to the same spot each time.""]"
+Duct Tape,Dry Baby,"['{{I|Dry Baby}} /{{I|Farting Baby}}: If Dry Baby / Farting Baby is positioned correctly (pick up Duct Tape right as the familiar is on top of Isaac), it makes Isaac completely invulnerable to projectiles.', ['This same technique can be used with {{C|Lilith}} to shoot from her eyes.']]"
+Duct Tape,Farting Baby,"['{{I|Dry Baby}} /{{I|Farting Baby}}: If Dry Baby / Farting Baby is positioned correctly (pick up Duct Tape right as the familiar is on top of Isaac), it makes Isaac completely invulnerable to projectiles.', ['This same technique can be used with {{C|Lilith}} to shoot from her eyes.']]"
+Duct Tape,Gemini,"['{{i|Gemini}}: Will stay in place relative to Isaac, but the effect of chasing enemies still persists.']"
+Duct Tape,Jaw Bone,"['{{i|Jaw Bone}}: Will still charge forward slowly, but return to the same spot each time.']"
+Duct Tape,Little Chubby,"['{{i|Little Chubby}}: Will still charge forward, but return to the same spot each time.']"
+Duct Tape,Psy Fly,"['{{I|Psy Fly}}: Will stick wherever taped, but will still deflect bullets whenever possible.']"
+Duct Tape,Smart Fly,"['{{i|Smart Fly}}: Will stay in place when orbiting Isaac, but will still pursue enemies.']"
+Locust of War,Bomber Boy|nr,['{{I|Bomber Boy|nr}}: The explosion damage is halved to 30 without additional explosions.']
+Locust of War,Ghost Bombs,['{{I|Ghost Bombs}}: No ghost is spawned.']
+Locust of War,Glitter Bombs|nr,['{{I|Glitter Bombs|nr}}: Pickups and trinkets will not spawn from locust explosions.']
+Locust of War,Mr. Mega,['{{I|Mr. Mega}}: No additional explosion damage or radius.']
+Locust of War,Scatter Bombs|n,['{{I|Scatter Bombs|n}}: Mini bombs are not spawned.']
+Locust of War,Sticky Bombs,['{{I|Sticky Bombs}}: No spiders are spawned on enemy death.']
+Stem Cell,Blood Oath,['{{i|Blood Oath}}: The healing will occur before any health is drained.']
+Hairpin,The Battery,"[""{{i|The Battery}}: If the item doesn't have a full first charge level, it will be filled. If the first level is full, the second charge level will be filled."", ['{{dlc|r}} The item will gain both its charges.']]"
+Hairpin,Mega Blast,['{{i|Mega Blast}}: Mega Blast gains only 3 charge units.']
+Wooden Cross,Mom's Box,"[""{{a|Golden Trinket}} / {{i|Mom's Box}}: No additional effect.""]"
+Butter!,The Candle,['Controllable actives: Active items that require additional input to control after being used (like {{i|The Candle}} or {{i|Breath of Life}}) create no effect and are dropped on the ground. They retain charge when picked up.']
+Butter!,Breath of Life,['Controllable actives: Active items that require additional input to control after being used (like {{i|The Candle}} or {{i|Breath of Life}}) create no effect and are dropped on the ground. They retain charge when picked up.']
+Butter!,Monster Manual,"['Familiar spawning actives: Active items that spawn [[Blue Fly|Blue Flies]], [[Blue Spider]]s, or items like {{i|Monster Manual}} will spawn those familiars before dropping.', ['This applies to active items that spawn [[pickup]]s.']]"
+Butter!,The Bible,['{{i|The Bible}}: The flight granted by the Bible persists even though the item is dropped.']
+Butter!,Damocles,"['{{i|Damocles}}: Using active item will drop it and spawns an extra item pedestal on the ground; Getting hit may cause Isaac to drop an activated Damocles, one of the only ways to remove the item without the sword falling.']"
+Butter!,Glowing Hour Glass,"['{{i|Glowing Hour Glass}}: Is removed from Isaac and dropped, but is given back to Isaac discharged upon going back in time into the previous room. The room in which Glowing Hour Glass was used will not contain another Glowing Hour Glass.']"
+Butter!,How to Jump,['{{i|How to Jump}}: Isaac animates a jump but his movement remains normal and he cannot go over any [[obstacle]]s.']
+Butter!,Metronome,"['{{i|Metronome}}: Effect from the Metronome is immediately canceled beyond the gain of hearts, coins, bombs, or keys. Visual effects may persist until leaving the room.']"
+Butter!,Notched Axe|r,['{{i|Notched Axe|r}}: Notched Axe is dropped when the charge bar is empty.']
+Butter!,The Pinking Shears,"['{{i|The Pinking Shears}}: The flight granted by The Pinking Shears persists, but the body familiar is immediately canceled.']"
+Butter!,Razor Blade,['{{i|Razor Blade}}: Deals damage to Isaac as normal but does not increase damage for the current room.']
+Filigree Feather,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: No effect.""]"
+Extension Cord,Mom's Box,"[""'''Extension Cord''': Holding two copies or golden version of this trinket, or having {{I|Mom's Box}} has no effect.""]"
+Jawbreaker,Tough Love,"['{{i|Tough Love}}: Activation rates are individually applied to each tear, effectively allowing for higher amounts of teeth. However at 9 Luck, this trinket is no longer needed, as Tough Love will already guarantee that every shot is a tooth at that point.']"
+Short Fuse,Dr. Fetus,['{{i|Dr. Fetus}}: Bombs from Dr. Fetus also explode more quickly.']
+Short Fuse,Epic Fetus,['{{I|Epic Fetus}}: No effect.']
+Broken Padlock,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: No effect.""]"
+Broken Padlock,Pay to Play,['{{i|Pay to Play}}: Doors can still be opened up normally via explosions.']
+'M,Book of Virtues,"['{{i|Book of Virtues}}: If an active item is combined with the Book, only the active item is rerolled; the Book remains unchanged. If no active item is combined with the Book, the Book will be rerolled on use. ‘M also cannot give Book of Virtues, as it is considered a passive item.']"
+'M,Breath of Life,"['{{i|Breath of Life}}: Breath of Life is rerolled once the charge is fully expended. After one second, Isaac starts getting hurt as if he was still using Breath of Life until he leaves the room.']"
+'M,Broken Glass Cannon,['{{i|Broken Glass Cannon}}: The item is rerolled instead of turning into Glass Cannon. This item can also be given by ‘M directly.']
+'M,Car Battery,['{{i|Car Battery}}: The current active item is used twice before it is rerolled.']
+'M,Esau Jr.,"['{{i|Esau Jr.}}: Isaac will transform into Esau Jr. if ‘M rerolls Isaac’s active item into Esau Jr. However, he will not transform into Esau Jr. if the item itself is used.', ['As the original character will be holding ‘M, Esau Jr. must be used twice for it to be rerolled.']]"
+'M,Friendly Ball,"['{{i|Friendly Ball}} / {{i|Moving Box}}: As the item must be used twice to have its intended effect, rerolling it on the first use will prevent it from being used to its full effect.']"
+'M,Moving Box,"['{{i|Friendly Ball}} / {{i|Moving Box}}: As the item must be used twice to have its intended effect, rerolling it on the first use will prevent it from being used to its full effect.']"
+'M,Glowing Hour Glass,"['{{i|Glowing Hour Glass}}: Glowing Hour Glass rewinds time before the reroll goes through, preventing it from happening. This is avoided when used during the Beast fight and will be rerolled into another active.', ['If Glowing Hour Glass rerolls into a rechargeable item(e.g. {{I|Spin to Win}}, {{I|The Boomerang}}), The Glass will have all its charges restored, allowing for infinite rewinding.']]"
+'M,Magic Skin,"['{{i|Magic Skin}}: Items given by Magic Skin cannot be Magic Skin even if it’s rerolled on use. However, as Isaac will not be holding Magic Skin after using it, it will be able to replace future items after being rerolled.']"
+'M,Notched Axe,['{{i|Notched Axe}}: The item will be rerolled once it runs out of durability.']
+'M,Schoolbag,['{{i|Schoolbag}}: Only the primary item is rerolled.']
+Apple of Sodom,Candy Heart,['{{i|Candy Heart}}: Does not increase stats if the heart is converted to spiders.']
+Apple of Sodom,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: No effect.""]"
+Apple of Sodom,The Jar,['{{i|The Jar}}: Has a 50% chance to turn a heart into a blue spider or put it in The Jar.']
+Forgotten Lullaby,Gello,['{{c|Tainted Lilith}}: No effect on her special {{i|Gello}}.']
+Brain Worm,Anti-Gravity,"[""{{i|Anti-Gravity}}: Tears will snap to enemies after they're released, but not while the tears are staying in place.""]"
+Brain Worm,Brimstone,"[""{{i|Brimstone}} / {{I|Montezuma's Revenge}} / {{i|Revelation}} / {{i|Technology}} / {{i|Technology 2}}: Laser will snap regardless of length from enemy. Also works with {{C|Azazel}}'s Brimstone.""]"
+Brain Worm,Montezuma's Revenge,"[""{{i|Brimstone}} / {{I|Montezuma's Revenge}} / {{i|Revelation}} / {{i|Technology}} / {{i|Technology 2}}: Laser will snap regardless of length from enemy. Also works with {{C|Azazel}}'s Brimstone.""]"
+Brain Worm,Revelation,"[""{{i|Brimstone}} / {{I|Montezuma's Revenge}} / {{i|Revelation}} / {{i|Technology}} / {{i|Technology 2}}: Laser will snap regardless of length from enemy. Also works with {{C|Azazel}}'s Brimstone.""]"
+Brain Worm,Technology,"[""{{i|Brimstone}} / {{I|Montezuma's Revenge}} / {{i|Revelation}} / {{i|Technology}} / {{i|Technology 2}}: Laser will snap regardless of length from enemy. Also works with {{C|Azazel}}'s Brimstone.""]"
+Brain Worm,Technology 2,"[""{{i|Brimstone}} / {{I|Montezuma's Revenge}} / {{i|Revelation}} / {{i|Technology}} / {{i|Technology 2}}: Laser will snap regardless of length from enemy. Also works with {{C|Azazel}}'s Brimstone.""]"
+Brain Worm,Cricket's Body,"[""{{I|Cricket's Body}}: Both the main and split tears are affected by Brain Worm.""]"
+Brain Worm,Dr. Fetus,['{{I|Dr. Fetus}}: No effect on bombs.']
+Brain Worm,Eye of the Occult,"[""{{i|Eye of the Occult}}: Tears briefly snap to target enemies but Isaac's control quickly takes over them.""]"
+Brain Worm,The Ludovico Technique,['{{i|The Ludovico Technique}}: No effect.']
+Brain Worm,Mom's Knife,"[""{{I|Mom's Knife}}: No effect.""]"
+Brain Worm,Tech X,['{{I|Tech X}}: No effect.']
+Brain Worm,Tractor Beam,['{{I|Tractor Beam}}: No Effect.']
+Perfection,Blood Oath,"['{{I|Blood Oath}}: The forced damage will not destroy the trinket, or prevent its acquisition.']"
+Perfection,Marbles,['[[Gulp!]] / {{i|Marbles}} / {{i|Smelter}}: The effect is still lost after taking damage.']
+Perfection,Smelter,['[[Gulp!]] / {{i|Marbles}} / {{i|Smelter}}: The effect is still lost after taking damage.']
+Devil's Crown,Redemption,['{{i|Redemption}}: Devil Treasure Rooms will count as regular {{r|Devil Room}}s for the purposes of this item.']
+Panic Button,Blank Card,['{{i|Blank Card}} with {{P|VII - The Chariot}} / {{P|VII - The Chariot?}}: Activate their respective effects without consuming it.']
+Panic Button,Clear Rune,['{{i|Clear Rune}} with {{P|Rune of Algiz}} / {{P|Blank Rune}} / {{P|Rune Shard}} / {{P|Soul of Judas}}: Activate their respective effects without consuming it.']
+Panic Button,Blood Rights,"['{{i|Blood Rights}}: Triggers the effect on hit, at the cost of every hit making Isaac take full-heart damage.']"
+Panic Button,Book of Shadows,"['{{I|Book of Shadows}}: Activates the item, giving Isaac the [[shield]] effect for 10 seconds.']"
+Panic Button,Bursting Sack,"[""{{i|Bursting Sack}}: Even though the neutral spiders spawned by the item can't possibly hurt Isaac, the trinket still activates when contact is made with them.""]"
+Panic Button,Butter Bean,"['{{i|Butter Bean}} / {{i|Wait What?}}: Isaac farts before being hit, knocking back enemies and projectiles.']"
+Panic Button,Wait What?,"['{{i|Butter Bean}} / {{i|Wait What?}}: Isaac farts before being hit, knocking back enemies and projectiles.']"
+Panic Button,Dark Arts,"[""{{I|Dark Arts}}: Unlike many other items on this list, Dark Arts can be used to negate damage more than once per room, making it an excellent defensive item to use with Panic Button. Note that this does '''not''' work while playing as{{C|Tainted Judas}}.""]"
+Panic Button,Dull Razor,"['{{i|Dull Razor}}: Activates the item and gives Isaac invincibility frames before being hit, making it work similarly to {{i|Holy Mantle}} every two rooms. If combined with {{i|9 Volt}} or {{t|AAA Battery}}, works every room, just like Holy Mantle.']"
+Panic Button,Holy Mantle,"['{{i|Dull Razor}}: Activates the item and gives Isaac invincibility frames before being hit, making it work similarly to {{i|Holy Mantle}} every two rooms. If combined with {{i|9 Volt}} or {{t|AAA Battery}}, works every room, just like Holy Mantle.']"
+Panic Button,9 Volt,"['{{i|Dull Razor}}: Activates the item and gives Isaac invincibility frames before being hit, making it work similarly to {{i|Holy Mantle}} every two rooms. If combined with {{i|9 Volt}} or {{t|AAA Battery}}, works every room, just like Holy Mantle.']"
+Panic Button,Glowing Hour Glass,"[""{{I|Glowing Hour Glass}}: If consumed with {{I|Void}}, every time Isaac is hit, if it's charged, he is sent back to the previous room without taking damage.""]"
+Panic Button,Void,"[""{{I|Glowing Hour Glass}}: If consumed with {{I|Void}}, every time Isaac is hit, if it's charged, he is sent back to the previous room without taking damage.""]"
+Panic Button,Holy Mantle,"[""{{i|Holy Mantle}}: Does ''not'' stop the trinket from activating, making Isaac still take damage from items such as {{i|IV Bag}}, while bypassing Holy Mantle's shield."", ['{{C|The Lost}} can die this way should he carry self damaging items at the time of the hit.']]"
+Panic Button,IV Bag,"[""{{i|Holy Mantle}}: Does ''not'' stop the trinket from activating, making Isaac still take damage from items such as {{i|IV Bag}}, while bypassing Holy Mantle's shield."", ['{{C|The Lost}} can die this way should he carry self damaging items at the time of the hit.']]"
+Panic Button,How to Jump,['{{i|How to Jump}}: Makes Isaac immune to contact and tear damage while moving.']
+Panic Button,IV Bag,"['{{i|IV Bag}}: Upon getting hit, activates the IV Bag instead, causing self-damage and producing money.']"
+Panic Button,Kamikaze!,"['{{i|Kamikaze!}}: Causes a highly-damaging explosion to occur every time Isaac is hit, similarly to {{t|Swallowed M80}}.']"
+Panic Button,My Little Unicorn,"['{{i|My Little Unicorn}}: Gives [[invulnerability]] and +0.28 [[speed]] for six seconds, removing the ability to shoot tears and replacing it with the ability to deal contact damage to enemies.']"
+Panic Button,Razor Blade,"[""{{i|Razor Blade}}: Isaac gains a damage boost every time he's hit, acting similarly to {{T|Red Patch}}, at the cost of every hit making Isaac take full-heart damage.""]"
+Panic Button,Spin to Win,['{{i|Spin to Win}}: Has a chance to spawn additional wheels upon taking damage that last only for the current room. This is most likely a bug.']
+Panic Button,Stitches,"['{{i|Stitches}}: Isaac will teleport before damage is taken, making him much harder to hit.']"
+Panic Button,Telekinesis,"['{{i|Telekinesis}}: Automatically blocks any incoming shots, but the push is not strong enough to prevent contact damage.']"
+Panic Button,The Gamekid,"['{{I|The Gamekid}}: Turns the character into a Pac-Man-like creature for 6.5 seconds and provides [[invulnerability]], inflicts [[fear]] on all enemies, removing the ability to shoot tears and replacing it with the ability to deal contact damage to enemies.']"
+Panic Button,Unicorn Stump,"['{{i|Unicorn Stump}}: Gives [[invulnerability]] and +0.28 [[speed]] for six seconds, but removes the ability to shoot tears while the effect is active.']"
+Panic Button,Yum Heart,"['{{i|Yum Heart}}: Since the effect is triggered before taking damage, Panic Button will waste the charge with no benefit unless Isaac is already missing Red health.']"
+Flat File,A Pound of Flesh,"[""{{i|A Pound of Flesh}}: Doesn't retract spikes placed around consumables in shops.""]"
+Flat File,Sanguine Bond,"['{{i|Sanguine Bond}}: Retracts the spikes, making the item useless.']"
+Dice Bag,Car Battery,['{{i|Car Battery}}: No effect.']
+Dice Bag,Glowing Hour Glass,"['{{i|Glowing Hour Glass}}: The dice given in the room Isaac used Glowing Hour Glass in will be granted in the next new room Isaac visits, regardless of what it is.']"
+Torn Card,20/20,"[""{{I|20/20}}/{{I|Eye Sore}}/{{I|The Inner Eye}}/{{I|Immaculate Heart}}/{{I|Loki's Horns}}/{{I|Mom's Eye}}/{{I|Mutant Spider}}/{{I|The Wiz}}: Extra tears fired do not count towards Torn Card proccing.""]"
+Torn Card,Eye Sore,"[""{{I|20/20}}/{{I|Eye Sore}}/{{I|The Inner Eye}}/{{I|Immaculate Heart}}/{{I|Loki's Horns}}/{{I|Mom's Eye}}/{{I|Mutant Spider}}/{{I|The Wiz}}: Extra tears fired do not count towards Torn Card proccing.""]"
+Torn Card,The Inner Eye,"[""{{I|20/20}}/{{I|Eye Sore}}/{{I|The Inner Eye}}/{{I|Immaculate Heart}}/{{I|Loki's Horns}}/{{I|Mom's Eye}}/{{I|Mutant Spider}}/{{I|The Wiz}}: Extra tears fired do not count towards Torn Card proccing.""]"
+Torn Card,Immaculate Heart,"[""{{I|20/20}}/{{I|Eye Sore}}/{{I|The Inner Eye}}/{{I|Immaculate Heart}}/{{I|Loki's Horns}}/{{I|Mom's Eye}}/{{I|Mutant Spider}}/{{I|The Wiz}}: Extra tears fired do not count towards Torn Card proccing.""]"
+Torn Card,Loki's Horns,"[""{{I|20/20}}/{{I|Eye Sore}}/{{I|The Inner Eye}}/{{I|Immaculate Heart}}/{{I|Loki's Horns}}/{{I|Mom's Eye}}/{{I|Mutant Spider}}/{{I|The Wiz}}: Extra tears fired do not count towards Torn Card proccing.""]"
+Torn Card,Mom's Eye,"[""{{I|20/20}}/{{I|Eye Sore}}/{{I|The Inner Eye}}/{{I|Immaculate Heart}}/{{I|Loki's Horns}}/{{I|Mom's Eye}}/{{I|Mutant Spider}}/{{I|The Wiz}}: Extra tears fired do not count towards Torn Card proccing.""]"
+Torn Card,Mutant Spider,"[""{{I|20/20}}/{{I|Eye Sore}}/{{I|The Inner Eye}}/{{I|Immaculate Heart}}/{{I|Loki's Horns}}/{{I|Mom's Eye}}/{{I|Mutant Spider}}/{{I|The Wiz}}: Extra tears fired do not count towards Torn Card proccing.""]"
+Torn Card,The Wiz,"[""{{I|20/20}}/{{I|Eye Sore}}/{{I|The Inner Eye}}/{{I|Immaculate Heart}}/{{I|Loki's Horns}}/{{I|Mom's Eye}}/{{I|Mutant Spider}}/{{I|The Wiz}}: Extra tears fired do not count towards Torn Card proccing.""]"
+Torn Card,Anti-Gravity,['{{I|Anti-Gravity}}: Ipecac shots will follow Isaac closely until he stops firing.']
+Torn Card,Epic Fetus,"[""{{I|Epic Fetus}}: Despite replacing tears, Torn Card will still calculate shots required based on Isaac's fire rate. These shots will be fired regardless if the missile crosshair is moving or not.""]"
+Torn Card,Evil Eye,"['{{I|Evil Eye}}: Tears shot by evil eyes cannot fire Ipecac shots, nor count towards proccing.']"
+Torn Card,Fate's Reward,"[""{{I|Fate's Reward}}: Cannot proc Torn Card.""]"
+Torn Card,Incubus,"[""{{I|Incubus}}: Has its own shot counter, independent of Isaac's. Shots not affected by its damage multiplier, always dealing +40 damage.""]"
+Torn Card,Lachryphagy,"['{{I|Lachryphagy}}: Ipecac shots become Lachryphagy shots, allowing them to grow. Reflection is weaker due to lower momentum. The burst tears spawned from the tear will all explode.']"
+Torn Card,Marked,['{{I|Marked}}: Ipecac shots will be fired from cardinal directions rather than aiming at the crosshair.']
+Torn Card,Twisted Pair,"[""{{I|Twisted Pair}}: Have their own shot counter, independent of Isaac's. Shots not affected by their damage multiplier, always dealing +40 damage. Both of the familiars fire an Ipecac shot at the same time.""]"
+Torn Pocket,Mom's Box,"[""{{i|Mom's Box}}: No effect.""]"
+Gilded Key,Mom's Box,"[""{{a|Golden Trinket}}/{{i|Mom's Box}}: No effect.""]"
+Nuh Uh!,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: No effect.""]"
+Modeling Clay,Chaos,"[""{{i|Chaos}}: Removes the room pool constraint for Modeling Clay's available items.""]"
+Modeling Clay,Sacrificial Altar,"['{{i|Sacrificial Altar}}: If Modeling Clay is currently mimicking a viable familiar, it will also be sacrificed and spawn an additional Devil Room item, but Modeling Clay will not be destroyed.']"
+Modeling Clay,TMTRAINER,['{{i|TMTRAINER}}: Modeling Clay cannot copy glitched items; it will do nothing and not have a sprite if it tries to.']
+Modeling Clay,Sacred Orb,"['{{i|Sacred Orb}}: Temporary items are affected by Sacred Orb.\n\nIf Modeling Clay mimics the following items, they will behave in the following ways:']"
+Modeling Clay,9 Volt,['{{i|9 Volt}}: 1-room charge active items will not recharge over time. Other active items are affected normally.']
+Modeling Clay,Belly Button,"[""{{i|Belly Button}} / {{i|Mom's Purse}}: Allows Isaac to hold another trinket alongside Modeling Clay if he picks it up while Modeling Clay mimics the item, and he will continue to hold both even after Modeling Clay changes. If Isaac tries to pick up another trinket while he already has two, it will instead be destroyed and he will only be able to hold one trinket again."", ['Isaac can safely exchange cards/pills/trinkets by manually dropping them, at the cost of being unable to hold two.', 'Extra trinkets held this way are susceptible to not working properly, if at all.']]"
+Modeling Clay,Mom's Purse,"[""{{i|Belly Button}} / {{i|Mom's Purse}}: Allows Isaac to hold another trinket alongside Modeling Clay if he picks it up while Modeling Clay mimics the item, and he will continue to hold both even after Modeling Clay changes. If Isaac tries to pick up another trinket while he already has two, it will instead be destroyed and he will only be able to hold one trinket again."", ['Isaac can safely exchange cards/pills/trinkets by manually dropping them, at the cost of being unable to hold two.', 'Extra trinkets held this way are susceptible to not working properly, if at all.']]"
+Modeling Clay,Black Candle,['{{i|Black Candle}}: Does not remove the current floor’s [[curse]].']
+Modeling Clay,Bloody Lust,"[""{{i|Bloody Lust}} / {{i|Bloody Gust}} / {{i|False PHD}} / {{i|Keeper's Sack}} / {{i|Rock Bottom}}: Stat boosts will not persist after Modeling Clay changes. If it mimics that item again, it will remember the stat boosts they gave.""]"
+Modeling Clay,Bloody Gust,"[""{{i|Bloody Lust}} / {{i|Bloody Gust}} / {{i|False PHD}} / {{i|Keeper's Sack}} / {{i|Rock Bottom}}: Stat boosts will not persist after Modeling Clay changes. If it mimics that item again, it will remember the stat boosts they gave.""]"
+Modeling Clay,False PHD,"[""{{i|Bloody Lust}} / {{i|Bloody Gust}} / {{i|False PHD}} / {{i|Keeper's Sack}} / {{i|Rock Bottom}}: Stat boosts will not persist after Modeling Clay changes. If it mimics that item again, it will remember the stat boosts they gave.""]"
+Modeling Clay,Keeper's Sack,"[""{{i|Bloody Lust}} / {{i|Bloody Gust}} / {{i|False PHD}} / {{i|Keeper's Sack}} / {{i|Rock Bottom}}: Stat boosts will not persist after Modeling Clay changes. If it mimics that item again, it will remember the stat boosts they gave.""]"
+Modeling Clay,Rock Bottom,"[""{{i|Bloody Lust}} / {{i|Bloody Gust}} / {{i|False PHD}} / {{i|Keeper's Sack}} / {{i|Rock Bottom}}: Stat boosts will not persist after Modeling Clay changes. If it mimics that item again, it will remember the stat boosts they gave.""]"
+Modeling Clay,Blue Map,['{{i|Blue Map}} / {{i|The Compass}} / {{i|The Mind}} / {{i|Treasure Map}}: Does not reveal rooms on the map.']
+Modeling Clay,The Compass,['{{i|Blue Map}} / {{i|The Compass}} / {{i|The Mind}} / {{i|Treasure Map}}: Does not reveal rooms on the map.']
+Modeling Clay,The Mind,['{{i|Blue Map}} / {{i|The Compass}} / {{i|The Mind}} / {{i|Treasure Map}}: Does not reveal rooms on the map.']
+Modeling Clay,Treasure Map,['{{i|Blue Map}} / {{i|The Compass}} / {{i|The Mind}} / {{i|Treasure Map}}: Does not reveal rooms on the map.']
+Modeling Clay,Candy Heart,['{{i|Candy Heart}} / {{i|Soul Locket}}: Stats granted from picking up hearts will persist after Modeling Clay changes.']
+Modeling Clay,Soul Locket,['{{i|Candy Heart}} / {{i|Soul Locket}}: Stats granted from picking up hearts will persist after Modeling Clay changes.']
+Modeling Clay,Cambion Conception,"['{{i|Cambion Conception}} / {{i|Immaculate Conception}}: If Isaac can somehow meet the requirements for these items to spawn familiars, the familiars will persist for only one room after Modeling Clay changes.']"
+Modeling Clay,Immaculate Conception,"['{{i|Cambion Conception}} / {{i|Immaculate Conception}}: If Isaac can somehow meet the requirements for these items to spawn familiars, the familiars will persist for only one room after Modeling Clay changes.']"
+Modeling Clay,Delirious,"['{{i|Delirious}} / {{i|Mr. ME!}}: Has no effect, even if Isaac uses his active item.']"
+Modeling Clay,Mr. ME!,"['{{i|Delirious}} / {{i|Mr. ME!}}: Has no effect, even if Isaac uses his active item.']"
+Modeling Clay,Dog Tooth,['{{i|Dog Tooth}} / {{i|Spelunker Hat}} / {{i|X-Ray Vision}} / {{i|YO LISTEN!}}: Will reveal/open neighboring [[Secret Room]]s.']
+Modeling Clay,Spelunker Hat,['{{i|Dog Tooth}} / {{i|Spelunker Hat}} / {{i|X-Ray Vision}} / {{i|YO LISTEN!}}: Will reveal/open neighboring [[Secret Room]]s.']
+Modeling Clay,X-Ray Vision,['{{i|Dog Tooth}} / {{i|Spelunker Hat}} / {{i|X-Ray Vision}} / {{i|YO LISTEN!}}: Will reveal/open neighboring [[Secret Room]]s.']
+Modeling Clay,YO LISTEN!,['{{i|Dog Tooth}} / {{i|Spelunker Hat}} / {{i|X-Ray Vision}} / {{i|YO LISTEN!}}: Will reveal/open neighboring [[Secret Room]]s.']
+Modeling Clay,False PHD,"['{{i|False PHD}} / {{i|PHD}}: Pills’ effects will be changed, but they will not be identified.']"
+Modeling Clay,PHD,"['{{i|False PHD}} / {{i|PHD}}: Pills’ effects will be changed, but they will not be identified.']"
+Modeling Clay,GB Bug,['{{i|GB Bug}}: The familiar respawns every time the trinket mimics the item.']
+Modeling Clay,Glitched Crown,"['{{i|Glitched Crown}}: Items that are spawned while it’s being mimicked will cycle between 5 different items, even after Modeling Clay changes.']"
+Modeling Clay,Isaac's Tomb,"[""{{i|Isaac's Tomb}} / {{i|Voodoo Head}}: If Isaac can enter a trapdoor to the next floor while it’s being mimicked, they will have their normal effects."", ['Other items that activate on floor transition (such as {{i|Dream Catcher}}, {{i|Empty Heart}}, or {{i|Lost Soul}}) will not work.']]"
+Modeling Clay,Voodoo Head,"[""{{i|Isaac's Tomb}} / {{i|Voodoo Head}}: If Isaac can enter a trapdoor to the next floor while it’s being mimicked, they will have their normal effects."", ['Other items that activate on floor transition (such as {{i|Dream Catcher}}, {{i|Empty Heart}}, or {{i|Lost Soul}}) will not work.']]"
+Modeling Clay,Little Baggy,"['{{i|Little Baggy}} / {{i|Polydactyly}} / {{i|Starter Deck}}: Allows Isaac to hold two cards and/or pills if he picks them up while Modeling Clay mimics the item, and he will continue to hold both even after Modeling Clay changes. If Isaac tries to pick up another card/pill after Modeling Clay changes, the inactive card/pill he was holding will be destroyed and he will only be able to hold one card/pill again.', ['If Isaac goes to a new room while Modeling Clay mimics Starter Deck/Little Baggy, cards/pills in the new room will be converted appropriately.']]"
+Modeling Clay,Polydactyly,"['{{i|Little Baggy}} / {{i|Polydactyly}} / {{i|Starter Deck}}: Allows Isaac to hold two cards and/or pills if he picks them up while Modeling Clay mimics the item, and he will continue to hold both even after Modeling Clay changes. If Isaac tries to pick up another card/pill after Modeling Clay changes, the inactive card/pill he was holding will be destroyed and he will only be able to hold one card/pill again.', ['If Isaac goes to a new room while Modeling Clay mimics Starter Deck/Little Baggy, cards/pills in the new room will be converted appropriately.']]"
+Modeling Clay,Starter Deck,"['{{i|Little Baggy}} / {{i|Polydactyly}} / {{i|Starter Deck}}: Allows Isaac to hold two cards and/or pills if he picks them up while Modeling Clay mimics the item, and he will continue to hold both even after Modeling Clay changes. If Isaac tries to pick up another card/pill after Modeling Clay changes, the inactive card/pill he was holding will be destroyed and he will only be able to hold one card/pill again.', ['If Isaac goes to a new room while Modeling Clay mimics Starter Deck/Little Baggy, cards/pills in the new room will be converted appropriately.']]"
+Modeling Clay,Member Card,['{{i|Member Card}}: The special trapdoor will not spawn.']
+Modeling Clay,Missing No.,"['{{i|Missing No.}}: Does not reroll items, unless carried to another floor.']"
+Modeling Clay,Sanguine Bond,['{{i|Sanguine Bond}}: The unique spikes will not spawn.']
+Modeling Clay,Schoolbag,"['{{i|Schoolbag}}: If Isaac picks up another active item while Modeling Clay mimics the item, the other active item is dropped after Modeling Clay changes.']"
+Kid's Drawing,Mom's Box,"[""{{i|Mom's Box}}: No effect. {{Citation needed}}""]"
+Cursed Penny,Black Candle,"['{{i|Black Candle}}: The teleport effect is removed, rendering Cursed Penny useless.']"
+Cursed Penny,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: No effect.""]"
+Your Soul,Mom's Box,"[""{{i|Mom's Box}}: No effect.""]"
+Temporary Tattoo,Mom's Box,"[""{{a|Golden Trinket}} / {{i|Mom's Box}}: No effect.""]"
+Swallowed M80,Ghost Bombs,['{{I|Ghost Bombs}} / {{I|Rocket in a Jar}} / {{I|Scatter Bombs}} / {{I|Sticky Bombs}}: No effect.']
+Swallowed M80,Rocket in a Jar,['{{I|Ghost Bombs}} / {{I|Rocket in a Jar}} / {{I|Scatter Bombs}} / {{I|Sticky Bombs}}: No effect.']
+Swallowed M80,Scatter Bombs,['{{I|Ghost Bombs}} / {{I|Rocket in a Jar}} / {{I|Scatter Bombs}} / {{I|Sticky Bombs}}: No effect.']
+Swallowed M80,Sticky Bombs,['{{I|Ghost Bombs}} / {{I|Rocket in a Jar}} / {{I|Scatter Bombs}} / {{I|Sticky Bombs}}: No effect.']
+Swallowed M80,Mr. Mega,['{{i|Mr. Mega}}: Damage is not increased further.']
+The Twins,1up!,"[""{{i|1up!}}: Despite the fact that it can be duplicated, Isaac will not keep the 1up if he dies while it's duplicated.""]"
+The Twins,Bum Friend,['{{i|Bum Friend}} / {{i|Bumbo}} / {{i|Dark Bum}} / {{i|Key Bum}} / {{i|Lil Portal}}: The pickup count of duplicated familiars is not remembered when they go away.']
+The Twins,Bumbo,['{{i|Bum Friend}} / {{i|Bumbo}} / {{i|Dark Bum}} / {{i|Key Bum}} / {{i|Lil Portal}}: The pickup count of duplicated familiars is not remembered when they go away.']
+The Twins,Dark Bum,['{{i|Bum Friend}} / {{i|Bumbo}} / {{i|Dark Bum}} / {{i|Key Bum}} / {{i|Lil Portal}}: The pickup count of duplicated familiars is not remembered when they go away.']
+The Twins,Key Bum,['{{i|Bum Friend}} / {{i|Bumbo}} / {{i|Dark Bum}} / {{i|Key Bum}} / {{i|Lil Portal}}: The pickup count of duplicated familiars is not remembered when they go away.']
+The Twins,Lil Portal,['{{i|Bum Friend}} / {{i|Bumbo}} / {{i|Dark Bum}} / {{i|Key Bum}} / {{i|Lil Portal}}: The pickup count of duplicated familiars is not remembered when they go away.']
+The Twins,Ball of Bandages,['{{i|Ball of Bandages}} / {{i|Cube of Meat}}: Upgrades the familiar instead of duplicating it.']
+The Twins,Cube of Meat,['{{i|Ball of Bandages}} / {{i|Cube of Meat}}: Upgrades the familiar instead of duplicating it.']
+The Twins,Best Bud,"['{{i|Best Bud}} / {{i|Bird Cage}}: If the trinket tries to duplicate it, it will instead immediately activate. Taking damage does not spawn another familiar.', ['If this happens to Bird Cage as Isaac walks into a room with enemies, Bird Cage will also leap onto the enemies.']]"
+The Twins,Bird Cage,"['{{i|Best Bud}} / {{i|Bird Cage}}: If the trinket tries to duplicate it, it will instead immediately activate. Taking damage does not spawn another familiar.', ['If this happens to Bird Cage as Isaac walks into a room with enemies, Bird Cage will also leap onto the enemies.']]"
+The Twins,Blood Puppy,"[""{{i|Blood Puppy}} / {{i|Bumbo}} / {{i|Guppy's Hair Ball}}: The duplicate will always be at its first stage.""]"
+The Twins,Bumbo,"[""{{i|Blood Puppy}} / {{i|Bumbo}} / {{i|Guppy's Hair Ball}}: The duplicate will always be at its first stage.""]"
+The Twins,Guppy's Hair Ball,"[""{{i|Blood Puppy}} / {{i|Bumbo}} / {{i|Guppy's Hair Ball}}: The duplicate will always be at its first stage.""]"
+The Twins,Buddy in a Box,['{{i|Buddy in a Box}}: The duplicated familiar will be randomly generated instead of copying the original.']
+The Twins,Cambion Conception,['{{i|Cambion Conception}} / {{i|Immaculate Conception}}: Familiars given by these items can be duplicated as normal.']
+The Twins,Immaculate Conception,['{{i|Cambion Conception}} / {{i|Immaculate Conception}}: Familiars given by these items can be duplicated as normal.']
+The Twins,GB Bug,"['{{i|GB Bug}}: The familiar can be duplicated even if it hasn’t respawned; by constantly moving to new rooms, GB Bug can constantly respawn, allowing pickups to be rerolled indefinitely.']"
+The Twins,Guillotine,"['{{i|Guillotine}}: The head can be duplicated, and will give an extra damage and tears up if it is. The extra head will be unable to fire tears.']"
+The Twins,Hallowed Ground,['{{i|Hallowed Ground}}: Duplicate poops will also drop when Isaac takes damage. The bonuses from standing in the aura of multiple white poops does not stack.']
+The Twins,Lost Soul,"['{{i|Lost Soul}} / {{i|Star of Bethlehem}}: The trinket can try to make a duplicate of the familiar, but it will always fail. This reduces the odds of the trinket giving copies of other familiars or prevents it from giving Brother Bobby or Sister Maggy if Isaac has no other familiars.']"
+The Twins,Star of Bethlehem,"['{{i|Lost Soul}} / {{i|Star of Bethlehem}}: The trinket can try to make a duplicate of the familiar, but it will always fail. This reduces the odds of the trinket giving copies of other familiars or prevents it from giving Brother Bobby or Sister Maggy if Isaac has no other familiars.']"
+The Twins,Mystery Egg,['{{i|Mystery Egg}}: The friendly the duplicated egg spawns depends on how many consecutive rooms cleared the duplicate persisted for.']
+The Twins,Strawman,"['{{i|Strawman}}: Keeper cannot be duplicated, as he is considered a character, not a familiar.']"
+The Twins,Succubus,['{{i|Succubus}}: The damage multiplier from standing in the aura of multiple Succubi multiplicatively stacks.']
+The Twins,YO LISTEN!,['{{i|YO LISTEN!}}: An extra +1 luck will be given for every duplicate.']
+Adoption Papers,Chaos,"['{{i|Chaos}}: Chaos takes priority in item selection. However, items will still be discounted.']"
+Adoption Papers,Keeper's Box,"[""{{I|Keeper's Box}}: Does not affect Keeper's Box' items, meaning both familiars and shop items can be purchased in tandem over the course of a run.""]"
+Adoption Papers,The Stairway,['{{I|The Stairway}}: No effect on the Angel shop.']
+Broken Glasses,More Options,['{{t|Golden Horse Shoe}} / {{i|More Options}}: The second item will always be blind.']
+Ice Cube,Mom's Box,"[""{{A|Golden Trinket}} / {{i|Mom's Box}}: No effect.""]"
