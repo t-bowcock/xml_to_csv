@@ -37,7 +37,7 @@ interactions = {}
 ITEM_HEADERS = ["name", "ID", "quote", "description", "quality", "unlock", "effects", "notes"]
 TRINKET_HEADERS = ["name", "ID", "pool", "quote", "description", "tags", "unlock", "effects", "notes"]
 CHARACTER_HEADERS = ["name", "ID"]
-RELATIONHSIP_HEADERS = ["item", "node", "relationship"]
+RELATIONHSIP_HEADERS = ["ID1", "ID2", "relationship"]
 
 
 def get_soup(path: str) -> BeautifulSoup:
@@ -107,7 +107,9 @@ def list_get(text: str, regex: re.Pattern) -> list:
 def get_item_names(path: str):
     soup = get_soup(path)
     collection = soup.find("title", text="Collection Page (Repentance)").find_parent("page").find("text").text
-    return [x.strip() for x in ITEM_REGEX.search(collection)[1].replace("\n", "").split(",")]
+    return [
+        x.strip() for x in ITEM_REGEX.search(collection)[1].replace("\n", "").replace("Number Two", "No. 2").split(",")
+    ]
 
 
 def get_trinket_names(path: str) -> list:
@@ -174,9 +176,10 @@ def get_all_trinkets(path: str) -> list:
                 [
                     tag.text,
                     trinket_id,
+                    infobox_get(trinket_text, POOL_REGEX),
                     infobox_get(trinket_text, QUOTE_REGEX),
                     infobox_get(trinket_text, DESCRIPTION_REGEX),
-                    infobox_get(trinket_text, ITEM_QUALITY_REGEX),
+                    infobox_get(trinket_text, TAGS_REGEX),
                     infobox_get(trinket_text, UNLOCK_REGEX),
                     list_get(trinket_text, EFFECTS_REGEX),
                     list_get(trinket_text, NOTES_REGEX),
@@ -218,9 +221,15 @@ def get_relationships(data: dict):
         if relationship_data is None:
             continue
         for relationship in relationship_data:
-            destinations = re.findall(r"{{i\|(.+?)(\|.+?)?}}", relationship[0], re.IGNORECASE)
+            destinations = re.findall(r"{{i\|(1=)?(.+?)(\|.+?)?}}", relationship[0], re.IGNORECASE)
             for dest in destinations:
-                output.append([id_lookup[source.lower()], id_lookup[dest[0].lower()], relationship])
+                if dest[1].lower() == "number two":
+                    dest = ("", "no. 2", "")
+                if dest[1].lower() == "money {{=":
+                    dest = ("", "money = power", "")
+                if dest[1].lower() in ("broken shovel 1", "broken shovel 2"):
+                    continue
+                output.append([id_lookup[source.lower()], id_lookup[dest[1].lower()], relationship])
     return output
 
 
@@ -235,7 +244,6 @@ if __name__ == "__main__":
     items = get_all_items("../data.xml")
     trinkets = get_all_trinkets("../data.xml")
     characters = get_all_characters("../data.xml")
-    # print(id_lookup)
     write_to_csv(items, ITEM_HEADERS, "items")
     write_to_csv(trinkets, TRINKET_HEADERS, "trinkets")
     write_to_csv(characters, CHARACTER_HEADERS, "characters")
