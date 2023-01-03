@@ -34,10 +34,10 @@ id_lookup = {}
 synergies = {}
 interactions = {}
 
-ITEM_HEADERS = ["name", "ID", "quote", "description", "quality", "unlock", "effects", "notes"]
-TRINKET_HEADERS = ["name", "ID", "pool", "quote", "description", "tags", "unlock", "effects", "notes"]
-CHARACTER_HEADERS = ["name", "ID"]
-RELATIONHSIP_HEADERS = ["ID1", "ID2", "relationship"]
+ITEM_HEADERS = ["name", "item_id", "quote", "description", "quality", "unlock", "effects", "notes"]
+TRINKET_HEADERS = ["name", "trinket_id", "pool", "quote", "description", "tags", "unlock", "effects", "notes"]
+CHARACTER_HEADERS = ["name", "character_id"]
+RELATIONHSIP_HEADERS = ["source", "destination", "description"]
 
 
 def get_soup(path: str) -> BeautifulSoup:
