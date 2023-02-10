@@ -33,9 +33,9 @@ INTERACTIONS_REGEX = re.compile(r"==\s?Interactions\s?==\n+(.*?)\n\n==", flags=r
 
 BULLET_REGEX = re.compile(r"(\*+)")
 
-ITEM_HEADERS = ["name", "item_id", "quote", "description", "quality", "unlock", "effects", "notes"]
-TRINKET_HEADERS = ["name", "trinket_id", "pool", "quote", "description", "tags", "unlock", "effects", "notes"]
-CHARACTER_HEADERS = ["name", "character_id"]
+ITEM_HEADERS = ["name", "id", "quote", "description", "quality", "unlock", "effects", "notes"]
+TRINKET_HEADERS = ["name", "id", "pool", "quote", "description", "tags", "unlock", "effects", "notes"]
+CHARACTER_HEADERS = ["name", "id"]
 RELATIONHSIP_HEADERS = ["source", "destination", "description"]
 
 
@@ -127,7 +127,7 @@ class XMLToCSV:
         challenges_page = self.soup.find("title", text="Characters").find_parent("page").find("text").text
         return list(dict.fromkeys(re.findall(r"{{c\|(.*?)}}", challenges_page)))
 
-    def get_all_items(self, path: str) -> list:
+    def get_all_items(self) -> list:
         item_names = self._get_item_names()
         tags = self.soup.find_all("title")
         item_data = []
@@ -157,7 +157,7 @@ class XMLToCSV:
                 self.interactions[tag.text] = self._list_get(item_text, INTERACTIONS_REGEX)
         return item_data
 
-    def get_all_trinkets(self, path: str) -> list:
+    def get_all_trinkets(self) -> list:
         trinket_names = self._get_trinket_names()
         tags = self.soup.find_all("title")
         trinket_data = []
@@ -189,7 +189,7 @@ class XMLToCSV:
                 self.interactions[tag.text] = self._list_get(trinket_text, INTERACTIONS_REGEX)
         return trinket_data
 
-    def get_all_characters(self, path: str) -> list:
+    def get_all_characters(self) -> list:
         character_names = self._get_character_names()
         tags = self.soup.find_all("title")
         character_data = []
@@ -238,9 +238,9 @@ class XMLToCSV:
 
 if __name__ == "__main__":
     converter = XMLToCSV("../data.xml")
-    items = converter.get_all_items("../data.xml")
-    trinkets = converter.get_all_trinkets("../data.xml")
-    characters = converter.get_all_characters("../data.xml")
+    items = converter.get_all_items()
+    trinkets = converter.get_all_trinkets()
+    characters = converter.get_all_characters()
     converter.write_to_csv(items, ITEM_HEADERS, "items")
     converter.write_to_csv(trinkets, TRINKET_HEADERS, "trinkets")
     converter.write_to_csv(characters, CHARACTER_HEADERS, "characters")
