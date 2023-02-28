@@ -53,35 +53,35 @@ class XMLToCSV:
             xml = xml_file.read()
         return BeautifulSoup(xml, "xml")
 
+    def _remove_tags(self, string: str) -> str:
+        string = re.sub(r"{{dlc\|a}}", "(Added in Afterbirth)", string, re.IGNORECASE)
+        string = re.sub(r"{{dlc\|a\+}}", "(Added in Afterbirth+)", string, re.IGNORECASE)
+        string = re.sub(r"{{dlc\|na\+}}", "(Removed in Afterbirth+)", string, re.IGNORECASE)
+        string = re.sub(r"{{dlc\|ana\+}}", "(Added in Afterbirth, Removed in Afterbirth+)", string, re.IGNORECASE)
+        string = re.sub(r"{{dlc\|r}}", "(Added in Repentance)", string, re.IGNORECASE)
+        string = re.sub(r"{{dlc\|nr}}", "(Removed in Repentance)", string, re.IGNORECASE)
+        string = re.sub(r"{{dlc\|anr}}", "(Added in Afterbirth, Removed in Repentance)", string, re.IGNORECASE)
+        string = re.sub(r"{{dlc\|a\+nr}}", "(Added in Afterbirth+, Removed in Repentance)", string, re.IGNORECASE)
+        string = re.sub(r"\[\[(.+?)\]\]", r"\g<1>", string, flags=re.IGNORECASE)  # TODO needs to be more sophisticated
+        return re.sub(r"{{[ierspam]\|(.+?)}}", r"\g<1>", string, flags=re.IGNORECASE)  # TODO doesnt match all of them
+
+    def _format_list(self, string: list, indentation: int = 0) -> str:
+        output = ""
+        tabs = "&emsp;" * indentation
+        for line in string:
+            if isinstance(line, str):
+                output += f"{tabs}- {self._remove_tags(line)}<br>"
+            else:
+                output += self._format_list(line, indentation + 1)
+        return output
+
     @staticmethod
     def _dig(nested, depth) -> list:
         for _ in range(0, (depth - 1)):
             nested = nested[-1]
         return nested
 
-    @staticmethod
-    def _parse_dlc_tags(string):
-        # TODO do it
-        tags = re.findall(r"{{dlc\|(.+?)}}", string, re.IGNORECASE)
-        for tag in tags:
-            # a, a+, r are all tags that represent the change being added in DLC
-            # n<tag> means the change was removed in a later dlc
-            if re.match(r"a\+", tag[1]):
-                pass
-            elif re.match("a", tag[1]):
-                pass
-            else:
-                pass
-
-    @staticmethod
-    def _parse_string(string: str) -> str:
-        # TODO turn dlc tags to text
-        # TODO decide how relationships are handled
-        # TODO parse any html (seen some <br> tags)
-        re.sub(r"\[\[|\]\]", "", string)
-        re.sub(r"{{[erspam]\|(.*?)}}", r"\g<1>", string, flags=re.IGNORECASE)
-
-    def _parse_list(self, list_string: str) -> list:
+    def _parse_list(self, list_string: str, format_flag: bool = False) -> list:
         split_list = BULLET_REGEX.split(list_string)
         output = []
         previous = 0
@@ -100,14 +100,16 @@ class XMLToCSV:
                 elif new < previous:
                     self._dig(output[one_star_counter], new).append(line)
             previous = new
+        if format_flag:
+            return self._format_list(output)
         return output
 
     @staticmethod
     def _infobox_get(text: str, regex: re.Pattern) -> str:
         return regex.search(text)[1] if regex.search(text) is not None else None
 
-    def _list_get(self, text: str, regex: re.Pattern) -> list:
-        return self._parse_list(regex.search(text)[1]) if regex.search(text) is not None else None
+    def _list_get(self, text: str, regex: re.Pattern, format_flag: bool = False) -> list:
+        return self._parse_list(regex.search(text)[1], format_flag) if regex.search(text) is not None else None
 
     def _get_item_names(self):
         collection = self.soup.find("title", text="Collection Page (Repentance)").find_parent("page").find("text").text
@@ -132,29 +134,31 @@ class XMLToCSV:
         tags = self.soup.find_all("title")
         item_data = []
         for tag in tags:
-            if tag.text in item_names:
+            if tag.text not in item_names:
+                continue
 
-                item_text = tag.find_parent("page").find("text").text
+            item_text = tag.find_parent("page").find("text").text
 
-                item_id = self._infobox_get(item_text, ID_REGEX)
-                if item_id is None:
-                    continue
+            item_id = self._infobox_get(item_text, ID_REGEX)
+            if item_id is None:
+                continue
 
-                item_data.append(
-                    [
-                        tag.text,
-                        item_id,
-                        self._infobox_get(item_text, QUOTE_REGEX),
-                        self._infobox_get(item_text, DESCRIPTION_REGEX),
-                        self._infobox_get(item_text, ITEM_QUALITY_REGEX),
-                        self._infobox_get(item_text, UNLOCK_REGEX),
-                        self._list_get(item_text, EFFECTS_REGEX),
-                        self._list_get(item_text, NOTES_REGEX),
-                    ]
-                )
-                self.id_lookup[tag.text.lower()] = item_id
-                self.synergies[tag.text] = self._list_get(item_text, SYNERGIES_REGEX)
-                self.interactions[tag.text] = self._list_get(item_text, INTERACTIONS_REGEX)
+            item_data.append(
+                [
+                    tag.text,
+                    item_id,
+                    self._infobox_get(item_text, QUOTE_REGEX),
+                    self._list_get(item_text, DESCRIPTION_REGEX, True),
+                    self._infobox_get(item_text, ITEM_QUALITY_REGEX),
+                    self._infobox_get(item_text, UNLOCK_REGEX),
+                    self._list_get(item_text, EFFECTS_REGEX, True),
+                    self._list_get(item_text, NOTES_REGEX, True),
+                    True,
+                ]
+            )
+            self.id_lookup[tag.text.lower()] = item_id
+            self.synergies[tag.text] = self._list_get(item_text, SYNERGIES_REGEX)
+            self.interactions[tag.text] = self._list_get(item_text, INTERACTIONS_REGEX)
         return item_data
 
     def get_all_trinkets(self) -> list:
@@ -163,30 +167,30 @@ class XMLToCSV:
         trinket_data = []
 
         for tag in tags:
-            if tag.text in trinket_names:
+            if tag.text not in trinket_names:
+                continue
+            trinket_text = tag.find_parent("page").find("text").text
 
-                trinket_text = tag.find_parent("page").find("text").text
+            trinket_id = self._infobox_get(trinket_text, ID_REGEX)
+            if trinket_id is None:
+                continue
 
-                trinket_id = self._infobox_get(trinket_text, ID_REGEX)
-                if trinket_id is None:
-                    continue
-
-                trinket_data.append(
-                    [
-                        tag.text,
-                        trinket_id,
-                        self._infobox_get(trinket_text, POOL_REGEX),
-                        self._infobox_get(trinket_text, QUOTE_REGEX),
-                        self._infobox_get(trinket_text, DESCRIPTION_REGEX),
-                        self._infobox_get(trinket_text, TAGS_REGEX),
-                        self._infobox_get(trinket_text, UNLOCK_REGEX),
-                        self._list_get(trinket_text, EFFECTS_REGEX),
-                        self._list_get(trinket_text, NOTES_REGEX),
-                    ]
-                )
-                self.id_lookup[tag.text.lower()] = trinket_id
-                self.synergies[tag.text] = self._list_get(trinket_text, SYNERGIES_REGEX)
-                self.interactions[tag.text] = self._list_get(trinket_text, INTERACTIONS_REGEX)
+            trinket_data.append(
+                [
+                    tag.text,
+                    trinket_id,
+                    self._infobox_get(trinket_text, POOL_REGEX),
+                    self._infobox_get(trinket_text, QUOTE_REGEX),
+                    self._list_get(trinket_text, DESCRIPTION_REGEX, True),
+                    self._infobox_get(trinket_text, TAGS_REGEX),
+                    self._infobox_get(trinket_text, UNLOCK_REGEX),
+                    self._list_get(trinket_text, EFFECTS_REGEX, True),
+                    self._list_get(trinket_text, NOTES_REGEX, True),
+                ]
+            )
+            self.id_lookup[tag.text.lower()] = trinket_id
+            self.synergies[tag.text] = self._list_get(trinket_text, SYNERGIES_REGEX)
+            self.interactions[tag.text] = self._list_get(trinket_text, INTERACTIONS_REGEX)
         return trinket_data
 
     def get_all_characters(self) -> list:
@@ -194,21 +198,22 @@ class XMLToCSV:
         tags = self.soup.find_all("title")
         character_data = []
         for tag in tags:
-            if tag.text in character_names:
+            if tag.text not in character_names:
+                continue
 
-                character_text = tag.find_parent("page").find("text").text
+            character_text = tag.find_parent("page").find("text").text
 
-                character_id = self._infobox_get(character_text, ID_REGEX)
-                if character_id is None:
-                    continue
+            character_id = self._infobox_get(character_text, ID_REGEX)
+            if character_id is None:
+                continue
 
-                character_data.append(
-                    [
-                        tag.text,
-                        character_id,
-                    ]
-                )
-                self.id_lookup[tag.text.lower()] = character_id
+            character_data.append(
+                [
+                    tag.text,
+                    character_id,
+                ]
+            )
+            self.id_lookup[tag.text.lower()] = character_id
         return character_data
 
     def get_relationships(self, data: dict):
@@ -225,7 +230,13 @@ class XMLToCSV:
                         dest = ("", "money = power", "")
                     if dest[1].lower() in ("broken shovel 1", "broken shovel 2"):
                         continue
-                    output.append([self.id_lookup[source.lower()], self.id_lookup[dest[1].lower()], relationship])
+                    output.append(
+                        [
+                            self.id_lookup[source.lower()],
+                            self.id_lookup[dest[1].lower()],
+                            self._format_list(relationship),
+                        ]
+                    )
         return output
 
     @staticmethod
