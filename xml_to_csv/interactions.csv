@@ -41,16 +41,16 @@ I304,I407,"- Purity: At base stats, the tear delay and damage aura give a greate
 I304,I417,"- Succubus: When in the aura, affects re-balanced stats rather than just damage.<br>"
 I304,I152,- Technology 2|nr: Doubled tear delay due to firing out of only one eye is unaffected by the balancing formula.<br>
 I304,I233,"- Tiny Planet: The significant range increase results in a large stat boost to speed and tears and a small boost to damage. However, the decrease in range causes orbiting tears to no longer complete a full 360° lap around Isaac, instead dropping off at about half that.<br>"
-I245,I118,- {{dlc|na}}Brimstone: Overrides 20/20.<br>
-I245,I2,- {{dlc|na}}The Inner Eye: Overrides 20/20.<br>
+I245,I118,- (Removed in Afterbirth)Brimstone: Overrides 20/20.<br>
+I245,I2,- (Removed in Afterbirth)The Inner Eye: Overrides 20/20.<br>
 I245,I440,"- Kidney Stone: Increase number of tears in tear barrage; however, only fires one stone.<br>"
 I245,I87,- Loki's Horns: Only occasionally fires one tear in the other three directions.<br>
 I245,I55,- Mom's Eye: Only occasionally fires one tear out of the back of Isaac's head.<br>
-I245,I114,- {{dlc|na}}Mom's Knife: Overrides 20/20.<br>
-I245,I229,- {{dlc|na}}Monstro's Lung: Overrides 20/20.<br>
-I245,I153,- {{dlc|na}}Mutant Spider: Overrides 20/20.<br>&emsp;- (Added in Repentance) Cancels the tears down of Mutant Spider.<br>
+I245,I114,- (Removed in Afterbirth)Mom's Knife: Overrides 20/20.<br>
+I245,I229,- (Removed in Afterbirth)Monstro's Lung: Overrides 20/20.<br>
+I245,I153,- (Removed in Afterbirth)Mutant Spider: Overrides 20/20.<br>&emsp;- (Added in Repentance) Cancels the tears down of Mutant Spider.<br>
 I245,I220,- Sad Bombs: Does not affect the number of tears when bombs explode.<br>
-I245,I68,- {{dlc|na}}Technology: Overrides 20/20.<br>
+I245,I68,- (Removed in Afterbirth)Technology: Overrides 20/20.<br>
 I245,I452,- Varicose Veins: No effect on number of tears when taking damage.<br>
 I116,I116,- 9 Volt: No further decrease in charges.<br>
 I116,I585,- Alabaster Box: No effect.<br>
@@ -239,9 +239,9 @@ I168,I727,- Bobby-Bomb/Bomber Boy|anr/Ghost Bombs/Mr. Mega/Scatter Bombs/Sticky 
 I168,I106,- Bobby-Bomb/Bomber Boy|anr/Ghost Bombs/Mr. Mega/Scatter Bombs/Sticky Bombs: No effect.<br>
 I168,I366,- Bobby-Bomb/Bomber Boy|anr/Ghost Bombs/Mr. Mega/Scatter Bombs/Sticky Bombs: No effect.<br>
 I168,I367,- Bobby-Bomb/Bomber Boy|anr/Ghost Bombs/Mr. Mega/Scatter Bombs/Sticky Bombs: No effect.<br>
-I168,I118,- {{dlc|na}}Brimstone/Mom's Knife/Monstro's Lung: Overridden by Epic Fetus.<br>
-I168,I114,- {{dlc|na}}Brimstone/Mom's Knife/Monstro's Lung: Overridden by Epic Fetus.<br>
-I168,I229,- {{dlc|na}}Brimstone/Mom's Knife/Monstro's Lung: Overridden by Epic Fetus.<br>
+I168,I118,- (Removed in Afterbirth)Brimstone/Mom's Knife/Monstro's Lung: Overridden by Epic Fetus.<br>
+I168,I114,- (Removed in Afterbirth)Brimstone/Mom's Knife/Monstro's Lung: Overridden by Epic Fetus.<br>
+I168,I229,- (Removed in Afterbirth)Brimstone/Mom's Knife/Monstro's Lung: Overridden by Epic Fetus.<br>
 I168,I678,- C Section: Overridden by Epic Fetus making Epic Fetus the only item in the game that can override it.<br>
 I168,I69,- Chocolate Milk|nr: Reduces Isaac's tear delay by 20%. Missiles can't be charged.<br>&emsp;- (Added in Repentance): Overridden by Epic Fetus.<br>
 I168,I316,- Cursed Eye/Dr. Fetus/The Ludovico Technique/The Parasite/Tiny Planet: Overridden by Epic Fetus.<br>
@@ -251,7 +251,7 @@ I168,I104,- Cursed Eye/Dr. Fetus/The Ludovico Technique/The Parasite/Tiny Planet
 I168,I233,- Cursed Eye/Dr. Fetus/The Ludovico Technique/The Parasite/Tiny Planet: Overridden by Epic Fetus.<br>
 I168,I410,- {{dlc+|a}}Evil Eye: Overridden by Epic Fetus.<br>
 I168,I572,- Eye of the Occult|r: Overridden by Epic Fetus. Stat effects are still applied.<br>
-I168,I331,"- {{dlc|na}}Godhead: Overridden by Epic Fetus.<br>&emsp;- (Added in Afterbirth) Stat effects apply and the crosshair gains a homing effect, but missiles do not have a damaging aura.<br>"
+I168,I331,"- (Removed in Afterbirth)Godhead: Overridden by Epic Fetus.<br>&emsp;- (Added in Afterbirth) Stat effects apply and the crosshair gains a homing effect, but missiles do not have a damaging aura.<br>"
 I168,I360,- {{dlc+|anr}} Incubus: Incubus fires normal tears while the crosshair is being aimed.{{dlc-}}<br>&emsp;- (Added in Repentance): Incubus fires a missile alongside Isaac's.<br>
 I168,I494,- Jacob's Ladder/Sinus Infection/Technology Zero/Trisagion: Overridden by Epic Fetus.<br>
 I168,I459,- Jacob's Ladder/Sinus Infection/Technology Zero/Trisagion: Overridden by Epic Fetus.<br>
@@ -265,7 +265,7 @@ I168,I560,"- Tammy's Head/Varicose Veins/It Hurts: Fires only normal tears, not 
 I168,I330,"- Soy Milk: '''Not recommended.''' Damage of missiles is drastically reduced, and unlike normal tears, the fire rate will not significantly increase.<br>"
 I168,I579,- Spirit Sword: Overrides Epic Fetus making it the only item in the game that takes priority over Epic Fetus.<br>
 I168,I68,- Technology|na: Overridden by Epic Fetus.<br>
-I168,I152,"- {{dlc|na}} Technology 2: '''Not recommended'''. Technology 2 is overridden by Epic Fetus, but the damage multiplier is still applied, massively reducing the missiles' damage.<br>&emsp;- (Added in Afterbirth, Removed in Repentance) Both fire normally.<br>&emsp;- (Added in Repentance) Does not reduce missiles' damage, and both fire normally at the cost of a slightly higher delay between each crosshair appearing.<br>"
+I168,I152,"- (Removed in Afterbirth) Technology 2: '''Not recommended'''. Technology 2 is overridden by Epic Fetus, but the damage multiplier is still applied, massively reducing the missiles' damage.<br>&emsp;- (Added in Afterbirth, Removed in Repentance) Both fire normally.<br>&emsp;- (Added in Repentance) Does not reduce missiles' damage, and both fire normally at the cost of a slightly higher delay between each crosshair appearing.<br>"
 I168,I358,"- The Wiz: Makes two missiles drop in quick succession, and control of the crosshair is rotated 45 degrees clockwise. '''Not recommended''', as it makes controlling the crosshair harder. However, mouse control is less affected.<br>"
 I168,I698,"- Twisted Pair: Each familiar will fire a missile from a two additional crosshairs. '''Not Recommended''', as the twisted pair crosshairs are not synced to Isaac's crosshair and move at a much slower rate, making self damage much more likely as the additional crosshairs will struggle to make distance from Isaac.<br>"
 I149,I415,"- Crown of Light / Polyphemus / {{Dlc|nr}}Proptosis / Sacred Heart / Bloody Lust|force=nr: The damage multipliers from these items do not apply to Ipecac's +40 bonus, resulting in much lower damage increase than expected.<br>"
@@ -309,9 +309,9 @@ I2,I152,- Technology 2: The laser is not affected by The Inner Eye.<br>
 I2,I452,- Varicose Veins: No effect on number of tears when taking damage.<br>
 I148,T94,- Fish Tail: Doubles number of flies spawned.<br>
 I148,I248,- Hive Mind: Flies are bigger and deal double damage.<br>
-I256,I47,- {{dlc|na}}Doctor's Remote / Dr. Fetus / Epic Fetus: Bombs/missiles are not affected by Hot Bombs.<br>
-I256,I52,- {{dlc|na}}Doctor's Remote / Dr. Fetus / Epic Fetus: Bombs/missiles are not affected by Hot Bombs.<br>
-I256,I168,- {{dlc|na}}Doctor's Remote / Dr. Fetus / Epic Fetus: Bombs/missiles are not affected by Hot Bombs.<br>
+I256,I47,- (Removed in Afterbirth)Doctor's Remote / Dr. Fetus / Epic Fetus: Bombs/missiles are not affected by Hot Bombs.<br>
+I256,I52,- (Removed in Afterbirth)Doctor's Remote / Dr. Fetus / Epic Fetus: Bombs/missiles are not affected by Hot Bombs.<br>
+I256,I168,- (Removed in Afterbirth)Doctor's Remote / Dr. Fetus / Epic Fetus: Bombs/missiles are not affected by Hot Bombs.<br>
 I256,I149,- Ipecac: Ipecac shots are unaffected.<br>
 I156,I352,"- (Added in Repentance) Glass Cannon: Upon taking damage, Broken Glass Cannon will be half-charged. However, taking damage before the last charge will break the cannon again.<br>"
 I156,I474,"- (Added in Repentance) Glass Cannon: Upon taking damage, Broken Glass Cannon will be half-charged. However, taking damage before the last charge will break the cannon again.<br>"
@@ -589,9 +589,9 @@ I5,I395,- Tech X: Stat effects of My Reflection remain but the boomerang effect 
 I5,I233,"- Tiny Planet: The orbital tears will move faster to stay in orbit around Isaac, making aiming easier.<br>"
 I5,I533,- Trisagion: Makes the beams much longer as they move away from and then back towards Isaac.<br>
 I5,T27,"- Whip Worm: Further increases shot speed, making Isaac's tears travel much farther forward before returning to Isaac.<br>"
-I68,I245,- {{dlc|na}} 20/20: Overridden by Technology.<br>&emsp;- (Added in Afterbirth) Shoot 2 lasers.<br>
+I68,I245,- (Removed in Afterbirth) 20/20: Overridden by Technology.<br>&emsp;- (Added in Afterbirth) Shoot 2 lasers.<br>
 I68,I222,"- (Removed in Repentance) Anti-Gravity: Tears up, but no Anti-Gravity effect.<br>&emsp;- (Added in Repentance) Create laser balls that fire technology lasers when released.<br>"
-I68,C7,"- {{dlc|na}} Azazel: Overrides Azazel's Brimstone.<br>&emsp;- (Added in Afterbirth) Technology laser wraps around the Brimstone beam, dealing extra damage, but not increasing Brimstone range.<br>"
+I68,C7,"- (Removed in Afterbirth) Azazel: Overrides Azazel's Brimstone.<br>&emsp;- (Added in Afterbirth) Technology laser wraps around the Brimstone beam, dealing extra damage, but not increasing Brimstone range.<br>"
 I68,I254,- Blood Clot / Chemical Peel / The Peeper: 50% chance to apply the flat damage up/damage increase with each shot.<br>
 I68,I154,- Blood Clot / Chemical Peel / The Peeper: 50% chance to apply the flat damage up/damage increase with each shot.<br>
 I68,I155,- Blood Clot / Chemical Peel / The Peeper: 50% chance to apply the flat damage up/damage increase with each shot.<br>
@@ -612,8 +612,8 @@ I68,I374,- {{dlc+|anr}} Holy Light: Holy Light shots will not activate.{{dlc-}}<
 I68,T26,"- Hook Worm: Laser follows a square wave, which increases its hitbox.<br>"
 I68,I149,"- Ipecac: Laser poisons targets.<br>&emsp;- (Added in Afterbirth+) Additionally, gives a flat +4 damage.<br>&emsp;- (Added in Repentance) Laser explodes on contact.<br>"
 I68,I494,- {{dlc+|a+nr}} Jacob's Ladder: Overridden by Technology.{{dlc-}}<br>&emsp;- (Added in Repentance) Fires electricity normally.<br>
-I68,I132,"- {{dlc|na}} A Lump of Coal: No effect.<br>&emsp;- (Added in Afterbirth) Damage increases the further away the enemy is, on a multiplier that is roughly +20% per tile of distance. This allows for a huge damage increase from longer distances.<br>"
-I68,I114,"- {{dlc|na}} Mom's Knife: Overrides Technology.<br>&emsp;- (Added in Afterbirth, Removed in Repentance) Both fire normally.<br>&emsp;&emsp;- When playing as Lilith, Mom's Knife overrides Technology.<br>&emsp;- {{Dlc|r}}The tip of Mom's Knife connects to isaac's body with a laser when launched. This effect is similar to that of Technology Zero<br>&emsp;- '''Mom's Knife''' + The Ludovico Technique: The laser ring becomes centered on Isaac and cannot be controlled, and the knife can not be fired. This makes some rooms impossible to do without a familiar.<br>"
+I68,I132,"- (Removed in Afterbirth) A Lump of Coal: No effect.<br>&emsp;- (Added in Afterbirth) Damage increases the further away the enemy is, on a multiplier that is roughly +20% per tile of distance. This allows for a huge damage increase from longer distances.<br>"
+I68,I114,"- (Removed in Afterbirth) Mom's Knife: Overrides Technology.<br>&emsp;- (Added in Afterbirth, Removed in Repentance) Both fire normally.<br>&emsp;&emsp;- When playing as Lilith, Mom's Knife overrides Technology.<br>&emsp;- {{Dlc|r}}The tip of Mom's Knife connects to isaac's body with a laser when launched. This effect is similar to that of Technology Zero<br>&emsp;- '''Mom's Knife''' + The Ludovico Technique: The laser ring becomes centered on Isaac and cannot be controlled, and the knife can not be fired. This makes some rooms impossible to do without a familiar.<br>"
 I68,I5,- My Reflection: Overridden by Technology.<br>&emsp;- (Added in Afterbirth) Makes the beam curve the opposite direction while Isaac is moving sideways.<br>
 I68,I317,- Mysterious Liquid: Overridden by Technology.<br>&emsp;- (Added in Afterbirth) The laser spawns pools of liquid always when it hits obstacles and occasionally on enemies.<br>
 I68,I597,- Neptunus: Overridden by Technology.<br>
@@ -623,7 +623,7 @@ I68,I379,- Pupula Duplex: Laser becomes spectral.<br>&emsp;- (Added in Repentanc
 I68,I104,- (Removed in Repentance) The Parasite: Overridden by Technology.<br>&emsp;- (Added in Repentance) Laser splits into two perpendicular beams upon hitting an obstacle.<br>
 I68,I461,- Parasitoid: Overridden by Technology.<br>
 I68,T11,"- (Removed in Repentance)Ring Worm: No effect.<br>&emsp;- {{Dlc|r}} Laser wraps around itself multiple times, effectively increasing hitbox.<br>"
-I68,I221,- {{dlc|na}} Rubber Cement: Overridden by Technology.<br>&emsp;- (Added in Afterbirth) Lasers bounce off of walls.<br>
+I68,I221,- (Removed in Afterbirth) Rubber Cement: Overridden by Technology.<br>&emsp;- (Added in Afterbirth) Lasers bounce off of walls.<br>
 I68,I397,- Tractor Beam|force=anr: No effect.<br>&emsp;- {{Dlc|r}} Lasers are no longer affected by Isaac's momentum.<br>
 I68,T10,"- Wiggle Worm: Laser follows a sine wave, which increases its hitbox.<br>"
 I152,C7,- Azazel: The Technology 2 continuously fires its lesser damage laser as Azazel charges his Brimstone.<br>
@@ -686,7 +686,7 @@ I337,I422,- Glowing Hour Glass: The Glowing Hour Glass does not reset the entere
 I337,T176,"- Lil Clot / Sumptorium / Tainted Eve: Clots are moving and firing at normal speeds when a room is sped up. This can be extra hurtful as Tainted Eve, since the clots will not move in sync with her.<br>"
 I337,I713,"- Lil Clot / Sumptorium / Tainted Eve: Clots are moving and firing at normal speeds when a room is sped up. This can be extra hurtful as Tainted Eve, since the clots will not move in sync with her.<br>"
 I337,C26,"- Lil Clot / Sumptorium / Tainted Eve: Clots are moving and firing at normal speeds when a room is sped up. This can be extra hurtful as Tainted Eve, since the clots will not move in sync with her.<br>"
-I337,I232,- {{dlc|na}} Stop Watch: Overrides Broken Watch; the speed-up effect will not occur.<br>&emsp;- (Added in Afterbirth) Both the slow effect and the rarer speed up can trigger at the start of a room.<br>&emsp;&emsp;- {{Dlc|nr}} This results in enemies being slowed to around 71.8% of their original speed.<br>&emsp;&emsp;- (Added in Repentance) This results in enemies being sped up by 12%.<br>
+I337,I232,- (Removed in Afterbirth) Stop Watch: Overrides Broken Watch; the speed-up effect will not occur.<br>&emsp;- (Added in Afterbirth) Both the slow effect and the rarer speed up can trigger at the start of a room.<br>&emsp;&emsp;- {{Dlc|nr}} This results in enemies being slowed to around 71.8% of their original speed.<br>&emsp;&emsp;- (Added in Repentance) This results in enemies being sped up by 12%.<br>
 I296,I356,- Car Battery|nr: No effect.<br>&emsp;- (Added in Repentance): Consumes 2 Soul Hearts and produces 2 Red Heart Containers.<br>
 I296,I335,- {{dlc+|a+}} The Soul: Consumes Soul Hearts and produces Bone Hearts for The Forgotten. Does nothing when used by The Forgotten.{{dlc-}}<br>
 I296,C16,- {{dlc+|a+}} The Soul: Consumes Soul Hearts and produces Bone Hearts for The Forgotten. Does nothing when used by The Forgotten.{{dlc-}}<br>
@@ -765,7 +765,7 @@ I65,I106,- Mr. Mega: No effect.<br>
 I65,I366,"- Scatter Bombs|a+: Not recommended. Each Troll Bomb will spawn several smaller bombs upon exploding, making it very hard to avoid taking damage.<br>&emsp;- (Added in Repentance) No visual change can be seen with the Troll Bombs, but the smaller bombs have the sprite of the smaller normal bombs.<br>"
 I132,I222,"- Anti-Gravity: Despite the tears visually growing while they hover, they will still only deal bonus damage based strictly on how far they travel. If the enemy hits the tears by running into them, Coal will add no damage.<br>&emsp;- (Added in Afterbirth+) Tears no longer grow while hovering.<br>"
 I132,I408,- Athame: Damage of the Athame ring is halved.<br>&emsp;- (Added in Afterbirth+) The ring deals normal damage.<br>
-I132,I118,"- Brimstone: {{dlc|na}} +2 flat damage.<br>&emsp;- (Added in Afterbirth) Beam will gradually increase in size and damage the farther it travels, on a multiplier that is roughly +20% per tile of distance.<br>&emsp;- '''Brimstone''' + The Ludovico Technique: Makes the Brimstone circle widen and deal damage based on how far away it is from your character.  At very close ranges, the damage is ''reduced'' to about 73% (unlike normal Coal effects).<br>"
+I132,I118,"- Brimstone: (Removed in Afterbirth) +2 flat damage.<br>&emsp;- (Added in Afterbirth) Beam will gradually increase in size and damage the farther it travels, on a multiplier that is roughly +20% per tile of distance.<br>&emsp;- '''Brimstone''' + The Ludovico Technique: Makes the Brimstone circle widen and deal damage based on how far away it is from your character.  At very close ranges, the damage is ''reduced'' to about 73% (unlike normal Coal effects).<br>"
 I132,I52,- Dr. Fetus: No benefit though the bombs appear darker.<br>
 I132,I168,- Epic Fetus: No benefit.<br>
 I132,I532,"- Lachryphagy: Tears will grow until they burst, though their actual damage bonus is only based on distance traveled. Burst tears will also grow as they travel.<br>"
@@ -957,7 +957,7 @@ I115,I152,"- Technology 2: Allows the laser to go through objects, allowing pier
 I104,I308,- Aquarius: No effect.<br>&emsp;- (Added in Repentance) Creep trail turns dark orange but doesn't affect the creep itself.<br>
 I104,I118,"- (Removed in Repentance) Brimstone: Overrides The Parasite.<br>&emsp;- {{Dlc|r}} 2 beams that deal full damage will be fired perpendicular to the main beam at the closest point of intersection with an enemy or obstacle, or at the end of the laser when playing as Azazel.<br>"
 I104,I347,- Diplopia: No effect.<br>
-I104,I52,- {{dlc|na}} Dr. Fetus: Bombs turn orange and with no other effect.<br>&emsp;- (Added in Afterbirth) Bombs split into two bombs that deal 40 damage each upon detonation.<br>&emsp;&emsp;- '''Dr. Fetus''' + Rocket in a Jar: Rockets split into two bombs (not rockets) upon detonation.<br>
+I104,I52,- (Removed in Afterbirth) Dr. Fetus: Bombs turn orange and with no other effect.<br>&emsp;- (Added in Afterbirth) Bombs split into two bombs that deal 40 damage each upon detonation.<br>&emsp;&emsp;- '''Dr. Fetus''' + Rocket in a Jar: Rockets split into two bombs (not rockets) upon detonation.<br>
 I104,I168,- Epic Fetus: Overrides The Parasite.<br>
 I104,I572,"- Eye of the Occult: Split tears can be controlled similarly to normal tears, which results in a large amount of floating tears.<br>"
 I104,I149,"- Ipecac: The Ipecac tear will spawn two smaller explosive tears when it collides with a solid object, but not with an enemy. These tears can spawn tears on their own as well, potentially leading to huge chain reactions. Having Host Hat or Pyromaniac is strongly recommended.<br>"
@@ -974,7 +974,7 @@ I281,I357,"- Box of Friends: Adds another Punching Bag. This may cause enemies t
 I268,I247,"- BFFS!: Rotten Baby becomes larger, but this is only a cosmetic change.<br>"
 I268,I248,- Hive Mind: Fly damage is doubled.<br>
 I268,T183,- The Twins: Unlimited flies can be slowly generated by walking back and forth between rooms while firing.  A new fly will generate each time Rotten Baby is duplicated.<br>
-I221,I118,- {{dlc|na}} Brimstone: Overrides Rubber Cement.<br>
+I221,I118,- (Removed in Afterbirth) Brimstone: Overrides Rubber Cement.<br>
 I221,I42,"- Bob's Rotten Head: The bomb bounces back upon hitting an obstacle, and will not explode until it runs out of air time. '''Not recommended''', as it can make self-damage more likely in small rooms.<br>"
 I221,I369,- Continuum: Overridden by Rubber Cement; tears will still bounce off of walls and obstacles.<br>
 I221,I52,- Dr. Fetus: Overrides Rubber Cement.<br>
@@ -987,8 +987,8 @@ I221,I329,- The Ludovico Technique: Overrides Rubber Cement.<br>
 I221,I114,- Mom's Knife: Overrides Rubber Cement.<br>
 I221,I459,"- Sinus Infection: Boogers stick to enemies, but otherwise they bounce normally.<br>"
 I221,I463,- Sulfuric Acid: Overridden by Rubber Cement.<br>
-I221,I68,- {{dlc|na}} Technology / Technology 2: Overrides Rubber Cement.<br>
-I221,I152,- {{dlc|na}} Technology / Technology 2: Overrides Rubber Cement.<br>
+I221,I68,- (Removed in Afterbirth) Technology / Technology 2: Overrides Rubber Cement.<br>
+I221,I152,- (Removed in Afterbirth) Technology / Technology 2: Overrides Rubber Cement.<br>
 I221,I233,"- Tiny Planet: Tears no longer fly over obstacles but instead bounce very quickly along with them, appearing to ""vibrate"".<br>&emsp;- (Added in Afterbirth+) Tears pass through obstacles but coast along walls, trying to maintain the circular trajectory.<br>"
 I1,I723,"- Spindown Dice: The Sad Onion disappears upon being rerolled, as its internal ID number is 1.<br>"
 I90,I347,- Diplopia/Crooked Penny: Additional copies grant an additional tears up and speed down with no further increase in damage.<br>
@@ -1173,7 +1173,7 @@ I325,I107,"- The Pinking Shears: If Scissors and Pinking Shears are used togethe
 I325,I247,"- BFFS!: The loose head won't become larger, but will deal double damage.<br>"
 I325,I357,- Box of Friends: No effect.<br>
 I325,I356,- Car Battery: No effect.<br>
-I232,I337,- {{dlc|na}} Broken Watch: Overridden by Stop Watch; the speed up effect will not occur.<br>&emsp;- (Added in Afterbirth) Both the slow effect and the rarer speed up can trigger at the start of a room.<br>&emsp;&emsp;- (Removed in Repentance) This results in enemies being slowed to around 71.8% of their original speed.<br>&emsp;&emsp;- (Added in Repentance) This results in enemies being sped up by 12%.<br>
+I232,I337,- (Removed in Afterbirth) Broken Watch: Overridden by Stop Watch; the speed up effect will not occur.<br>&emsp;- (Added in Afterbirth) Both the slow effect and the rarer speed up can trigger at the start of a room.<br>&emsp;&emsp;- (Removed in Repentance) This results in enemies being slowed to around 71.8% of their original speed.<br>&emsp;&emsp;- (Added in Repentance) This results in enemies being sped up by 12%.<br>
 I258,I586,"- The Stairway : When getting the Stairway at the start of a floor, the ladder doesn't spawn. It will spawn at the start of the next floor even if rerolled<br>"
 I382,I356,- Car Battery: No effect.<br>
 I382,I248,- Hive Mind: No effect on captured flies or spiders.<br>

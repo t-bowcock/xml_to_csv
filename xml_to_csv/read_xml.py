@@ -55,6 +55,7 @@ class XMLToCSV:
 
     def _remove_tags(self, string: str) -> str:
         string = re.sub(r"{{dlc\|a}}", "(Added in Afterbirth)", string, re.IGNORECASE)
+        string = re.sub(r"{{dlc\|na}}", "(Removed in Afterbirth)", string, re.IGNORECASE)
         string = re.sub(r"{{dlc\|a\+}}", "(Added in Afterbirth+)", string, re.IGNORECASE)
         string = re.sub(r"{{dlc\|na\+}}", "(Removed in Afterbirth+)", string, re.IGNORECASE)
         string = re.sub(r"{{dlc\|ana\+}}", "(Added in Afterbirth, Removed in Afterbirth+)", string, re.IGNORECASE)
@@ -104,9 +105,8 @@ class XMLToCSV:
             return self._format_list(output)
         return output
 
-    @staticmethod
-    def _infobox_get(text: str, regex: re.Pattern) -> str:
-        return regex.search(text)[1] if regex.search(text) is not None else None
+    def _infobox_get(self, text: str, regex: re.Pattern) -> str:
+        return self._remove_tags(regex.search(text)[1]) if regex.search(text) is not None else None
 
     def _list_get(self, text: str, regex: re.Pattern, format_flag: bool = False) -> list:
         return self._parse_list(regex.search(text)[1], format_flag) if regex.search(text) is not None else None
@@ -159,7 +159,6 @@ class XMLToCSV:
                     self._infobox_get(item_text, UNLOCK_REGEX),
                     self._list_get(item_text, EFFECTS_REGEX, True),
                     self._list_get(item_text, NOTES_REGEX, True),
-                    True,
                 ]
             )
             self.id_lookup[tag.text.lower()] = f"I{item_id}"

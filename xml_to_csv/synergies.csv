@@ -483,7 +483,7 @@ I257,I453,"- Compound Fracture/Cricket's Body/Haemolacria/The Parasite: Each fra
 I257,I224,"- Compound Fracture/Cricket's Body/Haemolacria/The Parasite: Each fractal tear has its own chance to explode. However, if the main tear explodes, all fractal tears explode.<br>"
 I257,I531,"- Compound Fracture/Cricket's Body/Haemolacria/The Parasite: Each fractal tear has its own chance to explode. However, if the main tear explodes, all fractal tears explode.<br>"
 I257,I104,"- Compound Fracture/Cricket's Body/Haemolacria/The Parasite: Each fractal tear has its own chance to explode. However, if the main tear explodes, all fractal tears explode.<br>"
-I257,I237,"- {{dlc|na}} Death's Touch: Adds burn damage to the scythes, but will not cause explosions.<br>"
+I257,I237,"- (Removed in Afterbirth) Death's Touch: Adds burn damage to the scythes, but will not cause explosions.<br>"
 I257,I52,"- Dr. Fetus: All Dr. Fetus bombs will leave a flame behind after exploding, similar to the effect of Hot Bombs.<br>"
 I257,I256,"- Dr. Fetus: All Dr. Fetus bombs will leave a flame behind after exploding, similar to the effect of Hot Bombs.<br>"
 I257,I168,- Epic Fetus: The missile will leave behind a fire.<br>
@@ -640,7 +640,7 @@ I56,T106,- Lost Cork: Doubles puddle size.<br>
 I68,I531,- Haemolacria: Fires arcing Haemolacria tears that release Technology lasers in all directions upon impact.<br>
 I68,I443,"- Apple! / Tough Love: The lasers can gain the damage multiplier from each of the items, although there is no visual difference.<br>"
 I68,I150,"- Apple! / Tough Love: The lasers can gain the damage multiplier from each of the items, although there is no visual difference.<br>"
-I68,I118,"- {{dlc|na}} Brimstone: Overrides Technology.<br>&emsp;- (Added in Afterbirth) The Technology laser coils around the Brimstone beam, granting a 1.5x damage multiplier, which can stack with other multipliers such as Magic MushroomMagic Mushroom|'s 1.5x damage multiplier.<br>&emsp;&emsp;- {{Dlc|r}} Technology's damage multiplier will be overridden if Isaac has the powered up version (from picking up Brimstone twice or using Sulfur with Brimstone).<br>"
+I68,I118,"- (Removed in Afterbirth) Brimstone: Overrides Technology.<br>&emsp;- (Added in Afterbirth) The Technology laser coils around the Brimstone beam, granting a 1.5x damage multiplier, which can stack with other multipliers such as Magic MushroomMagic Mushroom|'s 1.5x damage multiplier.<br>&emsp;&emsp;- {{Dlc|r}} Technology's damage multiplier will be overridden if Isaac has the powered up version (from picking up Brimstone twice or using Sulfur with Brimstone).<br>"
 I68,I168,- (Added in Afterbirth) Epic Fetus: Fires lasers in all directions upon impact of a missile.<br>
 I68,I257,- Fire Mind: Laser lights enemies on fire but loses the ability to explode enemies.<br>
 I68,I2,- The Inner Eye / Mutant Spider: Isaac shoots multiple lasers with a decreased rate of fire.<br>
@@ -650,7 +650,7 @@ I68,I329,- The Ludovico Technique: The laser becomes a large ring that is contro
 I68,I395,- The Ludovico Technique: The laser becomes a large ring that is controllable and looks like a Tech X shot. Enemies inside the ring without touching it are not hurt. The shot speed is ignored. The Tears stat is ignored and the damage is dealt very rapidly at a rate equivalent to a 2 tear delay.<br>
 I68,I55,- Mom's Eye: Fires a laser from the back of Isaac's head as well as the front.<br>
 I68,I229,"- (Added in Afterbirth, Removed in Repentance) Monstro's Lung: Several additional lasers fire in random directions. (One beam will always fire straight forward as normal.)<br>&emsp;- (Added in Repentance) Fires a barrage of small lasers.<br>"
-I68,I261,"- {{dlc|na}} Proptosis: Doubles damage.<br>&emsp;- (Added in Afterbirth) Doubles damage but it rapidly decreases with distance, down to 0.1 from about 6 tiles away.<br>"
+I68,I261,"- (Removed in Afterbirth) Proptosis: Doubles damage.<br>&emsp;- (Added in Afterbirth) Doubles damage but it rapidly decreases with distance, down to 0.1 from about 6 tiles away.<br>"
 I68,I330,"- Soy Milk: Expected high damage down and very high tears up.  Because Technology has no knockback like standard tears, this will generally be a good DPS increase.<br>"
 I68,I395,- Tech X|force=anr: Both fire at the same time.<br>
 I68,I68,"- Technology|r: Adds an additional laser for every extra copy of the item up to a maximum of 16, with no downgrade to damage or tears.<br>"
