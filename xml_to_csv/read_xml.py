@@ -146,7 +146,7 @@ class XMLToCSV:
             item_data.append(
                 [
                     tag.text,
-                    item_id,
+                    f"I{item_id}",
                     self._infobox_get(item_text, QUOTE_REGEX),
                     self._list_get(item_text, DESCRIPTION_REGEX, True),
                     self._infobox_get(item_text, ITEM_QUALITY_REGEX),
@@ -156,7 +156,7 @@ class XMLToCSV:
                     True,
                 ]
             )
-            self.id_lookup[tag.text.lower()] = item_id
+            self.id_lookup[tag.text.lower()] = f"I{item_id}"
             self.synergies[tag.text] = self._list_get(item_text, SYNERGIES_REGEX)
             self.interactions[tag.text] = self._list_get(item_text, INTERACTIONS_REGEX)
         return item_data
@@ -178,7 +178,7 @@ class XMLToCSV:
             trinket_data.append(
                 [
                     tag.text,
-                    trinket_id,
+                    f"T{trinket_id}",
                     self._infobox_get(trinket_text, POOL_REGEX),
                     self._infobox_get(trinket_text, QUOTE_REGEX),
                     self._list_get(trinket_text, DESCRIPTION_REGEX, True),
@@ -188,7 +188,7 @@ class XMLToCSV:
                     self._list_get(trinket_text, NOTES_REGEX, True),
                 ]
             )
-            self.id_lookup[tag.text.lower()] = trinket_id
+            self.id_lookup[tag.text.lower()] = f"T{trinket_id}"
             self.synergies[tag.text] = self._list_get(trinket_text, SYNERGIES_REGEX)
             self.interactions[tag.text] = self._list_get(trinket_text, INTERACTIONS_REGEX)
         return trinket_data
@@ -210,10 +210,10 @@ class XMLToCSV:
             character_data.append(
                 [
                     tag.text,
-                    character_id,
+                    f"C{character_id}",
                 ]
             )
-            self.id_lookup[tag.text.lower()] = character_id
+            self.id_lookup[tag.text.lower()] = f"C{character_id}"
         return character_data
 
     def get_relationships(self, data: dict):
