@@ -36,7 +36,7 @@ BULLET_REGEX = re.compile(r"(\*+)")
 ITEM_HEADERS = ["name", "id", "quote", "description", "quality", "unlock", "effects", "notes"]
 TRINKET_HEADERS = ["name", "id", "pool", "quote", "description", "tags", "unlock", "effects", "notes"]
 CHARACTER_HEADERS = ["name", "id"]
-RELATIONHSIP_HEADERS = ["source", "destination", "description"]
+RELATIONSHIP_HEADERS = ["source", "destination", "description"]
 
 
 class XMLToCSV:
@@ -63,7 +63,7 @@ class XMLToCSV:
         string = re.sub(r"{{dlc\|anr}}", "(Added in Afterbirth, Removed in Repentance)", string, re.IGNORECASE)
         string = re.sub(r"{{dlc\|a\+nr}}", "(Added in Afterbirth+, Removed in Repentance)", string, re.IGNORECASE)
         string = re.sub(r"\[\[(.+?)\]\]", r"\g<1>", string, flags=re.IGNORECASE)  # TODO needs to be more sophisticated
-        return re.sub(r"{{[ierspam]\|(.+?)}}", r"\g<1>", string, flags=re.IGNORECASE)  # TODO doesnt match all of them
+        return re.sub(r"{{[iectrspam]\|(.+?)}}", r"\g<1>", string, flags=re.IGNORECASE)  # TODO doesnt match all of them
 
     def _format_list(self, string: list, indentation: int = 0) -> str:
         output = ""
@@ -127,7 +127,13 @@ class XMLToCSV:
 
     def _get_character_names(self) -> list:
         challenges_page = self.soup.find("title", text="Characters").find_parent("page").find("text").text
-        return list(dict.fromkeys(re.findall(r"{{c\|(.*?)}}", challenges_page)))
+        character_names = list(dict.fromkeys(re.findall(r"{{c\|(.*?)}}", challenges_page)))
+        for i, name in enumerate(character_names):
+            if name == "???":
+                character_names[i] = "??? (Character)"
+            elif name == "Jacob and Esau":
+                character_names[i] = "Jacob & Esau"
+        return character_names
 
     def get_all_items(self) -> list:
         item_names = self._get_item_names()
@@ -200,11 +206,15 @@ class XMLToCSV:
         for tag in tags:
             if tag.text not in character_names:
                 continue
-
             character_text = tag.find_parent("page").find("text").text
 
             character_id = self._infobox_get(character_text, ID_REGEX)
-            if character_id is None:
+
+            if tag.text == "Jacob & Esau":
+                character_id = 1
+            elif tag.text == "Tainted Eden":
+                character_id = 11
+            elif character_id is None:
                 continue
 
             character_data.append(
@@ -214,6 +224,8 @@ class XMLToCSV:
                 ]
             )
             self.id_lookup[tag.text.lower()] = f"C{character_id}"
+        character_data.append(["Dark Judas", 12])
+        self.id_lookup["dark judas"] = "C12"
         return character_data
 
     def get_relationships(self, data: dict):
@@ -222,18 +234,26 @@ class XMLToCSV:
             if relationship_data is None:
                 continue
             for relationship in relationship_data:
-                destinations = re.findall(r"{{i\|(1=)?(.+?)(\|.+?)?}}", relationship[0], re.IGNORECASE)
+                destinations = re.findall(r"{{[ict]\|(1=)?(.+?)(\|.+?)?}}", relationship[0], re.IGNORECASE)
                 for dest in destinations:
                     if dest[1].lower() == "number two":
                         dest = ("", "no. 2", "")
-                    if dest[1].lower() == "money {{=":
+                    elif dest[1].lower() == "money {{=":
                         dest = ("", "money = power", "")
-                    if dest[1].lower() in ("broken shovel 1", "broken shovel 2"):
+                    elif dest[1].lower() == "jacob and esau":
+                        dest = ("", "jacob & esau", "")
+                    elif dest[1].lower() == "???":
+                        dest = ("", "??? (Character)", "")
+                    elif dest[1].lower() == "tainted soul":
+                        dest = ("", "tainted forgotten", "")
+                    elif dest[1].lower() == "dead tainted lazarus":
+                        dest = ("", "tainted lazarus", "")
+                    elif dest[1].lower() in ("broken shovel 1", "broken shovel 2"):
                         continue
                     output.append(
                         [
-                            self.id_lookup[source.lower()],
-                            self.id_lookup[dest[1].lower()],
+                            self.id_lookup[source.lower().strip()],
+                            self.id_lookup[dest[1].lower().strip()],
                             self._format_list(relationship),
                         ]
                     )
@@ -255,5 +275,5 @@ if __name__ == "__main__":
     converter.write_to_csv(items, ITEM_HEADERS, "items")
     converter.write_to_csv(trinkets, TRINKET_HEADERS, "trinkets")
     converter.write_to_csv(characters, CHARACTER_HEADERS, "characters")
-    converter.write_to_csv(converter.get_relationships(converter.synergies), RELATIONHSIP_HEADERS, "synergies")
-    converter.write_to_csv(converter.get_relationships(converter.interactions), RELATIONHSIP_HEADERS, "interactions")
+    converter.write_to_csv(converter.get_relationships(converter.synergies), RELATIONSHIP_HEADERS, "synergies")
+    converter.write_to_csv(converter.get_relationships(converter.interactions), RELATIONSHIP_HEADERS, "interactions")
