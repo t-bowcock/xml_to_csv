@@ -1,32 +1,36 @@
 name,id
-Isaac,14
-Azazel,7
-The Lost,10
-Cain,2
-Magdalene,2
-Judas,3
-Eve,5
-Samson,6
-Lazarus,8
-Eden,9
-Lilith,13
-Keeper,14
-Apollyon,15
-The Forgotten,16
-Bethany,18
-Tainted Isaac,21
-Tainted Magdalene,22
-Tainted Lazarus,29
-Tainted Jacob,37
-Tainted Keeper,33
-Tainted Forgotten,35
-Tainted Cain,23
-Tainted Judas,24
-Tainted Eve,26
-Tainted Azazel,28
-Tainted ???,25
-Tainted Samson,27
-Tainted Lost,31
-Tainted Lilith,32
-Tainted Bethany,36
-Tainted Apollyon,34
+Isaac,C14
+Azazel,C7
+The Lost,C10
+Cain,C2
+Magdalene,C2
+Judas,C3
+Eve,C5
+Samson,C6
+Lazarus,C8
+Eden,C9
+??? (Character),C4
+Lilith,C13
+Keeper,C14
+Apollyon,C15
+The Forgotten,C16
+Bethany,C18
+Jacob & Esau,C1
+Tainted Isaac,C21
+Tainted Magdalene,C22
+Tainted Lazarus,C29
+Tainted Jacob,C37
+Tainted Keeper,C33
+Tainted Eden,C11
+Tainted Forgotten,C35
+Tainted Cain,C23
+Tainted Judas,C24
+Tainted Eve,C26
+Tainted Azazel,C28
+Tainted ???,C25
+Tainted Samson,C27
+Tainted Lost,C31
+Tainted Lilith,C32
+Tainted Bethany,C36
+Tainted Apollyon,C34
+Dark Judas,12
